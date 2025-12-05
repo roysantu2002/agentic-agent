@@ -1,0 +1,61 @@
+
+# --- Tasks ---
+research_task:
+  description: >
+    Investigate real-world applications of Agentic AI across industries and
+    domains. Focus on credible, high-impact deployments that illustrate the
+    paradigm shift from generative outputs to autonomous action. Areas to
+    explore:
+      - Business and productivity: Microsoft Copilot Studio, enterprise copilots,
+        workflow/document automation, and decision support.
+      - Customer experience & service: Claude, GPT-based agents, personalization
+        at scale, balancing efficiency with empathy.
+      - Operations & automation: UiPath, Adept AI, logistics, supply chain, and
+        financial operations.
+      - Research & knowledge work: LangChain, LlamaIndex, agents as research
+        copilots, education, corporate learning, and upskilling.
+      - Emerging domains: healthcare (clinical assistants, drug discovery),
+        creative industries (media, design, art), science, climate, and policy.
+  expected_output: >
+    A structured outline of Part III: Real-World Applications, including:
+      - Chapter 8: Business & Productivity
+        * Microsoft Copilot Studio & enterprise copilots
+        * Automating workflows, documents, and decision support
+      - Chapter 9: Customer Experience & Service
+        * Conversational agents (Claude, GPT-based agents)
+        * Personalization at scale
+        * Balancing efficiency with empathy
+      - Chapter 10: Operations & Automation
+        * UiPath + Adept AI for enterprise processes
+        * Logistics, supply chain, and financial operations
+      - Chapter 11: Research & Knowledge Work
+        * LangChain + LlamaIndex for knowledge retrieval
+        * Agents as research copilots
+        * Education, corporate learning, and personal upskilling
+      - Chapter 12: Emerging Domains
+        * Healthcare (clinical assistants, drug discovery)
+        * Creative industries (media, design, art)
+        * Science, climate, and policy applications
+  agent: researcher
+
+reporting_task:
+  description: >
+    Expand on the research by developing a detailed markdown section that
+    contextualizes each application area. Each chapter should clearly describe:
+      - The tools/platforms used
+      - How they are applied in practice
+      - Benefits and measurable outcomes
+      - Challenges and trade-offs
+      - Industry examples or adoption stories
+    The focus should be on showing how Agentic AI transitions from theory to
+    practice, with emphasis on cross-domain patterns and emerging opportunities.
+  expected_output: >
+    A polished markdown section (without code fences) containing:
+      - Part III: Real-World Applications
+      - Five chapters (8–12), each expanded into narrative sections
+      - Real-world examples with tools, use cases, pros/cons, and adoption notes
+      - Closing insights on cross-sector themes and future opportunities
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/part_III_applications.md

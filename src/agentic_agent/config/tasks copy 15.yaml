@@ -1,0 +1,109 @@
+research_task:
+  description: >
+    Conduct a deep, enterprise-grade architectural research study focused on modern system design
+    patterns, cloud-native engineering models, and distributed system best practices. Identify
+    **five credible, authoritative sources**—cloud architecture blueprints, engineering case studies,
+    whitepapers, academic research, or expert commentary—that explain:
+      - Best-fit use cases for major architectural styles and patterns
+      - Scenarios where specific patterns fail or should NOT be used
+      - Constraints, scalability considerations, performance trade-offs, and operational complexity
+      - Architectural principles behind high-availability, fault tolerance, and global-scale systems
+
+    Include sources that detail:
+      - Microservices evolution models (monolith → modular monolith → microservices → event-driven)
+      - Distributed communication patterns including REST, gRPC, WebSockets, and event streaming
+      - Cloud-native compute models, network strategies, load balancing, and multi-region architectures
+      - Messaging and streaming technologies such as Kafka, Pulsar, RabbitMQ, and cloud messaging services
+      - Kubernetes deployment models, autoscaling, operators, service mesh, and workload identity security
+      - Data architecture patterns including OLTP/OLAP separation, sharding, replication, and federation
+      - AI system integration including LLM inference scaling, retrieval-augmented generation,
+        vector databases, agent orchestration, and model governance
+      - Observability requirements including tracing, metrics, logs, SLIs, SLOs, and chaos testing
+      - Enterprise compliance including IAM models, Zero Trust policies, RBAC/ABAC, encryption,
+        tenant isolation, governance frameworks, and auditability
+
+    Exclude:
+      - Vendor marketing content without technical substance
+      - Beginner-level or tutorial-style examples lacking enterprise depth
+      - Content without real-world scalability, operational, or architectural reasoning
+
+    For each reference collected, gather:
+      - Source name/creator (vendor, expert architect, academic institution, enterprise engineer)
+      - Core architectural scope (messaging, compute, distributed systems, orchestration, AI integration)
+      - System model overview (architecture diagrams, topology, scaling design, governance model)
+      - Type (official reference, engineering blog, academic paper, cloud blueprint, case study)
+      - Access level (public, gated, subscription-required)
+      - Strengths and limitations including documented trade-offs
+      - Reported applicability to real-world enterprise architecture and production systems
+      - Risks (scaling failures, operational fragility, data consistency challenges, compliance restrictions)
+      - Key takeaways relevant to system design reasoning and interview articulation
+
+    Emphasize materials demonstrating:
+      - Architectural trade-offs and constraint-driven decision reasoning
+      - System behavior under scale, load, and failure scenarios
+      - Real-world examples of production workloads and global distributed architectures
+      - Human decision models for when and why specific patterns should be applied
+
+  expected_output: >
+    System Design Architecture Research Summary (5 detailed reference entries):
+      - Balanced mix of official documentation, enterprise case studies, and expert insights
+      - Direct links to reference sources, architecture diagrams, or research material
+      - Comparison matrix focusing on strengths, weaknesses, applicability, and failure scenarios
+      - Notes capturing reasoning frameworks valuable for live system design articulation
+      - Recommendation of 1–2 foundational resources as core study anchors for long-term mastery
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the researcher’s findings into a **structured, interview-ready system design blueprint**
+    explaining how different architectural patterns compare in scalability, reliability,
+    operational complexity, and enterprise suitability. Provide strategic clarity covering:
+      - When to select microservices, modular monolith, event-driven, or hybrid architectures
+      - When specific compute, messaging, or data patterns enhance scale—or create unnecessary complexity
+      - When certain system design models are inappropriate due to performance, compliance,
+        operational burden, or engineering maturity constraints
+      - Overlaps and complementary use patterns across cloud-native, distributed, and AI-driven systems
+
+  expected_output: >
+    A comprehensive markdown architecture blueprint including:
+      - Categorized overview of the five architecture source types (Official, Enterprise, Expert, Academic, Case Study)
+      - Source summaries including applicability and architectural depth indicators
+      - Narrative explaining core differences across:
+          * Execution/runtime models (containerized, serverless, orchestrated, event-driven)
+          * Communication patterns (sync vs async models, streaming vs direct calls)
+          * Data and storage models (relational, distributed NoSQL, vector, event streams)
+          * Deployment strategies (single region, multi-region, edge, hybrid, multi-cloud)
+      - A detailed applicability vs non-applicability matrix:
+          * Messaging patterns (pub/sub, queues, event streaming, point-to-point)
+          * Scaling models (vertical, horizontal, partitioned, multi-tenant)
+          * Resilience models (active-active, failover, eventual consistency)
+      - Comparative tables covering:
+          * Operational complexity
+          * Security posture
+          * Governance maturity
+          * Cost trade-off considerations
+          * Tooling and ecosystem support
+      - Adoption rationale:
+          * Engineering readiness
+          * Business requirements alignment
+          * Risk tolerance and resilience expectations
+      - Future-facing considerations:
+          * AI-native architectural patterns
+          * Multi-agent system orchestration models
+          * Evolving cloud-native abstractions and platform engineering trends
+      - Risk and mitigation guidance:
+          * Scaling regressions
+          * Fault isolation gaps
+          * Dependency fragility
+          * Compliance and governance blind spots
+      - Final recommendation summarizing which patterns anchor:
+          * Interview reasoning frameworks
+          * Enterprise cloud architecture strategy
+          * Long-term platform engineering investment trajectories
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/system_design_enterprise_blueprint.md

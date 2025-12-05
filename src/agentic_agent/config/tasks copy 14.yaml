@@ -1,0 +1,113 @@
+research_task:
+  description: >
+    Conduct a deep, enterprise-grade comparative research analysis on **Devin.ai** (autonomous
+    software engineering agent) and **Kore.ai** (enterprise conversational and automation platform).
+    Identify **five credible, authoritative sources**—product documentation, analyst research,
+    architectural guides, or expert evaluations—that explain:
+      - The best-fit enterprise use cases for each platform
+      - Scenarios where each platform provides limited value or should NOT be used
+      - Constraints, operational boundaries, governance considerations, and integration complexity
+      - Architectural patterns behind autonomous agents vs. enterprise conversational automation
+
+    Include sources that detail:
+      - Devin.ai’s autonomous coding capabilities, execution models, guardrails, toolchains,
+        DevOps integrations, and engineering workflows
+      - Kore.ai’s conversation design studio, workflow automation, NLU/NLP/LLM orchestration,
+        enterprise connectors, security architecture, and governance model
+      - Limitations and risks such as hallucination, dependency on third-party APIs,
+        interpretability, operational stability, and compliance boundaries
+      - Integration touchpoints with DevOps pipelines, CI/CD tools, ITSM systems,
+        CRMs, ERPs, cloud APIs, knowledge bases, and message/event sources
+      - Enterprise readiness: security controls, identity management, audit trails,
+        observability, RBAC, tenant isolation, and operational SLAs
+
+    Exclude:
+      - Marketing-heavy or unverifiable claims
+      - Hobby examples, demos lacking architectural substance
+      - Non-enterprise, low-depth technical content
+
+    For each reference collected, gather:
+      - Source name/creator (vendor, analyst, expert, enterprise architect)
+      - Core scope (autonomous engineering, conversational automation, workflow orchestration, etc.)
+      - Target operational domains (DevOps, ITSM, support, engineering workflows, customer service)
+      - Technical architecture overview (agent execution model, API ecosystem, plugin/tool structure,
+        workflow engine, orchestration framework, governance controls)
+      - Type (official documentation, enterprise whitepaper, analyst insight, reference repo)
+      - Access level (public, gated, paid)
+      - Strengths and limitations with clear examples
+      - Reported applicability to enterprise modernization, automation, or engineering acceleration
+      - Risks (security, reliability, model drift, over-automation, integration fragility)
+      - Key takeaways relevant to enterprise adoption and prioritization
+
+    Emphasize materials demonstrating:
+      - Clear boundaries where Devin.ai is inappropriate (e.g., sensitive codebases, regulated pipelines,
+        unpredictable autonomy requirements)
+      - Clear boundaries where Kore.ai is inappropriate (e.g., deep engineering automation,
+        autonomous code execution)
+      - Security and compliance implications across both platforms
+      - Human-in-the-loop oversight principles
+      - Operational complexity when deploying agentic systems into production ecosystems
+
+  expected_output: >
+    Enterprise AI Platform Research Summary (5 detailed reference entries):
+      - Balanced mix of official vendor documentation, enterprise analyses, and expert insights
+      - Direct links to documentation, whitepapers, analyst research, or reference repositories
+      - Comparison matrix focusing on strengths, limitations, applicability, and non-applicable scenarios
+      - Notes emphasizing when autonomous agents or conversational platforms either improve or
+        compromise operational resilience
+      - Recommendation of 1–2 foundational references to anchor enterprise decision-making
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the researcher’s findings into a **structured, actionable decision blueprint**
+    explaining how Devin.ai and Kore.ai differ across capabilities, enterprise readiness,
+    use-case suitability, and architectural constraints. Provide strategic clarity on:
+      - When to select Devin.ai for autonomous software engineering workflows
+      - When to select Kore.ai for conversational automation, workflow routing, or enterprise integrations
+      - When neither platform is appropriate due to risk, complexity, or compliance
+      - Overlaps and complementary use patterns across ITSM, DevOps, support, and operational domains
+
+  expected_output: >
+    A comprehensive markdown blueprint including:
+      - Categorized overview of the five reference sources (Official, Enterprise, Analyst/Expert, Technical)
+      - Summaries and source links
+      - Narrative explaining core differences:
+          * Autonomous agent execution vs. conversational workflow orchestration
+          * Engineering automation vs. customer/employee interaction automation
+          * Depth of integration ecosystems and maturity levels
+      - A detailed applicability vs. non-applicability matrix:
+          * Software engineering tasks, QA, CI/CD, debugging, documentation
+          * Support automation, ticket routing, conversational experiences, workflow orchestration
+          * Compliance-heavy environments, high-risk pipelines, or sensitive data domains
+      - Comparative table covering:
+          * Integration scope
+          * Operational complexity
+          * Guardrail maturity
+          * Security posture
+          * Governance and enterprise readiness
+          * Cost and scalability considerations
+      - Adoption rationale:
+          * Productivity acceleration
+          * Reduction in manual engineering or support workload
+          * Observability, auditability, and operational consistency
+      - Future-looking considerations:
+          * Evolution of autonomous agent frameworks
+          * LLM orchestration improvements
+          * Human-in-the-loop operating models
+          * Vendor lock-in, portability, and extensibility
+      - Risk & mitigation section:
+          * Safety, misalignment, overreach of autonomous actions
+          * Incorrect routing, hallucination, or failed workflows
+          * Integration brittleness and dependency risks
+      - Final recommendation summarizing which platform should anchor:
+          * Engineering automation
+          * Support and workflow automation
+          * Enterprise conversational strategy
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/devin_koreai_enterprise_blueprint.md

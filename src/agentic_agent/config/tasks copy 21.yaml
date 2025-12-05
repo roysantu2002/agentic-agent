@@ -1,0 +1,160 @@
+research_task:
+  description: >
+    Conduct a deep, CBSE-aligned academic and exam-focused research study on **Unit 3: Database
+    Management (Class XII Computer Science)**, covering the most authoritative **NCERT concepts,
+    CBSE board patterns, SQL standards, and Python–SQL integration models** used in school-level
+    and board-level assessments. Identify **five highly credible sources**—such as **NCERT
+    textbooks, CBSE official sample papers, CBSE marking schemes, reference computer science
+    textbooks, and Python-MySQL documentation for education**—that explain:
+
+      - Core database foundations including:
+        * Database concepts and the need for database systems
+        * Advantages of DBMS over file-based systems
+        * Real-life applications of databases
+      - Relational data model including:
+        * Relation, attribute, tuple, domain
+        * Degree and cardinality
+        * Keys: candidate key, primary key, alternate key, foreign key
+      - Structured Query Language (SQL) including:
+        * SQL introduction and classification (DDL and DML)
+        * Data types: char(n), varchar(n), int, float, date
+        * Constraints: not null, unique, primary key
+        * Database and table creation, modification, and deletion
+        * Insert, update, delete, and select commands
+        * Operators: mathematical, relational, logical
+        * Clauses: where, distinct, in, between, order by
+        * Null handling: null, is null, is not null
+        * Like operator and pattern matching
+        * Aggregate functions: max, min, avg, sum, count
+        * Group by and having clauses
+        * Joins: cartesian product, equi-join, and natural join
+      - Interface of Python with SQL database including:
+        * Connecting Python with SQL
+        * Insert, update, delete using cursor
+        * Displaying data using connect(), cursor(), execute(), commit(),
+          fetchone(), fetchall(), rowcount
+        * Use of %s and format() for parameterised queries
+        * Simple database connectivity applications
+
+    Include sources covering:
+
+      - NCERT Class XII Computer Science textbook explanations
+      - CBSE official competency-based education guidelines
+      - CBSE sample question papers and marking schemes
+      - Standard school-level SQL reference material
+      - Python–MySQL educational programming practices
+
+    Exclude:
+      - Out-of-syllabus university-level database content
+      - Non-CBSE competitive exam material
+      - Outdated SQL standards not aligned with NCERT
+      - Unverified coding tutorials without academic validation
+
+    For each reference collected, gather:
+
+      - Source type (NCERT text, CBSE document, reference book, coding documentation)
+      - Syllabus alignment (exact, partial, supplementary)
+      - Nature of content (conceptual, practical, exam-oriented)
+      - Coverage scope (theory, SQL, Python interface, case-based)
+      - Difficulty level (easy, moderate, board-level)
+      - Strengths and limitations (clarity, exam relevance, depth)
+      - Relevance to Pre-Board and Board examination preparation
+      - Reliability rating (CBSE authority, academic adoption, classroom usage)
+      - Key takeaways applicable to creating a **complete Unit 3 question–answer repository**
+
+    Emphasize sources demonstrating:
+
+      - Stepwise command execution with correct syntax
+      - Board-style output-based questions
+      - Repeated examination patterns and PYQ relevance
+      - Clear integration of Python with SQL for practical exams
+      - A structured mastery progression (Concepts → Commands → Applications → Case Studies)
+
+  expected_output: >
+    CBSE Unit 3 Research Summary (5+ validated academic and board-authoritative sources):
+
+      - A balanced mix of NCERT authority, CBSE official documents,
+        exam-focused reference books, and Python–SQL educational resources
+      - Bibliographic references for:
+          * Textbooks, CBSE documents, and coding references
+      - Comparison matrix across:
+          * Unit 3 topics (Database Concepts, RDBMS, SQL, Python–SQL Interface)
+          * Learning focus (theory, practical, output-based, case-based)
+          * Assessment type (MCQs, short answer, long answer, practical)
+      - Notes supporting the creation of a structured **100% scoring Unit 3 question bank** explaining:
+          * “How should a student progress from basic concepts to board-level mastery?”
+          * “Which SQL and Python skills must be demonstrated at each level?”
+          * “What differentiates an average answer from a full-mark board answer?”
+      - Recommendation of 1–2 primary academic frameworks to serve as the
+        foundational model for Unit 3 classroom teaching, exam preparation,
+        and digital learning platforms.
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Translate the Unit 3 research findings into a **structured, board-exam mastery-level
+    Database Management education and assessment blueprint** outlining how a learner
+    progresses from foundational database understanding to **full SQL and Python–SQL
+    application-level proficiency** for CBSE Class XII. Provide clarity covering:
+
+      - Learning and assessment structure (Levels 1–3: Foundation → Command Mastery → Board-Level Application)
+      - Step-by-step mastery flow for:
+          * Database concepts and relational model
+          * SQL command construction and execution
+          * Output prediction and query optimisation
+          * Python–SQL connectivity programming
+          * Case-based data handling and reasoning
+      - Teaching frameworks covering:
+          * Database and table design logic
+          * Key identification and constraint enforcement
+          * Data retrieval, manipulation, and summarisation
+          * Aggregation, grouping, and joining of data
+          * Python-driven database applications
+      - Practice and validation paths including:
+          * Guided SQL query walkthroughs
+          * Python–MySQL program execution
+          * Output-based question drills
+          * Case-study based database problem solving
+          * Final board-level practical and theory simulation challenge
+
+  expected_output: >
+    A comprehensive markdown **CBSE Unit 3: Database Management Mastery & Examination Blueprint** including:
+
+      - Categorised reference source types (NCERT, CBSE Documents, Reference Books, Coding Resources)
+      - Source summaries including applicability to:
+          * Student learning progression
+          * Pre-board examination preparation
+          * Board-level scoring differentiation
+      - Narrative explaining essential conceptual distinctions:
+          * Database vs File System
+          * Primary vs Foreign Key
+          * Where vs Having
+          * Joins vs Cartesian Product
+          * Aggregate vs Non-aggregate functions
+      - A structural delivery grid including:
+          * Core SQL command templates
+          * Output prediction models
+          * Python–SQL connectivity program templates
+          * Concept → Command → Application → Case Study progression guides
+      - Comparison table covering:
+          * Unit 3 topics, complexity levels, and applied use cases
+      - Adoption rationale outlining:
+          * Why specific SQL patterns and Python interfaces are critical for board success
+          * Where repeated practice improves scoring reliability
+      - Future expansion:
+          * Digital SQL simulators
+          * Automated output-based testing systems
+          * Python–MySQL virtual lab modules
+
+      - Final recommendation summarising:
+          * The ideal Unit 3 learning and scoring sequence
+          * The essential SQL and Python skills to master for full marks
+          * A repeatable classroom-to-board delivery model for guaranteed exam success
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/unit3_database_management_mastery_blueprint_01.md

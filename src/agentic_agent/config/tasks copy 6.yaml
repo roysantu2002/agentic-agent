@@ -1,0 +1,50 @@
+research_task:
+  description: >
+    Research global undergraduate study options for Indian students completing
+    12th-grade science who aim to pursue a Bachelor’s degree in IT, Computer Science,
+    or Artificial Intelligence abroad — focusing on Singapore, Australia, and the UK.
+    For each country and leading university:
+      - Identify 3–5 top programs in IT or AI
+      - List program duration, admission requirements, and entry exams (IELTS, SAT, etc.)
+      - Summarize total cost (tuition + living) per year and overall
+      - Outline scholarship and financial aid opportunities
+      - Highlight job placement rates and industry tie-ins
+      - Note post-study work rights, visa details, and local AI/IT job demand
+      - Capture skill trends (AI, data science, cloud computing, automation)
+      - Suggest how to prepare academically and financially while still in India
+  expected_output: >
+    Comprehensive Global IT-AI Study Research Summary:
+      - Country-wise and university-wise data tables
+      - Cost comparison (total and annual)
+      - Entry requirement matrix
+      - Scholarship and visa overview
+      - Job outlook by region (Singapore, Australia, UK)
+      - Recommended skill areas for employability in AI/IT
+      - Top 1–2 programs per country offering the best ROI for Indian students
+  agent: researcher
+
+reporting_task:
+  description: >
+    Develop a polished, student-friendly advisory guide titled:
+    "Study IT with AI Abroad: A Roadmap for Indian Students (Singapore, Australia, UK)"
+    Summarize research findings into a practical guide for decision-making.
+    Include:
+      - A narrative introduction (global demand for AI & IT graduates)
+      - Comparison of study destinations (pros, cons, costs, outcomes)
+      - Admission roadmap and timeline (from Class 12 to enrollment)
+      - Program highlights with scholarship links and application tips
+      - Career insights and visa-to-job transitions
+      - Final recommendations by priority and ROI
+  expected_output: >
+    A well-structured markdown document containing:
+      - Overview of trends in AI and IT education
+      - Top recommended programs per country
+      - Admissions and eligibility guide for Indian students
+      - Cost and scholarship breakdowns
+      - Job and career prospects analysis
+      - Action checklist for students and parents
+      - Final recommendation matrix: Best country & course combinations
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/global_it_ai_study_guide.md

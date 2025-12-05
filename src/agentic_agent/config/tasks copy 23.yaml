@@ -1,0 +1,172 @@
+research_task:
+  description: >
+    Conduct a deep, market-intelligence and trend-discovery research study on
+    Global Numerology, Astrology, Personal Growth, and Self-Help content
+    specifically focused on the **Year-End 2025 transition and the Forward-
+    Looking 2026 phase**. The objective is to identify **the top 10 most searched,
+    emotionally resonant, and high-engagement public-interest topics** suitable
+    for large-scale YouTube and digital media publishing.
+
+    Identify and validate five or more highly credible trend reference sources
+    for each system such as high-authority YouTube creators, professional
+    numerology and astrology educators, yearly prediction platforms, SEO-driven
+    blogs, digital publishing portals, and Chinese metaphysical forecasting sites
+    that demonstrate public demand and content performance across:
+
+      - Core foundations at the Silver level including:
+        * Year-end life review, closure, and emotional reset trends
+        * Personal Year and Universal Year Number interest shifts (2025 → 2026)
+        * Beginner destiny, identity, and purpose-seeking curiosity themes
+        * High-search beginner chart, grid, and mapping topics
+        * Entry-level interest in vibration, symbolism, and planetary-number meaning
+
+      - Practitioner mastery at the Gold level including:
+        * Trending 2026 personal year, monthly, and timing forecast searches
+        * High-demand compatibility, love, marriage, and relationship predictions
+        * Career, wealth, job-change, and business-growth forecast trends
+        * Public interest in name correction, spelling change, and rebranding timing
+
+      - Mastery and destiny systems at the Platinum level including:
+        * Rising interest in master numbers, karmic debt, and past-life themes
+        * Long-term destiny, multi-year forecasting, and life-phase prediction demand
+        * Business, branding, corporate, and financial market numerology for 2026
+        * Global events, collective cycles, and mass-consciousness forecast topics
+        * High-authority fusion forecasts combining numerology and astrology
+
+      - Lineage- and system-specific public topic demand across:
+        * Pythagorean Numerology (Life Path, Personal Year, Pinnacles)
+        * Chaldean Numerology (Name vibration, spelling change, brand naming)
+        * Vedic Numerology & Astrology (Mulank, planetary periods, yogas, dashas)
+        * Chinese Numerology & Metaphysics (Lo Shu, Five Elements, BaZi yearly luck)
+
+    Include sources covering:
+
+      - High-traffic YouTube and digital video platforms
+      - Authority blogs, SEO-driven forecast websites, and prediction apps
+      - Professional educator channels and digital academies
+      - Public-facing certification and learning platforms
+      - Social discovery platforms showing repeated viral content patterns
+
+    Exclude:
+      - Low-engagement content with no measurable search or viewer interest
+      - Non-predictive spiritual opinion or motivational-only content
+      - Content without clear problem–solution or forecast intent
+      - Systems not traceable to recognised numerology or astrology traditions
+
+    For each reference collected, gather:
+
+      - Source type (YouTube channel, blog, trend tool, app, academy portal)
+      - Lineage or system alignment (Pythagorean, Chaldean, Vedic, Chinese)
+      - Audience level (entry, intermediate, advanced)
+      - Nature of content (educational, predictive, self-help, business, spiritual)
+      - Coverage scope (personal, relationship, career, money, health, spiritual, corporate)
+      - Primary search intent (learning, forecasting, problem-solving, decision-making)
+      - Engagement indicators (views, shares, comments, trend recurrence)
+      - Emotional drivers (hope, fear, transformation, healing, success, relationships)
+      - Reliability perception (authority trust, practitioner adoption, public acceptance)
+      - Key takeaways applicable to building a **trend-driven Silver–Gold–Platinum
+        Year-End 2025 → 2026 YouTube topic repository**
+
+    Emphasize sources demonstrating:
+
+      - Repeated public interest across months and platforms
+      - Strong emotional triggers tied to money, love, career, health, and destiny
+      - Clear year-end closure and new-year transformation framing
+      - Cross-platform topic validation (search + video + blog)
+      - High-performing numerology–astrology fusion forecasts
+
+  expected_output: >
+    Global Year-End 2025 → 2026 Numerology, Astrology & Self-Help
+    Trend Research Summary (5 or more validated high-impact sources per system):
+
+      - A balanced mix of authority creators, SEO platforms,
+        forecast portals, and high-engagement educators
+      - Bibliographic and platform references for:
+          * YouTube channels, blogs, trend tools, and prediction websites
+      - Comparison matrix across:
+          * Systems (Pythagorean, Chaldean, Vedic, Chinese)
+          * Audience levels (Silver, Gold, Platinum)
+          * Viewer intent (learning, prediction, business, healing, destiny)
+      - Notes supporting the creation of a **public-facing, high-conversion
+        YouTube topic and trend knowledge bank** explaining:
+          * What people search at year-end versus the new year
+          * Which prediction themes drive maximum views and retention
+          * What differentiates casual curiosity from decision-driven forecasting
+      - Recommendation of 1 to 2 primary **trend-detection frameworks** to serve as the
+        foundation for YouTube education, video-series planning,
+        workshops, and digital publishing strategies
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the Year-End 2025 → 2026 trend research into a structured,
+    **YouTube-first, audience-conversion–focused content and publishing
+    blueprint** that maps how a viewer progresses from casual curiosity
+    to deep predictive engagement across all four primary systems. Provide
+    clarity covering:
+
+      - Audience learning and engagement structure (Levels: Silver to Gold to Platinum)
+      - Step-by-step content progression for:
+          * Entry-level identity, purpose, and year-number curiosity
+          * Predictive calculation and explanation video formats
+          * Interpretation storytelling and future-forecast presentation methods
+          * Name vibration, change, and rectification trend content for 2026
+          * Compatibility, timing, and relationship forecast storytelling
+          * Business, branding, and money prediction content systems
+          * Global, generational, and collective destiny forecast narratives
+      - Teaching and storytelling frameworks covering:
+          * Symbolism and vibration made public-friendly
+          * Chart, grid, and destiny map visual simplification
+          * Personal, universal, and multi-year cycle storytelling
+          * Multi-system fusion for high-authority prediction content
+      - Practice and validation paths including:
+          * Guided viewer calculation walkthrough formats
+          * Year-end transition and new-year forecast simulations
+          * Compatibility and timing drill content formats
+          * Business, branding, and launch-date prediction case studies
+          * Master-level destiny and global forecast content challenges
+
+  expected_output: >
+    A comprehensive markdown Global Numerology–Astrology
+    Year-End 2025 → 2026 **Trend-to-YouTube Content Blueprint** including:
+
+      - Categorised trend reference source types
+        (YouTube Channels, Blogs, Trend Platforms, Prediction Apps, Academy Portals)
+      - Source summaries including applicability to:
+          * Audience growth and viewer journey design
+          * Public forecast trust-building
+          * YouTube retention, watch-time, and conversion performance
+      - Narrative explaining essential public-content distinctions:
+          * Curiosity-based searches versus decision-driven searches
+          * Identity content versus predictive content
+          * Entertainment forecasting versus life-guidance forecasting
+          * Compatibility content versus karmic/destiny content
+          * Master-number curiosity versus karmic-transformation demand
+      - A structural delivery grid including:
+          * Core content calculation templates
+          * Public-friendly interpretation and forecast models
+          * Name-change and rectification content workflows
+          * Hook → Curiosity → Explanation → Prediction → Application
+            → Call-to-Action progression guides
+      - Comparison table covering:
+          * Topics, audience levels, system application,
+            and real-world viewer use cases
+      - Adoption rationale outlining:
+          * Why specific topics go viral repeatedly
+          * How year-change psychology drives mass engagement
+      - Future expansion:
+          * AI-powered trend-driven numerology engines
+          * Automated topic detection and forecast generators
+          * Predictive simulation and creator training labs
+
+      - Final recommendation summarising:
+          * The ideal Silver–Gold–Platinum viewer journey for year-end and 2026 content
+          * The essential public-facing calculation and interpretation formats at each level
+          * A repeatable research → trend → script → YouTube delivery model
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/year_end_2025_2026_trend_to_youtube_blueprint_01.md

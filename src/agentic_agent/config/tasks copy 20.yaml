@@ -1,0 +1,143 @@
+research_task:
+  description: >
+    Conduct a deep, globally informed numerology research study focused on the most respected
+    numerology systems, teaching frameworks, lineage traditions, and applied interpretation models
+    used by professional numerologists worldwide. Identify **five highly credible sources**—such as
+    classical numerology texts, master numerologists, certified numerology schools, Vedic astrology
+    institutes, Chinese metaphysical academies, and modern numerology certification bodies—that explain:
+
+      - Core numerology foundations including:
+        * Single-digit numbers (1–9) meanings and vibrational logic
+        * Master numbers (11, 22, 33) and their multidimensional influence
+        * Karmic debt numbers and hidden corrective patterns
+      - Primary numerology chart systems including:
+        * Life Path, Destiny/Expression, Soul Urge, Personality, and Maturity numbers
+        * Name numerology and alphabet-to-number conversion systems
+        * Birth chart construction across different lineages
+      - Multilevel numerology interpretation models including:
+        * Personality analysis and soul purpose decoding
+        * Relationship, marriage, and partnership compatibility
+        * Career, wealth, leadership, and branding numerology
+      - Time-cycle and forecasting systems including:
+        * Personal Year, Month, and Day cycles
+        * Pinnacles and Challenges
+        * Universal Year and global event numerology
+
+    Include sources covering:
+
+      - Pythagorean numerology philosophy and life chart synthesis
+      - Chaldean vibration science, name correction, and destiny forecasting
+      - Vedic numerology (Ank Jyotish) with planetary correspondences
+      - Chinese numerology, Lo Shu Grid, BaZi numeric patterns, and Feng Shui number theory
+      - Business numerology, brand naming, and corporate vibration alignment
+      - Health, energy frequencies, and vibrational number medicine
+      - Geo-numerology (property, vehicle, address, and spatial numbers)
+      - Advanced cross-lineage fusion and comparative numerology methodologies
+
+    Exclude:
+      - Superficial, entertainment-only numerology content
+      - Unverified social media interpretations and anecdotal-only systems
+      - Sources lacking mathematical structure, historical grounding, or repeatable methodology
+
+    For each reference collected, gather:
+
+      - Source type (classical text, master teacher, certification body, modern school, research publication)
+      - Numerology lineage covered (Pythagorean, Chaldean, Vedic, Chinese, or hybrid)
+      - Teaching methodology (formula-driven, symbolic, predictive, corrective, hybrid)
+      - Scope (personal guidance, business use, spiritual development, global forecasting)
+      - Accessibility (public book, paid course, certification, private lineage)
+      - Strengths and limitations (interpretive depth, mathematical rigor, applicability)
+      - Relevance to professional numerology practice and certification use
+      - Reliability rating (lineage credibility, practitioner adoption, global recognition)
+      - Key takeaways applicable to building a **100-topic structured numerology curriculum**
+
+    Emphasize sources demonstrating:
+
+      - Clear calculation systems with repeatable outcomes
+      - Progressive learning from foundational to master-level interpretation
+      - Real-world case studies and predictive validation
+      - Professionally teachable frameworks suitable for certification programs
+      - A structured mastery progression (Foundation → Practitioner → Master Analyst)
+
+  expected_output: >
+    Global Numerology Research Summary (5+ validated numerology sources):
+
+      - A balanced mix of classical lineage authorities, modern certification bodies,
+        professional practitioner schools, and globally recognised numerology texts
+      - Reference links or bibliographic citations for:
+          * Books, institutes, certification programs, and master numerologists
+      - Comparison matrix across:
+          * Four numerology lineages (Pythagorean, Chaldean, Vedic, Chinese)
+          * Learning approaches (formula-based, symbolic, predictive, corrective)
+          * Application focus (personal growth, relationships, business, global forecasting)
+      - Notes supporting the creation of a structured **100-topic numerology mastery framework** explaining:
+          * “How should a student progress from beginner to master numerologist?”
+          * “Which calculation and interpretation skills must be demonstrated at each level?”
+          * “What differentiates a mid-level practitioner from an expert numerology analyst?”
+      - Recommendation of 1–2 primary numerology teaching frameworks to serve as the
+        foundational model for certification, publishing, and digital learning platforms.
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Translate the numerology research findings into a **structured, mastery-level numerology education
+    blueprint** outlining how a learner progresses from foundational numerology understanding to
+    expert predictive and advisory-level practice. Provide clarity covering:
+
+      - Learning and certification structure (Levels 1–3: Foundation → Practitioner → Expert/Master)
+      - Step-by-step mastery flow for:
+          * Number calculation and chart construction
+          * Core interpretation logic
+          * Predictive systems and time-cycle forecasting
+          * Cross-number synthesis, case analysis, and advisory delivery
+      - Teaching frameworks covering:
+          * Core numbers and chart anatomy
+          * Karmic patterns, master vibrations, and spiritual contracts
+          * Name correction science and business numerology
+          * Relationship, wealth, leadership, and life-purpose decoding
+          * Universal year and global numerology forecasting
+      - Practice and validation paths including:
+          * Guided chart walkthroughs
+          * Real-world case studies
+          * Practice exercises and interpretation drills
+          * Final expert-level numerology analysis challenge
+
+  expected_output: >
+    A comprehensive markdown **Numerology Mastery & Certification Blueprint** including:
+
+      - Categorised reference source types (Classical Texts, Modern Schools, Certification Bodies, Master Teachers)
+      - Source summaries including applicability to:
+          * Student learning progression
+          * Professional numerology practice
+          * Practitioner vs Expert-level differentiation
+      - Narrative explaining essential lineage distinctions:
+          * Pythagorean vs Chaldean calculation philosophy
+          * Vedic planetary number integration vs Western models
+          * Chinese Lo Shu and Feng Shui numeric logic
+      - A structural delivery grid including:
+          * Core calculation templates
+          * Interpretation matrices
+          * Predictive cycle mapping charts
+          * Practitioner → Expert progression guides
+      - Comparison table covering:
+          * Numerology systems, complexity levels, and applied use cases
+      - Adoption rationale outlining:
+          * Why specific numerology lineages suit certification and publishing
+          * Where cross-lineage fusion enhances predictive accuracy
+      - Future expansion:
+          * AI-powered numerology chart generators
+          * Digital case-study libraries
+          * Automated report generation and advisory tools
+
+      - Final recommendation summarising:
+          * The ideal numerology learning and mastery sequence
+          * The essential calculation and interpretation systems to master
+          * A repeatable delivery model for professional numerology certification and global teaching
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/numerology_mastery_blueprint_01.md

@@ -1,0 +1,90 @@
+# ======================
+#  TASKS
+# ======================
+
+research_task:
+  description: >
+    Identify **five credible and high-quality industry sources, reports, or expert analyses**
+    that explain why Full-stack Architects will continue to be in strong demand even as
+    Generative AI and Agentic AI systems accelerate within modern software ecosystems.
+
+    Include:
+      - Trends in enterprise digital transformation, multi-agent orchestration, cloud-native
+        platform engineering, and data integration
+      - Hiring reports, skills gap analyses, and architectural talent demand projections from
+        reputable technology organizations
+      - Architectural responsibility models for AI governance, security, privacy, and
+        organizational compliance
+      - Technical write-ups demonstrating how Full-stack Architects unify frontend, backend,
+        cloud, data pipelines, and AI-inference layers
+    Exclude:
+      - Claims or narratives asserting AI can autonomously replace architectural decision-making
+
+    For each reference, gather:
+      - Name and creator (organization, research firm, or industry expert)
+      - Description of content scope and strategic insights
+      - Primary architectural responsibility areas highlighted (AI integration, security,
+        observability, performance, developer experience, interoperability)
+      - Technical or organizational approach (e.g., cloud-native patterns, AI guardrails,
+        agentic workflow orchestration, platform automation)
+      - Type (industry report, enterprise whitepaper, open analysis, educational content)
+      - Accessibility (free, paid, gated access)
+      - Official links (website, documentation, publication pages)
+      - Reported market signals (talent shortage, salary growth, engineering dependency)
+      - Key takeaways, strengths, and potential limitations relevant to the modern
+        Full-stack Architect role
+
+    Emphasize materials and insights that demonstrate:
+      - Strong architectural governance requirements
+      - Increased integration complexity due to autonomous agents
+      - Reliance on human oversight, accountability, and secure architecture
+      - Future-proof skill evolution across cloud, AI, and distributed systems
+
+  expected_output: >
+    Reference Architecture Demand Summary (5 detailed entries):
+      - Balanced mix of industry, enterprise, and expert-backed analyses
+      - Direct links to sources or official documentation
+      - Comparative chart (responsibility scope, AI impact, organizational dependency,
+        security posture, and talent scarcity)
+      - Notes on how AI elevates architectural complexity rather than replacing it
+      - Recommendation of 1–2 foundational reference sources to support the article narrative
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a **structured, persuasive article** explaining why
+    Full-stack Architects remain critical in the age of Generative AI and Agentic AI. Demonstrate
+    how architectural oversight, system integration, security guardrails, and cross-layer awareness
+    cannot be fully delegated to autonomous AI agents.
+
+  expected_output: >
+    A structured markdown article including:
+      - Overview of the 5 reference sources, categorized by type (Industry, Enterprise, Expert)
+      - Brief summaries and links for each
+      - Integration narrative showing how Full-stack Architects:
+          * Govern AI system complexity and risk
+          * Maintain compliance, security, and accountability
+          * Orchestrate multi-agent workflows across distributed systems
+          * Bridge cloud platforms, data pipelines, and application layers
+      - Comparative table summarizing scope, architectural weight, organizational reliance,
+        and projected demand
+      - Demand rationale highlighting:
+          * Increasing AI infrastructure complexity
+          * Human-in-the-loop oversight requirements
+          * Ethical, regulatory, and security imperatives
+          * Enterprise interoperability challenges
+      - Future competency evolution for Full-stack Architects:
+          * AI integration patterns
+          * Agentic orchestration models
+          * Observability and guardrail frameworks
+      - Key risks (AI hallucination, architectural drift, security exposure) and
+        mitigation strategies led by architects
+      - Final recommendation: 1 industry and 1 expert reference as the core foundation
+        supporting the “architect demand persists” narrative
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/fullstack_architect_ai_era_article.md

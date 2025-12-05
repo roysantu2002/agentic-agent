@@ -1,0 +1,181 @@
+research_task:
+  description: >
+    Conduct a deep, NCERT-aligned academic intelligence and board-pattern
+    research study on **CBSE Class 12 Organic Chemistry** specifically focused
+    on the following units for the **March 2026 Board Examination**:
+
+      - Alcohols, Phenols and Ethers
+      - Aldehydes, Ketones and Carboxylic Acids
+
+    The objective is to identify **the highest-weightage, most frequently
+    repeated, conceptually tricky, and maximum-scoring question areas**
+    that determine student performance in the CBSE board exam.
+
+    Identify and validate **five or more highly credible academic reference
+    sources for each chapter**, such as NCERT textbooks, CBSE Exemplar problems,
+    official marking schemes, previous 10-year board papers, reputed coaching
+    institute analyses, and board-oriented digital learning platforms that
+    demonstrate consistent exam relevance and scoring importance across:
+
+      - Core foundations at the Silver level including:
+        * Classification of alcohols, phenols, ethers, aldehydes, ketones, acids
+        * IUPAC nomenclature rules and functional group priority
+        * Structural features of –OH, –O–, >C=O, and –COOH groups
+        * Basic physical properties (boiling point, solubility, H-bonding)
+        * Direct NCERT-based theory and definition questions
+
+      - Mechanism and logic mastery at the Gold level including:
+        * Oxidation and reduction of alcohols, aldehydes and acids
+        * Williamson Ether Synthesis and ether cleavage mechanisms
+        * Aldol Condensation and Cannizzaro Reaction logic
+        * Tollens’, Fehling’s and Iodoform tests
+        * Acidic strength comparisons using inductive and resonance effects
+        * Esterification, hydrolysis and saponification reactions
+
+      - Integrated and high-order reasoning at the Platinum level including:
+        * Multi-step organic conversions involving multiple functional groups
+        * Assertion–Reason and competency-based case study questions
+        * Mixed-chapter interconversion problems
+        * Mechanism writing under exam-time pressure
+        * Board-trap questions based on reagent confusion and condition control
+
+      - Chapter- and system-specific exam demand across:
+        * Alcohols, Phenols and Ethers (Acidity, preparation, ether synthesis)
+        * Aldehydes and Ketones (Carbonyl reactivity and tests)
+        * Carboxylic Acids (Preparation, acidity, HVZ, esterification)
+        * Comparative physical and chemical property analysis
+
+    Include sources covering:
+
+      - Official NCERT Chemistry Part-II textbook
+      - CBSE Exemplar and Sample Paper series
+      - CBSE marking schemes and examiner reports
+      - Reputed institute question banks and test series
+      - High-performing digital CBSE prep platforms
+
+    Exclude:
+      - Non-NCERT reference-only material
+      - Competitive exam (JEE-only) content misaligned to board patterns
+      - Concept-heavy content with no direct board-question application
+      - Unverified or low-accuracy solution sources
+
+    For each reference collected, gather:
+
+      - Source type (NCERT, PYQ, marking scheme, test series, coaching material)
+      - Chapter alignment (Alcohols/Phenols/Ethers or Aldehydes/Ketones/Acids)
+      - Concept level mapping (Silver, Gold, or Platinum)
+      - Nature of content (theory, reactions, mechanisms, PYQs, mock tests)
+      - Coverage scope (nomenclature, preparation, properties, reactions, uses)
+      - Primary exam intent (learning, revision, scoring, error correction)
+      - Board frequency indicators (repeat years, 3–5 mark dominance, MCQ trend)
+      - Common student error patterns
+      - Examiner scoring expectations
+      - Key takeaways applicable to building a **March 2026 High-Score Organic
+        Chemistry Knowledge System**
+
+    Emphasise sources demonstrating:
+
+      - Repeated appearance in board exams across multiple years
+      - High discrimination power (questions that separate average from toppers)
+      - Strong logic-based reasoning requirements
+      - Full marking-scheme compatibility
+      - High conversion relevance for 90%+ board scoring
+
+  expected_output: >
+    CBSE Class 12 Organic Chemistry (March 2026)
+    High-Yield Research Summary (5 or more validated academic sources per chapter):
+
+      - Balanced mix of NCERT, PYQs, Exemplar, Test Papers,
+        and Board Marking Scheme references
+      - Bibliographic documentation for:
+          * NCERT sections, PYQ sets, Exemplar problems, and model answers
+      - Comparison matrix across:
+          * Chapters (Unit 1 vs Unit 2)
+          * Concept Levels (Silver, Gold, Platinum)
+          * Question Types (Theory, Mechanism, Conversion, Case-based)
+      - Analysis notes supporting:
+          * Which topics are most frequently asked
+          * Which reactions carry highest stepwise marks
+          * Which mistakes cause maximum mark loss
+      - Recommendation of 1 to 2 primary **Board-Pattern Prediction Frameworks**
+        for guiding:
+          * Daily study plans
+          * Weekly mock design
+          * 90-day final revision strategy
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Translate the March 2026 CBSE Organic Chemistry research into a structured,
+    **student-first, board-exam–conversion–focused learning and publishing
+    blueprint** that maps how a student progresses from weak confidence to
+    high-scoring mastery across both organic chemistry units.
+
+    Provide clarity covering:
+
+      - Student learning and performance progression structure
+        (Levels: Silver → Gold → Platinum)
+      - Step-by-step preparation flow for:
+          * Concept foundation and NCERT line-by-line coverage
+          * Reaction mechanism building and arrow-pushing logic
+          * Board-style question framing and keyword presentation
+          * Multi-step organic conversions
+          * Assertion–Reason and case-based competency practice
+          * Nomenclature and identification MCQ drills
+      - Teaching and explanation frameworks covering:
+          * Concept → Reaction → Mechanism → Application flow
+          * Reagent-condition logic trees
+          * Functional group interconversion grids
+          * Physical vs chemical property comparison models
+      - Practice and validation paths including:
+          * Daily mechanism drills
+          * Weekly chapter-wise tests
+          * Monthly mixed mock assessments
+          * Error-log based targeted correction sessions
+          * Time-bound board simulation papers
+
+  expected_output: >
+    A comprehensive Markdown **CBSE Class 12 Organic Chemistry
+    March 2026 Trend-to-Board Scoring Blueprint** including:
+
+      - Categorised academic reference source types
+        (NCERT, PYQs, Exemplar, Test Series, Digital Platforms)
+      - Source applicability summaries for:
+          * Concept clarity
+          * Board question prediction
+          * Stepwise marking optimisation
+      - Narrative distinguishing:
+          * Rote learning vs logic-based answer construction
+          * One-step reactions vs conversion logic chains
+          * Memory-based answers vs examiner-rewarded presentation
+      - A structural delivery grid including:
+          * Daily concept-and-mechanism templates
+          * Weekly test-design and revision models
+          * Conversion-marathon practice workflows
+          * Concept → Mechanism → Board Answer → Self-Check
+            progression frameworks
+      - Comparison table covering:
+          * Topics, concept level, board weightage,
+            and student error vulnerability
+      - Adoption rationale outlining:
+          * Why certain reactions dominate board exams
+          * How examiner psychology affects marking
+          * How time pressure alters student mistakes
+      - Future expansion:
+          * AI-based reaction testing engines
+          * Automated weak-chapter detection tools
+          * Adaptive mock-paper generators
+          * Student performance analytics dashboards
+
+      - Final recommendation summarising:
+          * The ideal Silver–Gold–Platinum student journey for Organic Chemistry
+          * The essential board-answer formats at each level
+          * A repeatable Research → Learning → Practice → Test → Score model
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/cbse_class12_chemistry_march_2026_board_scoring_blueprint_01.md

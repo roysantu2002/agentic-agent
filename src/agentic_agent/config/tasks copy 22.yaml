@@ -1,0 +1,165 @@
+research_task:
+  description: >
+    Conduct a deep, lineage-aligned academic and professional research study on
+    Global Professional Numerology Systems, covering the most authoritative
+    classical texts, certification curricula, calculation standards, and applied
+    interpretation models used in professional numerology practice. Identify
+    five highly credible sources for each lineage such as classical numerology
+    texts, certified numerology schools, master practitioner manuals, astrological
+    institutes, and Chinese metaphysical academies that explain:
+
+      - Core foundations at the Silver level including:
+        * Core personal identity numbers
+        * Basic destiny indicators
+        * Foundational charts, grids, and mappings
+        * Fundamental vibration principles and number symbolism
+
+      - Practitioner mastery at the Gold level including:
+        * Prediction cycles and timing systems
+        * Number combinations and compatibility analysis
+        * Career, wealth, relationship, and life-event interpretation
+        * Name correction, rectification, and applied numerology
+
+      - Mastery and destiny systems at the Platinum level including:
+        * Master numbers, karmic debt, and hidden influence structures
+        * Long-term destiny and life-phase forecasting
+        * Business, branding, and corporate numerology
+        * Global cycles and mass-event numerology
+        * Multi-system fusion and advanced chart synthesis
+
+      - Lineage-specific coverage across:
+        * Pythagorean Numerology (Life Path systems, cycles, pinnacles)
+        * Chaldean Numerology (Name vibration and sound-frequency mechanics)
+        * Vedic Numerology (Mulank, planetary rulership, yogas)
+        * Chinese Numerology (Lo Shu Grid, Five Elements, BaZi numeric destiny)
+
+    Include sources covering:
+
+      - Classical lineage-authentic texts
+      - Modern professional certification curricula
+      - Practitioner training manuals
+      - Applied business and predictive numerology guides
+      - Institutional and academy-level teaching material
+
+    Exclude:
+      - Superstitious or non-lineage-based numerology content
+      - Social media or non-academic tutorials
+      - Soft spiritual content without calculation methodology
+      - Systems not traceable to the four defined lineages
+
+    For each reference collected, gather:
+
+      - Source type (classical text, academy syllabus, practitioner manual, certification guide)
+      - Lineage alignment (Pythagorean, Chaldean, Vedic, Chinese)
+      - Level coverage (Silver, Gold, Platinum)
+      - Nature of content (theoretical, practical, predictive, business-oriented)
+      - Coverage scope (personal, relationship, career, health, spiritual, corporate)
+      - Difficulty level (entry, practitioner, master)
+      - Strengths and limitations (clarity, depth, applicability, lineage purity)
+      - Relevance to professional practice and certification training
+      - Reliability rating (classical authority, academic adoption, certification usage)
+      - Key takeaways applicable to creating a complete Silver-Gold-Platinum
+        numerology question-answer repository
+
+    Emphasize sources demonstrating:
+
+      - Stepwise calculation procedures with correct reduction methods
+      - Clear interpretation rules and prediction logic
+      - Repeated practitioner usage and case-study validation
+      - Structured progression from core identity to destiny-level mastery
+      - Cross-lineage comparison with philosophical integrity
+
+  expected_output: >
+    Global Numerology Research Summary (5 or more validated authoritative sources per lineage):
+
+      - A balanced mix of classical authority, certification curricula,
+        practitioner manuals, and applied numerology references
+      - Bibliographic references for:
+          * Classical texts, academy syllabi, and training manuals
+      - Comparison matrix across:
+          * Lineages (Pythagorean, Chaldean, Vedic, Chinese)
+          * Levels (Silver, Gold, Platinum)
+          * Learning focus (identity, prediction, business, destiny, spiritual)
+      - Notes supporting the creation of a structured professional numerology
+        knowledge bank explaining:
+          * How a learner progresses from identity to destiny mastery
+          * Which calculations and interpretations are required at each level
+          * What differentiates beginner, practitioner, and master consultations
+      - Recommendation of 1 to 2 primary academic frameworks to serve as the
+        foundational model for numerology teaching, certification training,
+        and digital learning platforms
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the numerology research findings into a structured,
+    certification-ready mastery-level numerology education and assessment
+    blueprint outlining how a learner progresses from foundational number
+    understanding to advanced predictive and destiny-level mastery across
+    all four primary lineages. Provide clarity covering:
+
+      - Learning and assessment structure (Levels: Silver to Gold to Platinum)
+      - Step-by-step mastery flow for:
+          * Core identity and destiny numbers
+          * Calculation systems and reduction logic
+          * Interpretation and prediction methodologies
+          * Name vibration and rectification systems
+          * Compatibility, timing, and forecasting frameworks
+          * Business, branding, and corporate numerology
+          * Global and generational numeric cycles
+      - Teaching frameworks covering:
+          * Number symbolism and vibrational mechanics
+          * Chart, grid, and destiny map construction
+          * Cycle analysis and predictive sequencing
+          * Multi-system fusion and validation
+      - Practice and validation paths including:
+          * Guided calculation walkthroughs
+          * Real-life reading simulations
+          * Compatibility and timing drills
+          * Business and branding case studies
+          * Master-level predictive and destiny analysis challenges
+
+  expected_output: >
+    A comprehensive markdown Global Numerology Silver-Gold-Platinum
+    Mastery and Certification Blueprint including:
+
+      - Categorised reference source types
+        (Classical Texts, Certification Curricula, Practitioner Manuals, Academy Programs)
+      - Source summaries including applicability to:
+          * Student-to-practitioner learning progression
+          * Certification examination preparation
+          * Professional consultation accuracy
+      - Narrative explaining essential conceptual distinctions:
+          * Life Path versus Destiny Number
+          * Name Vibration versus Birth Vibration
+          * Personal Cycles versus Universal Cycles
+          * Compatibility versus Karmic Bonding
+          * Master Numbers versus Karmic Debt Numbers
+      - A structural delivery grid including:
+          * Core calculation templates
+          * Interpretation and prediction models
+          * Name-analysis and rectification workflows
+          * Concept to Calculation to Interpretation to Application
+            to Case Study progression guides
+      - Comparison table covering:
+          * Topics, mastery levels, lineage application,
+            and real-world use cases
+      - Adoption rationale outlining:
+          * Why specific calculation systems dominate practice
+          * Where repeated predictive validation builds credibility
+      - Future expansion:
+          * AI-powered numerology engines
+          * Automated chart generation systems
+          * Predictive simulation and training labs
+
+      - Final recommendation summarising:
+          * The ideal Silver-Gold-Platinum learning and certification sequence
+          * The essential calculation and interpretation skills at each level
+          * A repeatable academy-to-certification delivery model
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/global_numerology_silver_gold_platinum_mastery_blueprint_01.md

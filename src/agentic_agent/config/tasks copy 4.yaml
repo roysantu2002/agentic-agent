@@ -1,0 +1,37 @@
+# --- Tasks ---
+reflection_research_task:
+  description: >
+    Conduct a reflective synthesis on the state of Agentic AI in {current_year}. 
+    Investigate how Agentic AI is already in use, and where its real power comes 
+    from the alignment of design, domain expertise, tooling, and organizational culture. 
+    Identify practical principles for building impactful systems and the broader 
+    implications for human–AI collaboration.
+  expected_output: >
+    Agentic AI Real-World Application:
+      - Core sysnopsis of current state for building Real-World Application using Agentic AI
+      - Business & Productivity (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+      - Customer Experience & Service (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+      - Research & Knowledge Work (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+      Emerging Domains (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+  agent: researcher
+
+reflection_reporting_task:
+  description: >
+    Expand the reflection findings into a polished closing narrative for the book. 
+    Organize the content into two parts:
+      - Reflection & Summary: key takeaways and practical guidance for readers
+      - Closing Reflection: positioning Agentic AI as an extension of human agency, 
+        not a replacement, while emphasizing ethics, governance, and responsibility.
+    Highlight that the future is about "humans with agents," not "humans versus agents," 
+    and that today’s choices will shape whether the outcome is empowerment or regret.
+  expected_output: >
+    A polished markdown section containing:
+      - Core sysnopsis of current state for building Real-World Application using Agentic AI
+      - Business & Productivity (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+      - Customer Experience & Service (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+      - Research & Knowledge Work (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+      - Emerging Domains (Tools and Platforms, Application in Practice, Benefits and Measurable Outcomes, Challenges and Trade-Offs, Industry Example)
+  agent: reporting_analyst
+  context:
+    - reflection_research_task
+  output_file: output/real-World_applications.md

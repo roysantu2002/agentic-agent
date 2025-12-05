@@ -1,0 +1,66 @@
+research_task:
+  description: >
+    Identify **five credible and high-quality SAT English preparation resources**
+    (official, open-source, or academically recognized) that help students effectively
+    prepare for the SAT Reading and Writing sections within a one-month timeline.
+
+    Include:
+      - Official SAT English resources from the College Board and trusted educational platforms
+        such as Khan Academy.
+      - Well-structured open or educational study programs, guides, and video series designed
+        for grammar, rhetoric, and reading comprehension mastery.
+      - Author or academic projects that demonstrate clear methodology, structured lessons,
+        and measurable outcomes in improving reading accuracy and writing precision.
+    Exclude:
+      - Outdated, incomplete, or unverified materials not aligned with the current SAT English format.
+
+    For each resource, gather:
+      - Name and creator (organization, educator, or platform)
+      - Description of content and learning goals
+      - Target section(s) (Reading, Writing, or Combined Verbal)
+      - Technical or instructional approach (e.g., adaptive drills, grammar frameworks,
+        evidence-based reading, AI-based feedback, spaced repetition)
+      - Type (official, open-source, educational, or coaching)
+      - Accessibility (free, paid, or mixed)
+      - Official links (website, videos, or documentation)
+      - Reported or observed results (average score improvement, comprehension accuracy,
+        or engagement metrics)
+      - Key takeaways, strengths, and potential limitations relevant to our one-month plan
+
+    Emphasize materials and systems that demonstrate strong pedagogy, clear learning structure,
+    and efficient progress tracking for time-bound SAT English preparation.
+
+  expected_output: >
+    Reference English Study Resources Summary (5 detailed entries):
+      - Balanced mix of official, open, and educational English materials
+      - Direct links to sources or documentation
+      - Comparative chart (coverage, difficulty, adaptiveness, and relevance)
+      - Notes on how to adapt each for a CBSE 10+2 student’s one-month English preparation plan
+      - Recommendation of 1–2 main English study references (one comprehensive, one skill-focused)
+        to serve as the foundation for our preparation plan
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a **concise and actionable SAT English preparation roadmap**
+    that guides daily and weekly study activities. Clearly separate official and educational resources,
+    and highlight how each can support Reading and Writing performance within a one-month timeline.
+
+  expected_output: >
+    A structured markdown report including:
+      - Overview of the 5 reference study resources, categorized as "Official" or "Educational"
+      - Brief summaries and links for each
+      - Integration guide showing how to combine best practices into a unified English study plan:
+          * Reading → Critical reasoning, inference skills, vocabulary-in-context, and timed comprehension
+          * Writing → Grammar rules, punctuation mastery, sentence structure, concision, and rhetoric
+      - Comparative table summarizing coverage, adaptiveness, and learning outcomes
+      - 4-week English preparation roadmap with daily and weekly focus areas
+      - Key risks (burnout, pacing, over-practice) and mitigation strategies
+      - Final recommendation: 1 official and 1 educational resource as the core of the English study plan
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/sat_english_preparation_references.md

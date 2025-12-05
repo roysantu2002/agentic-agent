@@ -1,0 +1,134 @@
+research_task:
+  description: >
+    Conduct a deep, enterprise-grade cybersecurity research study focused on security frameworks,
+    governance controls, and best practices for **securing LLM and Generative AI applications**
+    deployed at scale. Identify **five credible, authoritative sources**—industry whitepapers,
+    cybersecurity guidelines, responsible AI frameworks, model threat analyses, or vendor
+    security documentation—that explain:
+
+      - The evolving threat landscape for LLMs and GenAI systems, including attack vectors such as
+        prompt injection, jailbreaks, data leakage, training data poisoning, adversarial inputs,
+        and model extraction
+      - Enterprise security strategies including Zero Trust, secure model deployment patterns,
+        secure prompt engineering, role-based access controls, and audit logging
+      - Industry-aligned AI risk and compliance frameworks such as: 
+        * NIST AI RMF
+        * OWASP Top 10 for LLMs
+        * ISO/IEC 42001 (AI Management System)
+        * EU AI Act requirements
+      - Responsible AI operational principles including fairness, transparency, privacy-preserving
+        practices (differential privacy, RAG content filters, encryption), and secure model lifecycle
+        governance
+
+    Include sources that detail:
+
+      - Enterprise **architecture patterns** for securing AI pipelines—from training to inference
+      - Case studies on AI misuse, vulnerability disclosures, red-teaming reports, or real-world
+        breach analysis related to AI misuse or exploitation
+      - AI governance frameworks covering model ownership, human oversight, model approval workflows,
+        and versioning controls
+      - Secure integration guidance when using:
+          * API-based LLMs (OpenAI, Anthropic, Azure OpenAI, Gemini)
+          * Self-hosted or fine-tuned models (Llama, Mistral, Falcon)
+          * Hybrid RAG + LLM architectures used in enterprise applications
+
+    Exclude:
+      - Marketing claims without technical depth
+      - AI fear-mongering or speculative content without documented risk evidence
+      - Unverified or hobbyist-level blogs lacking credible cybersecurity grounding
+
+    For each reference collected, gather:
+
+      - Source name/organization (security body, vendor, standards committee, researcher)
+      - Core focus area (governance, compliance, architecture, threat model, secure development,
+        responsible AI, adversarial ML research)
+      - Scope (global, regional, industry-specific)
+      - Type (whitepaper, standard, executive guidance, open report, technical documentation)
+      - Access level (open access, gated registration, paid publication)
+      - Strengths and limitations including bias, completeness, regional restrictions, or outdated sections
+      - Applicability to enterprise-grade LLM deployments in production environments
+      - Risks (lack of testing data, theoretical content, missing compliance scope)
+      - Key takeaways aligned to securing the GenAI lifecycle end-to-end
+
+    Emphasize materials demonstrating:
+
+      - Clear **security control matrices**, red-teaming methodology, or step-by-step mitigation strategies
+      - Secure deployment and operations for LLM systems across on-prem, hybrid, and cloud environments
+      - Defense-in-depth strategies combining:
+          * Identity/access control
+          * Data protection
+          * Prompt validation
+          * Safety scanning
+          * Monitoring and anomaly detection
+      - Engineering and governance interplay (people + process + technology)
+
+  expected_output: >
+    Enterprise LLM Security Research Summary (5+ validated security reference entries and frameworks):
+
+      - Balanced mix of official standards, cybersecurity documentation, and enterprise architectural guidance
+      - Links to source frameworks, guidance portals, and technical documentation
+      - Comparison matrix focusing on:
+          * Threat categories across LLM attacks
+          * Preventive vs detective vs responsive controls
+          * Self-hosted vs API-based risk differences
+      - Notes supporting enterprise teams building secure GenAI systems explaining:
+          * “What are the primary risks for LLM-based applications?”
+          * “How should enterprises mitigate them using frameworks, controls, and policies?”
+      - Recommendation of 1–2 foundational security frameworks as the baseline for long-term GenAI security governance
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the research findings into a **structured, executive-ready security blueprint**
+    explaining how enterprises should secure LLM and GenAI applications across the full lifecycle.
+    Provide clarity covering:
+
+      - The GenAI attack surface and top vulnerability classes
+      - Preventive controls (secure design, prompt hardening, identity, policy enforcement)
+      - Operational controls (monitoring, logging, model performance drift tracking, abuse detection)
+      - Governance controls (risk scoring, approval workflows, AI safety testing, compliance alignment)
+      - Secure architecture patterns for:
+          * RAG systems
+          * Self-hosted models
+          * Fine-tuned enterprise models
+          * API-based LLM SaaS integrations
+
+  expected_output: >
+    A comprehensive markdown Enterprise LLM & GenAI Security Blueprint including:
+
+      - Categorized source types (Standards, Architecture, Threat Research, Governance, Case Studies)
+      - Source summaries including applicability to:
+          * Production security
+          * Policy frameworks
+          * Governance and trust frameworks
+          * Threat mitigation
+      - Narrative explaining essential distinctions:
+          * API-hosted vs self-hosted model risks
+          * ​​Training security vs inference security
+          * RAG-specific risks (data leakage, retrieval bypass, hybrid threat vectors)
+      - An applicability matrix for each major security category:
+          * Identity & access control
+          * Data governance & privacy
+          * Safety & content moderation
+          * Infrastructure & runtime protection
+          * Model governance & auditability
+      - Comparative tables covering:
+          * Architectural risks across deployment types
+          * Security control maturity levels (baseline → advanced → regulated industry)
+      - Adoption rationale outlining:
+          * How organizations operationalize LLM security without slowing innovation
+          * How security controls balance safety with user experience
+      - Future-looking considerations:
+          * Adversarial ML evolution
+          * Regulatory pressure (EU AI Act, ISO 42001, FedRAMP, HIPAA/GDPR)
+          * AI supply chain and shared responsibility models
+      - Final recommendation summarizing:
+          * The 5 most critical controls for securing LLM workloads
+          * A roadmap for designing secure GenAI enterprise platforms
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/enterprise_llm_security_blueprint.md

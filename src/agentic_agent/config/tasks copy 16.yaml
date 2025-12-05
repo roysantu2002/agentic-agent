@@ -1,0 +1,137 @@
+research_task:
+  description: >
+    Conduct a deep, numerology-centered global events research study focused on **universal year
+    9** cycles similar to **2025** and **universal year 1** cycles similar to **2026**. Identify
+    **five credible, authoritative sources**—year-in-review reports, global news summaries,
+    climate/weather reports, historical analyses, or expert numerology commentary—that explain:
+      - Major global themes and turning points for selected universal year 9 years (e.g. 2016, 2007,
+        1998 and two earlier 9-years)
+      - Major global themes and turning points for selected universal year 1 years (e.g. 2017, 2008,
+        1999 and two earlier 1-years)
+      - Patterns of “good/constructive”, “challenging/crisis”, and “mixed/neutral” events across
+        these years
+      - Collective emotional tone, humanitarian focus, and “ending vs beginning” energy visible in
+        each cycle
+
+    Include sources that detail:
+      - Year-in-review summaries of **top world news** (politics, economy, conflicts, peace
+        agreements, technology, social movements) for each selected 9-year and 1-year
+      - Global or regional **weather and climate** reports highlighting major storms, floods,
+        droughts, heat waves, and natural disasters in those years
+      - Historical timelines that place key events in chronological order to see build-up and
+        release patterns across a year
+      - Established **numerology references** explaining:
+          * Number 9 meanings: endings, completion, karmic balancing, humanitarianism, release
+          * Number 1 meanings: new beginnings, independence, leadership, initiation, pioneering spirit
+      - 2025-specific resources summarising the year’s major events so far to understand how it is
+        behaving as a universal year 9 and to prepare a bridge into 2026
+
+    Exclude:
+      - Gossip or tabloid-style celebrity stories without wider global impact
+      - Unsourced conspiracy material or low-credibility blogs with no factual basis
+      - Content that does not clearly connect to either:
+          * Real-world global events and climate patterns, or
+          * Clear numerology interpretations of numbers 9 and 1
+
+    For each reference collected, gather:
+      - Source name/creator (news agency, climate organisation, numerologist/author, historian)
+      - Core scope (world news, weather/climate, numerology, historical timeline/analysis)
+      - Year(s) covered and whether the perspective is global, regional, or country-specific
+      - Type (official report, news article, year-in-review, numerology book/article, expert essay)
+      - Access level (public, gated, subscription-required)
+      - Strengths and limitations including any bias, regional focus, or gaps in coverage
+      - Reported applicability to understanding patterns in universal year 9 and universal year 1 cycles
+      - Risks (overly speculative claims, narrow regional focus, lack of climate data, numerology
+        interpretations without clear logic)
+      - Key takeaways relevant to numerology-based world-year reasoning and on-camera explanation
+
+    Emphasize materials demonstrating:
+      - Clear **timelines** of major events across a year
+      - The balance of constructive vs challenging events in each 9-year and 1-year
+      - Interplay between political/economic/social changes and weather/climate intensity
+      - Human decision points, turning moments, or “closure vs new beginning” themes that can be
+        interpreted through the lens of universal year 9 and 1 energies
+
+  expected_output: >
+    Numerology & World Events Research Summary (5+ detailed reference entries and year profiles):
+      - Balanced mix of official news/climate documentation, historical reviews, and expert numerology insights
+      - Direct links to reference sources, year-in-review pages, climate reports, or numerology material
+      - Comparison matrix focusing on:
+          * Repeating themes across universal year 9 cycles
+          * Repeating themes across universal year 1 cycles
+          * Similarities and differences between 9-years and 1-years
+      - Notes capturing reasoning frameworks valuable for explaining:
+          * “How was 2025 as a number 9 year?”
+          * “What kind of energy may 2026 (number 1) bring based on past patterns?”
+      - Recommendation of 1–2 foundational numerology resources on numbers 9 and 1 to anchor
+        long-term study and future content creation
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the researcher’s findings into a **structured, video-ready numerology blueprint**
+    explaining how universal year 9 (like 2025 and past 9-years) and universal year 1 (like 2026
+    and past 1-years) compare in their global patterns, emotional tone, and event themes. Provide
+    strategic clarity covering:
+      - How universal year 9 tends to manifest: endings, closure, karmic balancing, humanitarian
+        focus, emotional intensity, “final exams” before a new cycle
+      - How universal year 1 tends to manifest: new beginnings, leadership, innovation, risk-taking,
+        “reset” and pioneering energy
+      - When certain global patterns (conflict vs cooperation, crisis vs breakthrough) appear more
+        prominently in 9-years vs 1-years
+      - Overlaps and complementary patterns across 9 and 1 cycles that help narrate the transition
+        from 2025 (9) to 2026 (1)
+
+  expected_output: >
+    A comprehensive markdown numerology blueprint including:
+      - Categorized overview of the main source types (Official News/Reports, Climate/Weather,
+        Numerology, Historical/Analytical, Mixed/Case Study)
+      - Source summaries including:
+          * Applicability to understanding year 9 and year 1 patterns
+          * Depth of global vs regional coverage
+          * Strength of numerology interpretation (where applicable)
+      - Narrative explaining core differences across:
+          * Universal year 9 vs universal year 1 emotional tone and collective mood
+          * Types of global events that tend to dominate (closures, endings, crises vs launches,
+            innovations, new structures)
+          * How weather/climate extremes show up across the studied years (where visible)
+          * The transition energy from a 9-year to a 1-year cycle
+      - A detailed applicability vs non-applicability matrix:
+          * For using universal year 9 themes (completion, letting go, humanitarian focus) when
+            interpreting global events
+          * For using universal year 1 themes (initiation, leadership, courage) when making
+            forward-looking statements about 2026
+          * Where numerology patterns clearly align with observable trends vs where they are weaker
+      - Comparative tables covering:
+          * 9-year vs 1-year:
+              - Dominant event themes (political, economic, social, technological, humanitarian)
+              - Level of conflict vs cooperation
+              - Innovation vs closure/cleanup energy
+              - Weather/climate intensity patterns (based on collected data)
+          * How strongly each researched year expresses the textbook meanings of 9 or 1
+      - Adoption rationale:
+          * How to use these historical patterns responsibly in a public numerology video
+          * How to balance inspiration with realism when speaking about 2026
+          * How to encourage viewers to align with 1-year energy (initiative, leadership,
+            fresh starts) without fear-based predictions
+      - Future-facing considerations:
+          * How the 2025→2026 shift may symbolically mark the start of a new 9-year global cycle
+          * How themes that peaked in 2025 might seed new beginnings in 2026
+          * Suggestions for follow-up videos (e.g. personal year numbers vs universal year 1)
+      - Risk and mitigation guidance:
+          * Avoiding deterministic or fatalistic language—stressing that numerology shows
+            tendencies, not fixed destiny
+          * Highlighting that individual experiences depend on personal charts and choices
+          * Not overstating correlations where historical data is weak or ambiguous
+      - Final recommendation summarizing which patterns anchor:
+          * The explanation of “How 2025 behaved as a number 9 year”
+          * The prediction narrative “What 2026 as a number 1 year might feel like for the world”
+          * 3–5 core themes to emphasise in the 2026 video (e.g. NEW BEGINNINGS, LEADERSHIP,
+            INNOVATION, PERSONAL RESPONSIBILITY, COURAGE TO START)
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/numerology_world_events_2026_blueprint.md

@@ -1,0 +1,58 @@
+research_task:
+  description: >
+    Conduct a global, evidence-based research study on well-known public figures who achieved
+    high levels of professional success, wealth, fame, and social recognition, yet died by suicide.
+    The objective is to analyze how failures in life management, purpose alignment, emotional health,
+    and relationship stability contributed despite financial and career success.
+    For each documented individual and case category:
+      - Identify profession, peak career success, and financial status
+      - Document known life struggles (mental health, relationships, isolation, pressure)
+      - Analyze gaps in life purpose, emotional well-being, and inner fulfillment
+      - Compare professional success versus personal life stability
+      - Examine warning signs and overlooked psychological indicators
+      - Identify patterns across industries (film, business, sports, tech, music, politics)
+      - Contrast life management failures with strong professional, financial, or time management
+      - Review psychological, sociological, and behavioral studies supporting these patterns
+      - Evaluate how purpose clarity and relationship health correlate with long-term happiness
+      - Capture global statistics on suicide among high-performing and high-income individuals
+  expected_output: >
+    Global Life Management vs Professional Success Research Summary:
+      - Case-based profiles of famous, wealthy, and professionally successful individuals
+      - Thematic pattern analysis of life management failures
+      - Statistical overview of suicide trends among high-achievement groups
+      - Comparative matrix: Professional success vs Life fulfillment indicators
+      - Psychological and sociological insight synthesis
+      - Warning signal framework for early intervention
+      - Key root causes ranked by impact (purpose, relationships, emotional health, identity)
+      - Evidence-backed conclusion on why life management outweighs financial and professional success
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Develop a polished, reader-friendly analytical report titled:
+    "Success Without Fulfillment: Why Life Management Determines True Happiness"
+    Convert complex behavioral and psychological research into a structured, accessible guide.
+    Include:
+      - A narrative introduction on the illusion of success through money and fame
+      - Global case highlights from business, entertainment, sports, and tech
+      - Visual comparison of wealth vs happiness vs life stability
+      - Explanation of life management as a core life skill
+      - The role of purpose, relationships, emotional intelligence, and inner balance
+      - Lessons derived from high-profile life failures
+      - Preventive frameworks for life mastery and sustainable happiness
+      - A concluding synthesis on how purpose and relationships determine true fulfillment
+  expected_output: >
+    A well-structured markdown research report containing:
+      - Global overview of high-success suicide trends
+      - Case study summaries with life management insights
+      - Professional success vs personal well-being comparison tables
+      - Life purpose and relationship impact analysis
+      - Psychological and behavioral research-backed conclusions
+      - Practical life management mastery framework
+      - Early warning signs and preventive action guide
+      - Final conclusion validating life management as the foundation of true happiness
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/life_management_vs_success_research.md

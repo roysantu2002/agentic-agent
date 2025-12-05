@@ -1,0 +1,66 @@
+research_task:
+  description: >
+    Identify **five credible and high-quality SAT preparation resources** (official, open-source,
+    or academically recognized) that help students effectively prepare for the SAT within a
+    one-month timeline.
+
+    Include:
+      - Official SAT resources from the College Board and trusted educational platforms.
+      - Well-structured open or educational study programs, guides, and video series designed
+        for learning or test readiness.
+      - Individual or academic projects that demonstrate clear methodology, structured lessons,
+        and measurable learning outcomes.
+    Exclude:
+      - Outdated, incomplete, or unverified materials not aligned with the current SAT format.
+
+    For each resource, gather:
+      - Name and creator (organization, educator, or platform)
+      - Description of content and learning goals
+      - Target section(s) (Reading, Writing, Math, or General Strategy)
+      - Technical or instructional approach (e.g., adaptive testing, AI-based feedback,
+        spaced repetition, practice analytics)
+      - Type (official, open-source, educational, or coaching)
+      - Accessibility (free, paid, or mixed)
+      - Official links (website, videos, or documentation)
+      - Reported or observed results (average score improvement, accuracy, or engagement)
+      - Key takeaways, strengths, and potential limitations relevant to our one-month plan
+
+    Emphasize materials and systems that demonstrate strong pedagogy, structured planning,
+    and efficient learning progress for time-bound SAT preparation.
+
+  expected_output: >
+    Reference Study Resources Summary (5 detailed entries):
+      - Balanced mix of official, open, and educational materials
+      - Direct links to sources or documentation
+      - Comparative chart (scope, difficulty, adaptiveness, and relevance)
+      - Notes on how to adapt each for a CBSE 10+2 student’s one-month study schedule
+      - Recommendation of 1–2 main study references (one comprehensive, one skill-focused)
+        to serve as the foundation for our preparation plan
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a **concise and actionable SAT preparation roadmap**
+    that guides daily and weekly study activities. Clearly separate official and educational
+    resources, and highlight how each can support Reading, Writing, and Math performance within
+    a one-month timeline.
+
+  expected_output: >
+    A structured markdown report including:
+      - Overview of the 5 reference study resources, categorized as "Official" or "Educational"
+      - Brief summaries and links for each
+      - Integration guide showing how to combine best practices into a unified study plan:
+          * Reading → Critical reasoning, comprehension drills, timed practice
+          * Writing → Grammar patterns, sentence structure, and editing strategies
+          * Math → Concept mastery, problem-solving shortcuts, and data analysis
+      - Comparative table summarizing depth, adaptability, and learning outcomes
+      - 4-week preparation roadmap with daily/weekly focus
+      - Key risks (burnout, pacing, test anxiety) and mitigation strategies
+      - Final recommendation: 1 official and 1 educational resource as the core of the plan
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/sat_preparation_references.md

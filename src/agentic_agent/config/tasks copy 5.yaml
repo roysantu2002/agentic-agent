@@ -1,0 +1,47 @@
+research_task:
+  description: >
+    Identify **five existing solutions** (products, open-source projects, or documented deployments)
+    that have solved — or closely addressed — the problem of filtering irrelevant, duplicate,
+    or misrouted IT/VDI support tickets (i.e., intelligent ticket triage / automated routing).
+    Specifically:
+      - Find exactly 5 solutions that are the best references for implementing VDI ticket filtering.
+      - For each solution, gather:
+        - Name and provider / repo
+        - Short description of what it does and the problem it solves
+        - Real-world usage or deployment examples (customers, case studies, or documented pilots)
+        - Technical stack / components (e.g., whether it uses LLMs/embeddings, rule engines,
+          LangGraph-like orchestration, Gemini-style multimodal models, React frontends, FastAPI backends, etc.)
+        - Whether it is commercial, open-source, or hybrid, plus links to product pages or code repos
+        - Integration notes: how it connects to ITSM/VDI systems (ServiceNow, Jira, Citrix/VMware consoles, email, etc.)
+        - Measured outcomes or KPIs where available (reduction in misrouted tickets, time-to-resolution, queue improvements)
+        - Key strengths, limitations, and lessons learned that are directly applicable to our build
+      - Prioritize solutions that provide concrete artifacts we can reference (architectural diagrams, repo code, whitepapers,
+        blog posts, or case studies).
+      - When a solution does not natively use tools we plan to adopt, explain how Gemini, LangGraph, React, and FastAPI
+        could be incorporated as practical substitutions or enhancements.
+  expected_output: >
+    Reference Solutions Summary (5 items):
+      - A numbered list of 5 complete solution profiles containing the fields above
+      - Direct links to product pages, repos, case studies, or architecture docs for each solution
+      - Practical notes on how to adapt or combine existing approaches with Gemini, LangGraph, React, and FastAPI
+      - Quick comparison table highlighting trade-offs (open-source vs commercial, ease of integration, maturity)
+      - Recommended 1–2 reference solutions to use as primary blueprints for our VDI ticket-filtering implementation
+  agent: researcher
+
+reporting_task:
+  description: >
+    Convert the researcher’s 5-solution findings into a concise reference brief for the engineering team
+    and stakeholders. The brief should make it immediately actionable which solutions to study first,
+    what to clone/read, and how to prototype quickly using our chosen stack.
+  expected_output: >
+    A polished markdown brief containing:
+      - Summary of the 5 reference solutions with direct links and one-paragraph takeaways
+      - Concrete next steps for prototyping (which repo to fork, which architecture to emulate, which integrations to prioritize)
+      - Recommended mapping of components to our stack (Gemini for model layer, LangGraph for orchestration,
+        FastAPI for backend services, React for the dashboard) with brief rationale
+      - Risks, dependencies, and integration checklist for a 4–8 week prototype
+      - Final recommendation: 1 primary and 1 secondary reference to start implementation from
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/vdi_ticket_filtering_references.md

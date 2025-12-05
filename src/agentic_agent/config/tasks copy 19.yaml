@@ -1,0 +1,134 @@
+research_task:
+  description: >
+    Conduct a deep, globally informed research study focused on the most respected system design
+    interview frameworks, architecture evaluation methods, and communication standards used in
+    hiring Senior and Principal Solution Architects. Identify **five highly credible sources**—
+    such as technical hiring frameworks from FAANG, enterprise architecture communities, cloud
+    certification bodies, system design books, mock interviews, and architecture playbooks—that explain:
+
+      - Core system architecture domains including:
+        * Distributed systems and scalability principles
+        * Cloud-native architecture patterns (AWS, Azure, GCP)
+        * Microservices vs monolith trade-offs and modular architectures
+      - System design evaluation models including:
+        * Functional and non-functional requirement clarification
+        * Capacity planning, availability design, HA/DR planning, fault tolerance
+        * Performance optimization, caching strategies, and consistency trade-offs
+      - Architecture communication and modeling frameworks including:
+        * C4 model, sequence diagrams, component breakdowns, deployment topologies
+        * Whiteboarding structure, time-bound communication patterns, and tradeoff articulation
+      - Modern architectural reference approaches including:
+        * API-led integration, event streaming, message queues, service mesh, and DDD patterns
+
+    Include sources covering:
+
+      - Security, IAM, compliance, privacy, and zero-trust patterns
+      - Operational excellence including observability, CI/CD, SRE concepts, and DevOps maturity
+      - Architecture governance frameworks, stakeholder alignment, and decision recording (ADR)
+      - Mock system design walkthroughs, scoring rubrics, and example reference answers
+      - Interview progression roadmaps including mid-level → senior → principal evaluation pathways
+
+    Exclude:
+      - Hobby-level content (random whiteboard ideas, unverified design posts, speculative threads)
+      - Content lacking reasoning frameworks, rigor, or applied decision methodology
+
+    For each reference collected, gather:
+
+      - Source type (book, cloud certification, interview guide, architect community standard)
+      - Architecture domains covered (cloud, integration, distributed systems, security)
+      - Methodology style (framework-driven, example-driven, hybrid, enterprise-aligned)
+      - Scope (startup, enterprise, global-scale, regulated environments, hybrid cloud)
+      - Accessibility (public, paid course, certification, community restricted)
+      - Strengths and limitations (depth, practical value, maturity, system relevance)
+      - Relevance to live architecture interviews and real-time reasoning demonstration
+      - Reliability rating (community adoption, enterprise alignment, modern relevance)
+      - Key takeaways applicable to building a repeatable architecture interview strategy
+
+    Emphasize sources demonstrating:
+
+      - Structured system design reasoning frameworks
+      - Clear examples of progressive solution evolution under time constraints
+      - Real-world tradeoff analysis showcasing scalability, cost, and operational reasoning
+      - Playbooks useful for rapid whiteboarding and executive-level articulation
+      - A structured progression model (fundamentals → architectural depth → leadership reasoning)
+
+  expected_output: >
+    Senior Solution Architect System Design Research Summary (5+ validated architecture frameworks or sources):
+
+      - A balanced mix of certified cloud architectures, enterprise design frameworks,
+        system design handbooks, mock interview references, and industry evaluation guidelines
+      - Links to reference sources (platform certifications, books, official frameworks,
+        architecture communities, system design repositories)
+      - Comparison matrix across:
+          * Architecture approaches (microservices, event-driven, modular monolith, serverless)
+          * Reasoning methodology (requirements-first, pattern-first, principles-first)
+          * Evaluation focus (scaling, security, cost, observability, performance)
+      - Notes supporting the creation of a structured architectural interview framework explaining:
+          * “How should a senior architect approach a system design interview?”
+          * “Which reasoning steps must be demonstrated and in what sequence?”
+          * “What architectural considerations differentiate a senior from a principal-level response?”
+      - Recommendation of 1–2 architectural communication frameworks and whiteboard templates
+        to use as the primary foundation for live interview readiness.
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Translate the research findings into a **structured, mastery-level architecture interview blueprint**
+    outlining how a candidate should progress from foundational architectural reasoning to advanced
+    system design articulation and confident live technical communication. Provide clarity covering:
+
+      - Interview preparation structure (Levels 1–3: Foundation → Architecture Patterns → Principal-Level Trade-offs)
+      - Step-by-step delivery flow for:
+          * Requirement clarification
+          * High-level architecture
+          * Deep dive on data, scale, storage, and integration
+          * Trade-offs, reasoning, and operational model
+      - Teaching frameworks covering:
+          * CAP trade-offs, consistency models, and distributed computation patterns
+          * Event-driven design vs request/response architecture
+          * Microservices boundaries, service governance, and DDD mapping
+          * Observability, security, CI/CD architectures, and platform maturity
+      - Practice and validation paths including:
+          * Architecture walkthroughs
+          * Reference design case studies
+          * Whiteboard drills and mock interview simulations
+          * Final principal-level architecture challenge
+
+  expected_output: >
+    A comprehensive markdown System Design Interview Readiness Blueprint including:
+
+      - Categorized reference source types (Books, Platforms, Architecture Patterns, Interview Guides, Cloud Standards)
+      - Source summaries including applicability to:
+          * Interview readiness frameworks
+          * Real-world system design reasoning
+          * Senior and principal architectural demonstration
+      - Narrative explaining essential distinctions:
+          * Serverless vs container platforms vs microservices orchestration
+          * Streaming systems vs synchronous API architectures
+          * Enterprise-grade high availability vs cost-efficient scaling patterns
+      - A structural delivery grid including:
+          * Base reasoning templates
+          * Pattern selection matrices
+          * Whiteboard-ready system design examples
+          * Senior → Principal progression guides
+      - Comparison table covering:
+          * Architecture styles, complexity domains, and applied trade-offs
+      - Adoption rationale outlining:
+          * Why specific frameworks accelerate clarity, confidence, and decision flow
+          * Where simplification, modularization, or abstraction improves communication
+      - Future expansion:
+          * AI-assisted diagram generation
+          * Architecture portfolio development
+          * Recorded mock interview refinement loops
+
+      - Final recommendation summarizing:
+          * The ideal interview reasoning sequence
+          * The essential system patterns to master
+          * A repeatable delivery model for high-confidence Senior Architect interviews
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/system_design_interview_blueprint.md

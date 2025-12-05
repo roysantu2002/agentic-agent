@@ -1,0 +1,88 @@
+# ======================
+#  TASKS
+# ======================
+
+research_task:
+  description: >
+    Identify **five credible, enterprise-relevant sources, reference guides, or expert analyses**
+    explaining how Microsoft Copilot, Microsoft Graph, or LLM orchestration platforms can be
+    leveraged to analyze automated inbound emails and trigger operational workflows such as
+    resolution guidance, triage recommendations, or incident ticket creation.
+
+    Include:
+      - Official Microsoft documentation on Copilot extensibility, plugin models, and skills
+      - Microsoft Graph APIs for email access, event subscriptions, and processing pipelines
+      - Enterprise reference architectures for ITSM automation and ticket lifecycle integration
+      - Patterns for classification, metadata enrichment, entity extraction, and remediation routing
+      - Agentic workflow orchestration frameworks integrating verification, escalation, and guardrails
+    Exclude:
+      - Hobby projects, unverifiable claims, or non-enterprise tooling patterns
+
+    For each reference collected, gather:
+      - Name/creator (Microsoft, enterprise vendor, industry expert)
+      - Scope of guidance and strategic insights
+      - Primary operational responsibility areas (security, classification accuracy, compliance,
+        data privacy, observability, incident lifecycle)
+      - Technical or architectural approach (Graph event hooks, email pipelines, agentic
+        orchestration, plugin execution flows, guardrails)
+      - Type (official documentation, enterprise whitepaper, implementation blog, reference repo)
+      - Accessibility (free, gated, subscription)
+      - Official publication or repository links
+      - Reported applicability to ITSM, ticketing automation, MTTR reduction
+      - Key takeaways, strengths, and limitations relevant to enterprise adoption
+
+    Emphasize materials demonstrating:
+      - Secure design principles for email-driven automation
+      - Proper handling of compliance and data privacy boundaries
+      - Human oversight and verification layers
+      - Increased integration complexity when autonomous agents interact with operational systems
+
+  expected_output: >
+    Email Automation Architecture Reference Summary (5 detailed entries):
+      - Balanced mix of official Microsoft guidance, enterprise analyses, and expert content
+      - Direct links to documentation, whitepapers, or repositories
+      - Comparative chart (processing scope, integration complexity, guardrail maturity,
+        security posture, enterprise readiness)
+      - Notes explaining where agentic AI enhances operational resilience rather than replacing
+        human accountability
+      - Recommendation of 1–2 core reference sources to anchor architectural decisions
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a **structured, actionable blueprint** explaining how
+    Microsoft Copilot, Graph APIs, and agentic orchestration layers can automate the processing of
+    automated inbound emails to recommend remediation steps, enrich context, and generate incident
+    tickets within ITSM platforms.
+
+  expected_output: >
+    A structured markdown delivery including:
+      - Categorized overview of the five reference sources (Official, Enterprise, Expert, Implementation)
+      - Brief summaries and source links
+      - An integration narrative describing how email inputs can:
+          * Trigger classification and entity extraction
+          * Surface remediation recommendations
+          * Auto-generate or update incident tickets
+          * Support escalations and verification
+      - Comparative table detailing integration scope, operational complexity, guardrails,
+        enterprise readiness, and cost considerations
+      - Rationale for adoption highlighting:
+          * MTTR reduction
+          * Manual workload reduction
+          * Auditability, traceability, and security
+          * Reduction of noisy or duplicate notifications
+      - Future-proofing considerations:
+          * Agentic orchestration models and escalation loops
+          * Observability and audit telemetry
+          * Data privacy binding and access control
+      - Risks (misclassification, notification storms, privilege misuse) and mitigation
+        strategies via policy and architecture guardrails
+      - Final recommendation: 1 official Microsoft reference and 1 implementation-focused
+        expert resource to anchor design justification
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/copilot_email_automation_architecture.md

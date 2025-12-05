@@ -1,0 +1,44 @@
+# --- Tasks ---
+youtube_research_task:
+  description: >
+    Search YouTube to identify the top 10 most-viewed tutorials on "Agentic AI".
+    Collect metadata for each video including:
+      - Title
+      - Channel name
+      - Upload date
+      - View count
+      - Duration
+      - Direct video link
+    Ensure results are tutorials (not just talks, ads, or unrelated content) and
+    are recent enough to reflect current interest and learning value.
+  expected_output: >
+    A raw dataset of the top 10 most-viewed Agentic AI tutorials on YouTube,
+    structured with the following fields:
+      - Rank (by views)
+      - Title
+      - Channel
+      - Upload date
+      - Views
+      - Duration
+      - Link
+  agent: researcher
+
+youtube_reporting_task:
+  description: >
+    Take the research dataset of top Agentic AI tutorials and transform it into
+    a clear, ranked learning guide. Provide insights into what each tutorial
+    covers, its target audience, and why it is valuable.
+    Summaries should highlight unique teaching styles, depth of content,
+    practical applications, and production quality.
+  expected_output: >
+    A polished markdown section containing:
+      - A ranked Top 10 list of Agentic AI tutorials from YouTube
+      - For each tutorial: title, channel, upload date, views, duration, link
+      - A 2–3 sentence narrative summary explaining the tutorial’s focus and
+        learning value
+      - A closing note with guidance on which tutorials are best for beginners,
+        intermediate learners, and advanced practitioners
+  agent: reporting_analyst
+  context:
+    - youtube_research_task
+  output_file: output/top10_youtube_agentic_tutorials.md

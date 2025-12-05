@@ -1,0 +1,80 @@
+
+# ======================
+#  TASKS
+# ======================
+
+research_task:
+  description: >
+    Identify **five credible and high-quality SAT Math preparation resources**
+    (official, open-source, or academically recognized) that help students effectively
+    prepare for the SAT Math section within a one-month timeline.
+
+    Include:
+      - Official SAT Math resources from the College Board and trusted educational platforms
+        such as Khan Academy.
+      - Well-structured open or educational study programs, guides, and video series focused
+        on quantitative reasoning, algebra, geometry, and data analysis.
+      - Academic or instructor-developed projects that demonstrate clear methodology,
+        progressive concept reinforcement, and measurable improvement in problem-solving speed
+        and accuracy.
+    Exclude:
+      - Outdated, incomplete, or unverified materials not aligned with the current SAT Math format.
+
+    For each resource, gather:
+      - Name and creator (organization, educator, or platform)
+      - Description of content and learning goals
+      - Target section(s) (Heart of Algebra, Problem Solving & Data Analysis, Passport to
+        Advanced Math, Geometry, or General Strategy)
+      - Technical or instructional approach (e.g., adaptive testing, step-by-step video
+        explanations, AI-driven practice analytics, spaced repetition)
+      - Type (official, open-source, educational, or coaching)
+      - Accessibility (free, paid, or mixed)
+      - Official links (website, videos, or documentation)
+      - Reported or observed results (average score improvement, accuracy, or engagement)
+      - Key takeaways, strengths, and potential limitations relevant to our one-month plan
+
+    Emphasize materials and systems that demonstrate:
+      - Strong pedagogical structure and concept clarity
+      - Efficient practice-to-improvement feedback cycles
+      - Progressive difficulty suited for one-month intensive SAT Math preparation
+
+  expected_output: >
+    Reference Math Study Resources Summary (5 detailed entries):
+      - Balanced mix of official, open, and educational math materials
+      - Direct links to sources or documentation
+      - Comparative chart (topic coverage, difficulty, adaptiveness, and relevance)
+      - Notes on how to adapt each for a CBSE 10+2 student’s one-month math preparation plan
+      - Recommendation of 1–2 main study references (one comprehensive, one skill-focused)
+        to serve as the foundation for our math preparation plan
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a **concise and actionable SAT Math preparation roadmap**
+    that guides daily and weekly study activities. Clearly separate official and educational resources,
+    and highlight how each can support conceptual mastery, speed, and accuracy within a one-month timeline.
+
+  expected_output: >
+    A structured markdown report including:
+      - Overview of the 5 reference study resources, categorized as "Official" or "Educational"
+      - Brief summaries and links for each
+      - Integration guide showing how to combine best practices into a unified math study plan:
+          * Algebra → Linear equations, inequalities, and functions
+          * Problem Solving & Data Analysis → Ratios, percentages, and data interpretation
+          * Advanced Math → Quadratic equations, exponents, and polynomial manipulation
+          * Geometry → Coordinate and plane geometry essentials
+      - Comparative table summarizing scope, adaptiveness, and learning outcomes
+      - 4-week math preparation roadmap with daily and weekly focus areas:
+          * Week 1 → Concept review and diagnostic baseline
+          * Week 2 → Topic-specific drills and formula retention
+          * Week 3 → Timed section practice and error analysis
+          * Week 4 → Full mock tests and strategy refinement
+      - Key risks (over-practice fatigue, formula overload, pacing issues) and mitigation strategies
+      - Final recommendation: 1 official and 1 educational resource as the core of the math study plan
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/sat_math_preparation_references.md
