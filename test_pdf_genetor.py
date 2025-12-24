@@ -4,9 +4,8 @@ from util.pdf_generator import PDFGenerator
 
 def main():
     print(">>> Starting PDF generation test (artifacts will be kept)...")
-    project_id = "singapore_technology_admissions_after_12_guide"
+    project_id = "singapore_public_universities_step_by_step_application_guide"
     project_path = os.path.join("output", project_id)
-    print(f"[TEST] project_path: {project_path}")
     md_file = os.path.join(project_path, f"{project_id}.md")
     pdf_file = os.path.join(project_path, f"{project_id}.pdf")
 
@@ -14,15 +13,15 @@ def main():
     print(f"[TEST] markdown path: {md_file}")
     print(f"[TEST] expected pdf path: {pdf_file}")
 
-    # # ✅ safer condition
-    # if not os.path.exists(md_file):
-    #     print("[TEST] Markdown missing — creating isolated fallback example.")
-    #     os.makedirs(project_path, exist_ok=True)
+    # ✅ safer condition
+    if not os.path.exists(md_file):
+        print("[TEST] Markdown missing — creating isolated fallback example.")
+        os.makedirs(project_path, exist_ok=True)
 
-    #     with open(md_file, "w", encoding="utf-8") as fh:
-    #         fh.write("# Example Project Title\n\n")
-    #         fh.write("This is a sample markdown body. The generator will not modify this file.\n\n")
-    #         fh.write("## Subsection\nDetails here.\n")
+        with open(md_file, "w", encoding="utf-8") as fh:
+            fh.write("# Example Project Title\n\n")
+            fh.write("This is a sample markdown body. The generator will not modify this file.\n\n")
+            fh.write("## Subsection\nDetails here.\n")
 
     print("[TEST] Instantiating PDFGenerator...")
     gen = PDFGenerator()

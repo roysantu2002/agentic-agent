@@ -46,7 +46,7 @@ class AgenticAgent:
     def reporting_task(self) -> Task:
         return Task(
             config=self.tasks_config['reporting_task'],
-            output_file='output/life_management_vs_success_research.md'  # Match your YAML
+            output_file='output/peyronies_disease_complete_research_and_treatment_guide.md'  # Match your YAML
         )
 
     @crew

@@ -1,0 +1,74 @@
+research_task:
+  description: >
+    Conduct an in-depth international education admissions research study focused on
+    identifying highly reputed, long-service education agents, counsellors, and academic
+    guides who specialize in placing Indian students into Singapore universities and
+    colleges after completion of Class 12. The objective is to assess credibility,
+    experience, institutional partnerships, ethical counselling practices, and long-term
+    student outcomes for technology-related degree programs including engineering,
+    information technology, computer science, data science, and applied technology fields.
+    The research should distinguish established advisory services from short-term
+    recruiters and marketing-driven intermediaries.
+    For each documented agent, counsellor, or advisory organization:
+      - Record years of operation and history of service in India–Singapore admissions
+      - Identify Singapore universities, polytechnics, and private institutions partnered with
+      - Document technology-related degree pathways offered after Class 12
+      - Evaluate transparency of counselling process and fee structures
+      - Assess visa guidance quality and approval track record
+      - Analyze ethical practices (no false guarantees, realistic eligibility assessment)
+      - Review student intake screening and academic guidance quality
+      - Cross-check public reputation, reviews, and alumni feedback
+      - Identify specialization strengths (engineering, IT, applied tech, foundation pathways)
+      - Document post-admission and relocation support services
+      - Examine recurring risk factors or red flags across agents
+      - Compare independent counsellors versus large consultancy firms
+  expected_output: >
+    Comprehensive Singapore Admissions Advisory Research Summary:
+      - Verified list of reputed, long-service Singapore-focused admission agents
+      - Institutional partnership mapping (public universities, polytechnics, private colleges)
+      - Technology degree pathway overview after Class 12
+      - Agent credibility and ethical practice evaluation framework
+      - Comparative analysis of counselling depth and service quality
+      - Visa guidance and success pattern observations
+      - Student outcome and reputation-based validation
+      - Risk indicators and red-flag checklist for parents and students
+      - Decision-support matrix for shortlisting counsellors
+      - Evidence-based guidance for safe and informed admission planning
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Develop a polished, reader-friendly advisory and analytical report titled:
+    "Singapore Technology Education Pathways After Class 12: A Guide for Indian Students".
+    Convert research findings on admission agents, counsellors, and education pathways
+    into a structured, parent- and student-friendly report. The report should clearly
+    explain admission routes, agent roles, evaluation criteria, and ethical safeguards
+    while helping families make informed decisions without misinformation or pressure.
+    The report should include:
+      - Overview of Singapore’s higher education ecosystem for technology degrees
+      - Admission pathways after Class 12 (universities, polytechnics, foundation routes)
+      - Role and limitations of education agents and counsellors
+      - Evaluation criteria for identifying reputed, long-service advisors
+      - Comparative profiles of shortlisted agents and counselling firms
+      - Application, documentation, and visa process overview
+      - Financial transparency and cost-planning guidance
+      - Ethical counselling standards and warning signs
+      - Case-style examples of successful admission pathways
+      - Practical checklist for parents and students
+  expected_output: >
+    A well-structured markdown international education advisory report containing:
+      - Singapore education system overview for technology aspirants
+      - Clear post–Class 12 admission pathway explanations
+      - Agent evaluation and credibility scoring framework
+      - Comparative agent and counsellor profiles
+      - Application and visa process flowcharts
+      - Cost, timeline, and documentation guidance
+      - Ethical safeguards and red-flag indicators
+      - Student-focused decision checklists
+      - Parent guidance notes for informed counselling engagement
+      - Final recommendations for safe, long-term academic planning
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/singapore_technology_admissions_after_12_guide.md

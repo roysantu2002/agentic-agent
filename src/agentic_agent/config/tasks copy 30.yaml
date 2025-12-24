@@ -1,0 +1,77 @@
+research_task:
+  description: >
+    Conduct a complete, step-by-step application process research study for Singapore’s
+    highly selective public universities: National University of Singapore (NUS),
+    Nanyang Technological University (NTU), Singapore Management University (SMU),
+    Singapore University of Technology and Design (SUTD), and Singapore Institute of Technology (SIT).
+    The objective is to document every stage of applying after Class 12 from India,
+    starting from locating the official university website and admissions URL,
+    navigating the application portal, preparing documents, and completing final submission.
+    The research must be procedural, accurate, and suitable for first-time international applicants.
+    For each university (NUS, NTU, SMU, SUTD, SIT):
+      - Identify the official university website and undergraduate admissions URL
+      - Map eligibility criteria for Indian Class 12 qualifications
+      - Document accepted boards, subject requirements, and academic thresholds
+      - Identify standardized test requirements, waivers, or alternatives
+      - Record application opening dates, deadlines, and result timelines
+      - Detail account creation and portal navigation steps
+      - List all required documents with format, size, and upload rules
+      - Describe essays, personal statements, interviews, or assessments (if any)
+      - Document referee or school verification requirements
+      - Detail application fee payment methods and confirmation checks
+      - Outline declaration, review, and final submission steps
+      - Document post-submission processes: interviews, offers, acceptance, enrolment
+      - Identify common errors, rejection risks, and compliance warnings
+      - Compare similarities and differences across all five universities
+  expected_output: >
+    Singapore Public Universities Application Process Research Summary:
+      - Verified official admissions URLs for NUS, NTU, SMU, SUTD, and SIT
+      - University-wise eligibility and requirement tables
+      - Step-by-step application workflows for each institution
+      - Complete document checklists with formatting guidelines
+      - Application timeline and deadline comparison matrix
+      - Interview, test, and assessment requirement overview
+      - Payment and submission verification procedures
+      - Post-submission and enrolment process mapping
+      - Common mistakes and compliance risk checklist
+      - Consolidated comparison guide for high-selectivity universities
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Create a clear, student- and parent-friendly procedural guide titled:
+    "Step-by-Step Guide to Applying to Singapore Public Universities After Class 12:
+    NUS, NTU, SMU, SUTD & SIT".
+    Transform the research into an action-oriented manual that walks applicants
+    through every step of the application process, from finding the correct official
+    website to submitting the application successfully and responding to offers.
+    The guide must enable students to apply independently without reliance on agents.
+    The guide should include:
+      - Overview of Singapore public universities and selectivity
+      - University-wise application pathway breakdown
+      - Direct admissions URLs and navigation instructions
+      - Eligibility and academic requirement explanations
+      - Step-by-step account creation and form-filling guidance
+      - Detailed document preparation and upload instructions
+      - Essay, interview, and assessment preparation notes
+      - Application fee payment walkthrough
+      - Final submission checklist and confirmation steps
+      - Post-submission timeline and offer acceptance guidance
+      - Common pitfalls and compliance warnings for Indian applicants
+  expected_output: >
+    A structured markdown admissions guide containing:
+      - Direct official application URLs for all five universities
+      - Step-by-step application flow sections per university
+      - Eligibility and requirement comparison tables
+      - Comprehensive document checklist and preparation guide
+      - Application timeline and deadline calendar
+      - Payment and submission confirmation instructions
+      - Interview and offer-handling guidance
+      - Do-it-yourself application checklist
+      - Parent verification and support notes
+      - Final submission readiness checklist
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/singapore_public_universities_step_by_step_application_guide.md

@@ -1,58 +1,94 @@
 research_task:
   description: >
-    Conduct a global, evidence-based research study on well-known public figures who achieved
-    high levels of professional success, wealth, fame, and social recognition, yet died by suicide.
-    The objective is to analyze how failures in life management, purpose alignment, emotional health,
-    and relationship stability contributed despite financial and career success.
-    For each documented individual and case category:
-      - Identify profession, peak career success, and financial status
-      - Document known life struggles (mental health, relationships, isolation, pressure)
-      - Analyze gaps in life purpose, emotional well-being, and inner fulfillment
-      - Compare professional success versus personal life stability
-      - Examine warning signs and overlooked psychological indicators
-      - Identify patterns across industries (film, business, sports, tech, music, politics)
-      - Contrast life management failures with strong professional, financial, or time management
-      - Review psychological, sociological, and behavioral studies supporting these patterns
-      - Evaluate how purpose clarity and relationship health correlate with long-term happiness
-      - Capture global statistics on suicide among high-performing and high-income individuals
+    Conduct a comprehensive, medically responsible research study on Peyronie’s disease.
+    The objective is to document the condition end-to-end—from definition and causes to
+    diagnosis, progression, and complete treatment guidance—so the material can be used
+    for patient education and integrative health reference.
+    The research must clearly distinguish between evidence-based medical treatments,
+    supportive lifestyle measures, natural/home approaches, and Ayurvedic perspectives,
+    without making prescriptive medical claims.
+    The research must include:
+      - Medical definition and overview of Peyronie’s disease
+      - Epidemiology and prevalence patterns
+      - Etiology and risk factors (microtrauma, genetics, comorbidities)
+      - Pathophysiology (fibrosis, plaque formation, curvature mechanics)
+      - Disease stages (acute/inflammatory vs chronic/stable)
+      - Common symptoms and red-flag symptoms
+      - Diagnostic process (history, examination, imaging, scoring tools)
+      - Natural history and prognosis
+      - Psychological, sexual, and relationship impact
+    Treatment research must be structured under the following categories:
+      1) Evidence-Based / Conventional Treatments
+         - Observation and watchful waiting
+         - Oral therapies (with evidence limitations)
+         - Intralesional injection therapies
+         - Mechanical therapies (traction, vacuum devices)
+         - Surgical interventions (indications, techniques, risks, outcomes)
+      2) Lifestyle & Supportive Care
+         - Sexual activity guidance
+         - Pain management strategies
+         - Mental health and counseling considerations
+      3) Natural & Home-Based Approaches
+         - Diet and anti-inflammatory practices
+         - Supplements commonly discussed (with evidence grading)
+         - Home-based supportive measures and safety boundaries
+      4) Ayurvedic Perspective
+         - Ayurvedic interpretation (dosha and dhatu involvement)
+         - Commonly referenced herbs, formulations, and therapies
+         - Traditional rationale vs modern scientific evidence
+         - Contraindications, interactions, and safety cautions
+      5) Practices to Avoid
+         - Unsafe self-treatment methods
+         - Misinformation and exaggerated cure claims
+    Each treatment category must explicitly state:
+      - Strength of scientific evidence
+      - Expected benefits and limitations
+      - Risks and side effects
+      - Clear guidance on when urologist consultation is mandatory
+    Ethical framing must emphasize:
+      - Peyronie’s disease as a medical condition, not a personal failing
+      - The importance of professional diagnosis and supervision
+      - Integrative approaches as complementary, not substitutes
   expected_output: >
-    Global Life Management vs Professional Success Research Summary:
-      - Case-based profiles of famous, wealthy, and professionally successful individuals
-      - Thematic pattern analysis of life management failures
-      - Statistical overview of suicide trends among high-achievement groups
-      - Comparative matrix: Professional success vs Life fulfillment indicators
-      - Psychological and sociological insight synthesis
-      - Warning signal framework for early intervention
-      - Key root causes ranked by impact (purpose, relationships, emotional health, identity)
-      - Evidence-backed conclusion on why life management outweighs financial and professional success
+    Peyronie’s Disease Research Summary:
+      - Structured medical overview and disease progression map
+      - Evidence-graded treatment comparison tables
+      - Stage-wise treatment pathway summaries
+      - Natural, home, and Ayurvedic approaches with safety notes
+      - Risk, contraindication, and red-flag checklist
+      - Decision-support framework for patients and caregivers
   agent: researcher
 
 
 reporting_task:
   description: >
-    Develop a polished, reader-friendly analytical report titled:
-    "Success Without Fulfillment: Why Life Management Determines True Happiness"
-    Convert complex behavioral and psychological research into a structured, accessible guide.
-    Include:
-      - A narrative introduction on the illusion of success through money and fame
-      - Global case highlights from business, entertainment, sports, and tech
-      - Visual comparison of wealth vs happiness vs life stability
-      - Explanation of life management as a core life skill
-      - The role of purpose, relationships, emotional intelligence, and inner balance
-      - Lessons derived from high-profile life failures
-      - Preventive frameworks for life mastery and sustainable happiness
-      - A concluding synthesis on how purpose and relationships determine true fulfillment
+    Create a clear, compassionate, patient-friendly educational guide titled:
+    "Peyronie’s Disease: Understanding Causes, Progression, and Treatment Options".
+    Transform the research into an easy-to-understand manual that helps patients and
+    caregivers comprehend the condition, evaluate treatment options rationally, and
+    approach care decisions safely and ethically.
+    The guide must avoid fear-based language and false guarantees, while empowering
+    readers with clarity and realistic expectations.
+    The guide should include:
+      - Plain-language explanation of Peyronie’s disease
+      - Visual-style step-by-step explanation of disease progression
+      - Diagnosis and staging explained simply
+      - Treatment options organized by disease stage
+      - Clear separation of medical treatments vs supportive approaches
+      - Natural and Ayurvedic perspectives with evidence disclaimers
+      - When to seek immediate or specialist care
+      - Emotional, sexual health, and relationship guidance
+      - Common myths, mistakes, and unsafe practices to avoid
   expected_output: >
-    A well-structured markdown research report containing:
-      - Global overview of high-success suicide trends
-      - Case study summaries with life management insights
-      - Professional success vs personal well-being comparison tables
-      - Life purpose and relationship impact analysis
-      - Psychological and behavioral research-backed conclusions
-      - Practical life management mastery framework
-      - Early warning signs and preventive action guide
-      - Final conclusion validating life management as the foundation of true happiness
+    A structured markdown medical education guide containing:
+      - Condition overview and symptom checklist
+      - Diagnostic and staging explanation
+      - Evidence-based treatment pathways
+      - Natural, home, and Ayurvedic sections with safety framing
+      - Treatment comparison tables
+      - Red-flag symptoms and consultation checklist
+      - Patient decision-support and next-steps guide
   agent: reporting_analyst
   context:
     - research_task
-  output_file: output/life_management_vs_success_research.md
+  output_file: output/peyronies_disease_complete_research_and_treatment_guide.md

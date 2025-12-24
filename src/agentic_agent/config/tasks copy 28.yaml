@@ -1,0 +1,69 @@
+research_task:
+  description: >
+    Conduct an in-depth Vedic numerology and planetary karma research study focused on
+    Mulank (Psychic Number), Bhagyank (Destiny Number), and the nine planetary numbers (1–9).
+    The objective is to document how planetary vibrations operate through numbers, how
+    psychic and destiny numbers interact, and how karmic patterns are revealed through
+    planetary strengths, weaknesses, and conflicts. Analyze how each planetary number
+    influences authority, relationships, finance, health, behavior, and spiritual growth.
+    Examine ethical, non-extreme remedial systems rooted in colors, days, directions, habits,
+    mantra, and basic gem guidance.
+    For each documented chart and research category:
+      - Record full date of birth and derive Mulank and Bhagyank
+      - Identify dominant, weak, and conflicting planetary numbers
+      - Map number–planet correspondence (Sun to Ketu)
+      - Analyze psychic vs destiny number harmony or conflict
+      - Evaluate planetary impact on career, money, relationships, and health
+      - Identify karmic themes linked to specific planets
+      - Cross-check planetary patterns with life-event indicators
+      - Document recurring planetary imbalances across multiple cases
+      - Examine ethical boundaries in planetary remedies
+      - Assess effectiveness of non-dogmatic remedial methods
+      - Study timing patterns linked to planetary cycles through numbers
+  expected_output: >
+    Comprehensive Vedic Numerology & Planetary Karma Research Summary:
+      - Verified framework of Mulank and Bhagyank interpretation
+      - Planet–number correlation reference (1–9)
+      - Psychic vs destiny conflict analysis with pattern examples
+      - Planet-wise strengths, challenges, and karmic indicators
+      - Life-area impact mapping (career, money, relationships, health)
+      - Documented planetary imbalance case studies
+      - Ethical planetary remedy guidelines and limitations
+      - Cross-case pattern observations on karma and timing
+      - Educational conclusions for applied Vedic numerology practice
+      - Evidence-based insights for safe, client-friendly planetary correction
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Develop a polished, reader-friendly educational and analytical report titled:
+    "Vedic Numerology & Planetary Karma: Mulank, Bhagyank, and Life Path Analysis".
+    Convert technical planetary calculations, karmic indicators, and remedial principles
+    into a structured, student-friendly and practitioner-ready report. The report should include:
+      - Introduction to Mulank, Bhagyank, and planetary number foundations
+      - Clear explanation of number–planet mappings (1–9)
+      - Step-by-step guide to calculating Psychic and Destiny numbers
+      - Interpretation of psychic–destiny harmony and conflict
+      - Planet-wise strengths, weaknesses, and karmic patterns
+      - Life-area analysis across career, finance, health, and relationships
+      - Ethical, non-extreme remedial framework using colors, days, habits, and mantras
+      - Safe gem and metal guidance with professional disclaimers
+      - Case-style illustrations for student learning
+      - Practical integration into professional Vedic numerology readings
+  expected_output: >
+    A well-structured markdown Vedic numerology educational report containing:
+      - Mulank and Bhagyank calculation methodology
+      - Planet–number correspondence tables
+      - Psychic vs destiny conflict interpretation framework
+      - Planet-wise karmic strengths and challenges
+      - Life-area impact analysis matrices
+      - Ethical planetary remedy reference guide
+      - Student practice examples and interpretation notes
+      - Professional reporting format for client readings
+      - Learning outcomes for Vedic numerology application
+      - Final synthesis on planetary numbers and karmic life direction
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/vedic_numerology_planetary_karma_report.md

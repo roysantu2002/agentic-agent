@@ -1,0 +1,67 @@
+research_task:
+  description: >
+    Conduct an in-depth aviation and corporate crisis research study focused on
+    IndiGo Airlines. The objective is to document the complete origin, ownership,
+    business model, scale of operations, and the December 2025 operational crisis.
+    Analyze when and how IndiGo was founded, who owns and controls it, how it became
+    India’s largest airline, and why it was suddenly hit by a massive crisis.
+    For each documented phase and case category:
+      - Record founding year, first flight date, founders, and ownership structure
+      - Document legal entity, parent company, and shareholding pattern
+      - Track fleet growth, destination expansion, and market share evolution
+      - Analyze operational model (low-cost structure, fleet strategy, staffing)
+      - Identify trigger events leading to the December 2025 disruption
+      - Examine regulatory changes (pilot rest rules, DGCA directives)
+      - Quantify the scale of cancellations, passenger impact, and refunds
+      - Study government and DGCA intervention measures
+      - Assess media, public, and market reaction
+      - Identify systemic weaknesses in staffing, rostering, and contingency planning
+      - Evaluate short-term recovery actions and long-term business implications
+      - Compare IndiGo’s crisis handling with other Indian carriers
+  expected_output: >
+    Comprehensive IndiGo Airlines Crisis & Business Research Summary:
+      - Verified historical profile of IndiGo Airlines
+      - Detailed timeline of the December 2025 crisis
+      - Root-cause analysis of operational and regulatory failures
+      - Statistical summary of cancellations, refunds, and passenger disruption
+      - Government and DGCA response documentation
+      - Public trust and brand-reputation impact assessment
+      - Stock-market and financial fallout overview
+      - Comparative analysis with other Indian airlines
+      - Lessons on resilience, staffing, and regulatory preparedness
+      - Evidence-backed conclusions on why the crisis occurred and how it can be prevented
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Develop a polished, reader-friendly investigative and educational report titled:
+    "IndiGo Airlines 2025 Crisis: How India’s Largest Airline Grounded Itself"
+    Convert complex aviation operations, regulatory frameworks, and crisis data into
+    a structured, accessible documentary-style report. Include:
+      - A narrative introduction to IndiGo’s founding and rise
+      - Clear presentation of ownership, leadership, and business model
+      - Visual explanation of fleet growth, route expansion, and market dominance
+      - Step-by-step breakdown of the December 2025 disruption
+      - Explanation of new pilot duty rules and their industry-wide impact
+      - Analysis of operational failures and planning gaps
+      - Government actions, fare caps, and DGCA enforcement
+      - Passenger impact, refund process, and public response
+      - Ethical discussion on corporate accountability and safety vs cost
+      - Lessons for the Indian aviation industry and policymakers
+  expected_output: >
+    A well-structured markdown investigative aviation report containing:
+      - IndiGo Airlines company profile and ownership overview
+      - Growth timeline and market leadership analysis
+      - December 2025 crisis chronology with verified data
+      - Operational failure and regulatory trigger analysis
+      - Passenger disruption and refund impact tables
+      - Government and DGCA intervention framework
+      - Financial and stock-market impact summary
+      - Media and public sentiment assessment
+      - Industry lessons and crisis-prevention strategies
+      - Final conclusion on corporate risk, scale, and regulatory compliance
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/indigo_airlines_2025_crisis_report.md

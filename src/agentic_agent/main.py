@@ -28,7 +28,7 @@ def run():
     print("\n\n=== FINAL AGENTIC AI TUTORIALS REPORT ===\n\n")
     print(result.raw)
 
-    print("\n\nReport has been saved to output/life_management_vs_success_research.md")
+    print("\n\nReport has been saved to output/peyronies_disease_complete_research_and_treatment_guide.md")
 
 if __name__ == "__main__":
     run()

@@ -1,0 +1,60 @@
+research_task:
+  description: >
+    Conduct an in-depth Chaldean numerology research study focused on names, sound vibrations,
+    compound numbers, and destiny influence. The objective is to analyze how Chaldean name
+    structures, karmic compounds, and vibrational patterns affect personal destiny, life events,
+    emotional stability, success flow, and corrective possibilities.
+    For each documented name and case category:
+      - Record full birth name, legal name, popular name, and signature name
+      - Calculate Chaldean total and reduced numbers using the 1–8 system
+      - Identify key compound numbers (13/4, 14/5, 16/7, 19/1, 23/5, 24/6, etc.)
+      - Classify compounds as good fortune, neutral, or karmic/warning
+      - Compare Chaldean results with Pythagorean calculations
+      - Analyze how sound and vibration influence destiny outcomes
+      - Examine life-event correlations with karmic or fortunate compounds
+      - Identify patterns across personal names, stage names, married names, and business names
+      - Evaluate ethical remedial strategies (minor spelling shifts, usage emphasis)
+      - Study behavioral, psychological, and vibrational research supporting name-based influence
+      - Assess how name alignment correlates with purpose clarity, emotional balance, and life flow
+  expected_output: >
+    Global Chaldean Name & Destiny Research Summary:
+      - Case-based Chaldean profiles of personal and business names
+      - Thematic analysis of karmic and fortunate compound patterns
+      - Frequency distribution of key compounds in sample datasets
+      - Comparative matrix: Chaldean vs Pythagorean interpretations
+      - Sound and vibration influence synthesis
+      - Warning-compound sensitivity framework for practitioners
+      - Ethical name-correction guideline index
+      - Evidence-backed conclusions on how name vibration impacts destiny, success, and life balance
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Develop a polished, reader-friendly educational report titled:
+    "Chaldean Name Power: How Sound, Compounds & Destiny Interact"
+    Convert complex Chaldean calculations and vibrational theory into a structured, accessible guide.
+    Include:
+      - A narrative introduction to the Chaldean lineage and sound-based numerology
+      - Clear presentation of the Chaldean alphabet and 1–8 number system
+      - Comparison between Chaldean and Pythagorean name readings
+      - Visual explanation of compound numbers and their life meanings
+      - Application to personal, marital, stage, and business names
+      - Ethical discussion on karmic compounds and sensitive communication
+      - Practical remedial methods without over-promising
+      - Student practice examples with worked calculations
+      - A concluding synthesis on how name vibration supports or obstructs destiny flow
+  expected_output: >
+    A well-structured markdown Chaldean numerology report containing:
+      - Chaldean system overview and sound-vibration principles
+      - Compound number interpretation tables
+      - Personal vs business name application case summaries
+      - Chaldean vs Pythagorean comparison charts
+      - Karmic and luck compound impact analysis
+      - Ethical remedial recommendation framework
+      - Student practice section with sample name calculations
+      - Final conclusion validating Chaldean numerology as a destiny-alignment tool
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/chaldean_name_compounds_destiny_report.md
