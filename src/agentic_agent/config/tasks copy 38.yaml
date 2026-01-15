@@ -1,0 +1,113 @@
+research_task:
+  description: >
+    Conduct a structured, data-driven research study to identify, analyze, and
+    document high-demand, future-resilient course themes in spirituality,
+    personal development, relationship intelligence, and natural healing for
+    2026 and beyond. The objective is to build a clear, verifiable knowledge base
+    that guides the creation of scalable, ethical, and high-impact video-based
+    courses aligned with evolving human needs, learner intent, and long-term
+    educational value.
+
+    The research aims to distinguish structured, teachable, and curriculum-ready
+    course opportunities from short-form inspirational content, belief-only
+    teachings, or trend-driven spiritual narratives, without making promotional
+    endorsements of specific creators, platforms, or belief systems.
+
+    The research must include:
+      - Systematic searches across publicly accessible and verifiable sources
+        (e.g., video course platforms, creator education ecosystems, global
+         search trend analysis, wellness and consciousness market reports,
+         learner behavior studies)
+      - Use of verified spirituality, personal growth, relationship, and
+        healing-related keywords
+        (e.g., nervous system regulation, conscious relationships, trauma-informed
+         healing, spiritual awakening integration, somatic practices, numerology,
+         astrology, mindfulness, energy healing)
+      - Exclusion of fear-based, dependency-forming, pseudoscientific, or
+        purely belief-driven content lacking practical learning frameworks
+      - Manual verification that identified topics support ethical teaching,
+        experiential learning, and structured curriculum design
+      - Cross-checking to avoid duplicated trends, rebranded concepts, or
+        short-lived viral topics without long-term educational relevance
+
+    For each verified course theme or learning domain, document:
+      - Core learner pain point or aspiration
+      - Psychological, emotional, relational, or spiritual outcomes sought
+      - Primary learner audience
+        (e.g., beginners, seekers, practitioners, couples, facilitators)
+      - Suitability for video-based course delivery
+      - Curriculum depth potential
+        (introductory, intermediate, mastery-level)
+      - Long-term relevance beyond trend cycles
+      - Alignment with ethical, responsible, and non-fear-based education
+      - Potential for modular programs, certifications, or learning pathways
+
+    The finalized dataset must be categorized into:
+      1) Spiritual Growth & Consciousness Development
+      2) Emotional Regulation, Trauma Awareness & Inner Healing
+      3) Relationship Intelligence & Human Connection
+      4) Natural Healing, Mind–Body Practices & Energy Awareness
+      5) Purpose, Meaning, and Life Direction Frameworks
+
+    Prioritization methodology must follow:
+      - Strength of learner intent and emotional urgency
+      - Willingness to pay for structured, guided education
+      - Depth and longevity of transformational impact
+      - Applicability across cultures, geographies, and age groups
+      - Suitability for ethical, scalable, video-based course ecosystems
+
+
+  expected_output: >
+    Conscious Education Market Research Summary:
+      - Curated list of Top 15 high-demand course topics for 2026 and beyond
+      - Summary tables covering topic category, learner intent, depth potential,
+        audience segment, and course viability
+      - Category-wise distribution of spiritual, personal development,
+        relationship, and healing learning domains
+      - Comparative analysis of short-course vs flagship vs mastery-level
+        education opportunities
+      - Observations on learner behavior, content gaps, and unmet educational needs
+      - Identification of common risks, misconceptions, and dilution patterns
+        in modern spiritual and wellness education
+
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Produce a clear, structured analytical report based on the research findings
+    that helps educators, creators, institutions, and conscious education leaders
+    understand how to design, position, and scale high-impact video courses in
+    spirituality, personal development, relationships, and natural healing.
+
+    The report must remain neutral, non-promotional, and insight-driven, avoiding
+    belief enforcement while emphasizing verifiable learner needs, curriculum
+    structures, ethical boundaries, and long-term educational relevance.
+
+    The report should include:
+      - Executive summary of key findings and demand signals
+      - Overview of dominant and emerging learning domains
+      - Comparative analysis of beginner, intermediate, and mastery-level courses
+      - Breakdown of course positioning and delivery models
+        (self-paced, guided, practitioner-track, transformational)
+      - Observations on ethical considerations and learner responsibility
+      - Identified opportunities for curriculum ecosystems, bundles, and
+        long-term learning pathways
+
+
+  expected_output: >
+    A structured markdown research report containing:
+      - Categorized high-demand course themes with supporting research signals
+      - Comparative tables of topic relevance, depth, audience, and longevity
+      - Analysis of learner intent and transformational expectations
+      - Trend observations across global spiritual and wellness education markets
+      - Strategic insights for responsible, scalable, and future-proof
+        conscious course creation
+
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/conscious_education_2026_plus_course_research_and_strategy_guide.md

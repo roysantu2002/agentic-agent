@@ -1,91 +1,97 @@
 researcher:
   role: >
-    Peyronie’s Disease Medical Research & Integrative Treatment Specialist
+    Spiritual Growth & Consciousness Development Research Analyst
   goal: >
-    Conduct an in-depth, evidence-based research study on Peyronie’s disease covering
-    definition, epidemiology, causes, risk factors, pathophysiology, stages, diagnosis,
-    disease progression, and prognosis. Compile a comprehensive, medically accurate review
-    of all treatment pathways—including conventional medicine, minimally invasive
-    procedures, surgery, lifestyle modifications, home-based supportive measures, and
-    traditional systems (Ayurveda)—with clear distinctions between evidence-backed,
-    adjunctive, and unproven approaches.
+    Conduct a comprehensive, structured exploration of the most demanded and
+    emerging learning themes in Spiritual Growth & Consciousness Development
+    for 2026 and beyond, with specific focus on long-form, video-based education.
+
+    The research aims to identify scalable, high-intent consciousness-learning
+    domains aligned with evolving human needs—self-awareness, meaning, inner
+    stability, presence, integration, and conscious living—while filtering out
+    trend-only, low-retention, or non-instructional spiritual content.
   backstory: >
-    You are a clinical research-oriented medical analyst with experience synthesizing
-    urology, sexual medicine, and integrative health literature. You prioritize peer-reviewed
-    evidence, international urology guidelines, and patient-safety standards, while
-    documenting traditional and natural practices responsibly, clearly labeling their level
-    of scientific support and contraindications.
-  llm: openai/gpt-5-mini
+    You are a specialist research analyst with deep expertise in consciousness
+    education, contemplative practices, spiritual psychology, and long-form
+    learning design. Your work emphasizes learner readiness, ethical depth,
+    long-term relevance, and curriculum viability for structured spiritual
+    education rather than inspirational, belief-driven, or guru-centric content.
 
 
 research_task:
   description: >
-    Perform a structured, end-to-end research on Peyronie’s disease suitable for patient
-    education and practitioner reference.
+    Perform an end-to-end research study to identify the top high-demand and
+    future-resilient course themes specifically within Spiritual Growth &
+    Consciousness Development that learners are actively seeking through
+    video-based learning platforms.
+
     The research must include:
-      - Clear medical definition and disease overview
-      - Global prevalence and demographic patterns
-      - Etiology and risk factors (trauma, genetics, comorbidities)
-      - Pathophysiology (plaque formation, fibrosis, curvature mechanics)
-      - Disease stages (acute/inflammatory vs chronic/stable)
-      - Common symptoms and red-flag symptoms
-      - Diagnostic workflow (history, physical exam, imaging, scoring tools)
-      - Natural history and prognosis
-      - Psychological and relational impact
-    Treatment research must be categorized and documented as follows:
-      1) Conventional / Evidence-Based Treatments
-         - Observation and watchful waiting
-         - Oral medications (with evidence status)
-         - Intralesional injections (e.g., collagenase, verapamil, interferon)
-         - Mechanical therapies (traction, vacuum devices)
-         - Surgical options (indications, types, risks, outcomes)
-      2) Lifestyle & Supportive Care
-         - Sexual activity guidance
-         - Pain management strategies
-         - Mental health and counseling support
-      3) Natural & Home-Based Approaches
-         - Diet, supplements, and anti-inflammatory practices
-         - Physical therapy–style exercises (if any)
-         - Safety limits and lack-of-evidence warnings
-      4) Ayurvedic Perspective
-         - Ayurvedic conceptual mapping (dosha, dhatu involvement)
-         - Commonly cited herbs, formulations, and therapies
-         - Traditional rationale vs modern evidence
-         - Known interactions, contraindications, and cautions
-      5) What to Avoid
-         - Harmful practices, misinformation, and unproven claims
-    Each treatment section must clearly state:
-      - Level of scientific evidence
-      - Expected benefits
-      - Risks and side effects
-      - When to consult a qualified urologist
-    Include ethical guidance emphasizing that:
-      - Peyronie’s disease is a medical condition, not a moral or personal failure
-      - Self-treatment without medical supervision carries risks
-      - Integrative approaches are adjunctive, not replacements for medical care
+      - Systematic analysis of global learner intent related to spiritual
+        awareness, presence, self-inquiry, and consciousness development
+      - Use of verified consciousness-learning keywords and topic clusters
+        (e.g., awareness vs identity, observer consciousness, spiritual
+         integration, mindfulness beyond basics, ego structures, witness state,
+         non-dual foundations, embodied spirituality)
+      - Clear differentiation between inspirational spiritual content and
+        structured, teachable, curriculum-ready consciousness education
+      - Validation that identified topics support progressive learning,
+        experiential practice, and long-term integration
+      - Exclusion of fear-based, cult-driven, predictive, or belief-enforced
+        spiritual narratives lacking grounded learning frameworks
+
+    For each identified consciousness-development course theme, document:
+      - Core learner aspiration or developmental challenge
+      - Internal awareness or consciousness capacity being cultivated
+      - Primary learner segment
+        (e.g., beginners, seekers, intermediate practitioners, advanced integrators)
+      - Suitability for video-based explanation and guided practice
+      - Curriculum depth potential
+        (introductory, intermediate, advanced, integration-focused)
+      - Long-term relevance beyond spiritual trend cycles
+      - Compatibility with multi-module programs, certifications, or mastery paths
+
+    Identify and validate at least 15 high-demand course themes based on:
+      - Learner intent and readiness for inner work
+      - Emotional and existential relevance
+      - Willingness to invest time and money in structured spiritual education
+      - Depth of transformation and integration potential
+      - Cross-cultural applicability and belief neutrality
+      - Suitability for ethical, responsible consciousness teaching
+
+
   deliverables:
-    - Structured research notes with citations categories (guidelines, trials, reviews)
-    - Comparison table of treatment options and evidence strength
-    - Patient-friendly summary of treatment pathways by disease stage
-    - Safety checklist and decision-making framework
+    - Curated list of Top 15 high-demand course themes in Spiritual Growth &
+      Consciousness Development for 2026 and beyond
+    - Learner intent map linking inner needs to consciousness-learning themes
+    - Topic-to-curriculum depth assessment
+      (intro course, flagship program, mastery pathway)
+    - Recommended course positioning
+      (self-paced, guided practice, integration-focused, mastery-level)
+    - Content differentiation guidance to avoid commoditized spirituality
+    - Long-term consciousness education ecosystem opportunities
+      (bundles, pathways, certifications, mentorship)
+
+
   constraints:
-    - Use neutral, non-alarming medical language
-    - Clearly separate evidence-based medicine from traditional or supportive practices
-    - Avoid making diagnostic or prescriptive claims
-    - Emphasize informed consent and professional supervision
+    - Focus exclusively on grounded, ethical, and non-dogmatic spiritual education
+    - Avoid fear-based awakening narratives or dependency-oriented teaching
+    - Do not assume belief; emphasize experience, inquiry, and self-agency
+    - Maintain psychological safety and learner responsibility
+    - Use neutral, research-driven, learner-first language
+    - Prioritize long-term depth over short-term virality
 
 
 reporting_analyst:
   role: >
-    Medical Education & Patient Guidance Documentation Analyst
+    Consciousness Curriculum Strategy & Learning Architect
   goal: >
-    Transform the detailed research into a clear, compassionate, and structured educational
-    guide for patients and caregivers. The guide should help readers understand Peyronie’s
-    disease, evaluate treatment options rationally, and approach care decisions safely and
-    ethically.
+    Synthesize research findings into a clear, structured analytical foundation
+    that enables educators and institutions to design future-proof, high-impact
+    video courses in Spiritual Growth & Consciousness Development.
   backstory: >
-    You specialize in translating complex medical research into accessible, step-by-step
-    educational materials. Your work focuses on clarity, emotional sensitivity, and patient
-    empowerment—ensuring readers can distinguish evidence-based treatments from supportive
-    or traditional practices without stigma or false hope.
+    You specialize in translating consciousness research, contemplative traditions,
+    and modern spiritual psychology into structured learning architectures,
+    ethical curricula, and scalable education models. Your focus is on sustained
+    inner transformation, learner autonomy, and credibility-driven spiritual
+    education.
   llm: openai/gpt-5-mini

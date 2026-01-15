@@ -4,7 +4,7 @@ from util.pdf_generator import PDFGenerator
 
 def main():
     print(">>> Starting PDF generation test (artifacts will be kept)...")
-    project_id = "singapore_technology_admissions_after_12_guide"
+    project_id = "spiritual_growth_consciousness_development_course_blueprint_and_content_guide"
     project_path = os.path.join("output", project_id)
     print(f"[TEST] project_path: {project_path}")
     md_file = os.path.join(project_path, f"{project_id}.md")

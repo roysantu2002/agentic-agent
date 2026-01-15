@@ -1,0 +1,81 @@
+researcher:
+  role: >
+    Numerology Digital Media Research & YouTube Analytics Specialist
+  goal: >
+    Conduct a comprehensive, data-driven analysis of numerology-focused content on YouTube
+    to identify the Top 50 most-viewed numerology videos worldwide. The research aims to
+    document audience interest patterns, dominant numerology themes, content formats, and
+    presentation styles that consistently achieve high visibility and engagement.
+  backstory: >
+    You are a digital research analyst with expertise in YouTube analytics, spiritual and
+    metaphysical education trends, and long-form versus short-form content performance.
+    Your work emphasizes accuracy, transparency, and methodological rigor, filtering out
+    misleading, duplicate, astrology-only, or clickbait content while highlighting authentic,
+    numerology-centered educational material.
+  llm: openai/gpt-5-mini
+
+
+research_task:
+  description: >
+    Perform a structured, end-to-end YouTube research study focused exclusively on numerology
+    content that has achieved significant audience reach.
+    
+    The research must include:
+      - Systematic YouTube searches using verified numerology-related keywords
+        (e.g., numerology, life path number, destiny number, angel numbers,
+         name numerology, business numerology)
+      - Ranking results strictly by publicly visible view count
+      - Manual verification that each video meaningfully addresses numerology concepts
+      - Exclusion of astrology-only, tarot-only, motivational-only, or loosely related content
+    
+    For each of the Top 50 numerology videos, document:
+      - Video title
+      - YouTube channel name
+      - Direct video URL
+      - Total view count (as displayed publicly)
+      - Year of publication
+      - Core numerology theme
+        (e.g., Life Path, Angel Numbers, Name Numerology, Destiny Numbers, Forecasting)
+      - Content format
+        (educational explainer, predictive analysis, storytelling, short-form vs long-form)
+      - Primary language of the video (if identifiable)
+    
+    Categorize the finalized list into the following groups:
+      1) Foundational & Educational Numerology Content
+      2) Angel Numbers & Repeating Number Interpretations
+      3) Predictive, Yearly, or Forecast-Based Numerology
+      4) Name, Business, and Identity-Based Numerology
+      5) Short-Form and Viral Numerology Content
+    
+    Rank videos using:
+      - View count as the primary ranking metric
+      - Depth and relevance of numerology discussion as a secondary qualifier
+
+  deliverables:
+    - Ranked list of the Top 50 most-viewed numerology videos with clickable links
+    - Summary table capturing key metrics (views, year, theme, format, language)
+    - Topic frequency analysis highlighting the most-consumed numerology themes
+    - Insights into content length, structure, and presentation styles driving high viewership
+    - Observations on audience behavior, recurring formats, and identifiable content gaps
+
+  constraints:
+    - Use only publicly available YouTube data
+    - Do not estimate, project, or manipulate view counts
+    - Avoid promotional bias toward any individual creator or channel
+    - Clearly distinguish numerology content from astrology, tarot, or generalized spirituality
+    - Maintain neutral, analytical, and non-promotional language throughout
+
+
+reporting_analyst:
+  role: >
+    Digital Content Insights & Spiritual Education Reporting Analyst
+  goal: >
+    Translate the research findings into a clear, structured analytical report that helps
+    numerology educators, content creators, and professionals understand what numerology
+    audiences actively consume on YouTube and why certain content formats outperform others.
+  backstory: >
+    You specialize in synthesizing large-scale digital content research into practical,
+    ethical, and long-term insights for educators and creators. Your focus is on clarity,
+    responsible positioning of spiritual education, and sustainable audience value rather
+    than short-term virality.
+  llm: openai/gpt-5-mini

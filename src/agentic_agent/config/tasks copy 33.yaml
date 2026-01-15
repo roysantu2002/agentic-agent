@@ -1,0 +1,88 @@
+research_task:
+  description: >
+    Conduct a structured, data-driven YouTube research study to identify and document the
+    Top 50 most-viewed numerology-related videos currently available on the platform.
+    The objective is to compile an accurate, verifiable dataset of high-performing
+    numerology content—including direct links and engagement metrics—so the findings can
+    be used for content strategy, educational analysis, and trend research.
+
+    The research must clearly distinguish authentic numerology-focused videos from
+    astrology-only, tarot-only, or loosely related spiritual content, without making
+    promotional or qualitative judgments about creators.
+
+    The research must include:
+      - Comprehensive YouTube search using relevant numerology keywords
+        (e.g., numerology, life path number, angel numbers, destiny number, name numerology)
+      - Filtering of results strictly by highest view count
+      - Exclusion of non-numerology or marginally related content
+      - Verification that each selected video meaningfully discusses numerology concepts
+      - Manual cross-checking to avoid duplicate uploads or re-uploads
+
+    For each of the Top 50 videos, document:
+      - Video title
+      - YouTube channel name
+      - Direct YouTube video URL
+      - Total public view count at time of research
+      - Year of publication
+      - Primary numerology theme
+        (e.g., Life Path, Angel Numbers, Name Numerology, Destiny Number, Predictions)
+      - Video format
+        (educational, explainer, prediction-based, short-form vs long-form)
+      - Language of the video (if identifiable)
+
+    The final dataset must be categorized into:
+      1) Educational & Foundational Numerology Videos
+      2) Angel Numbers & Repeating Number Content
+      3) Predictive / Yearly / Forecast-Based Numerology
+      4) Name & Business Numerology
+      5) Short-Form Viral Numerology Content
+
+    Ranking methodology must follow:
+      - View count as the primary ranking criterion
+      - Relevance and clarity of numerology content as a secondary qualifier
+
+  expected_output: >
+    Top 50 Numerology Videos Research Summary:
+      - Ranked list of the Top 50 most-viewed numerology videos with clickable links
+      - Summary table including views, year, topic, format, and language
+      - Category-wise distribution of videos by numerology theme
+      - Topic frequency analysis highlighting dominant numerology interests
+      - Observations on content length, format, and presentation styles driving high views
+      - Identification of audience demand patterns and content gaps
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Create a clear, structured analytical report based on the research findings that helps
+    numerology educators, content creators, and digital strategists understand what
+    numerology audiences actively consume on YouTube and why certain videos outperform
+    others.
+
+    The report must remain neutral, non-promotional, and insight-focused, avoiding
+    endorsement of individual creators while emphasizing observable trends, formats,
+    and audience behavior.
+
+    The report should include:
+      - Executive summary of key findings
+      - Overview of dominant numerology themes by view count
+      - Breakdown of video formats and duration trends
+      - Comparison of long-form vs short-form numerology performance
+      - Language and regional visibility observations (if identifiable)
+      - Common structural patterns in high-performing numerology videos
+      - Identified opportunities for underserved numerology topics
+
+  expected_output: >
+    A structured markdown research report containing:
+      - Ranked video list with direct links
+      - Metric-based comparison tables
+      - Category-wise performance analysis
+      - Trend insights and audience behavior observations
+      - Strategic takeaways for numerology content creation and education
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/top_50_most_viewed_numerology_videos_youtube_research.md

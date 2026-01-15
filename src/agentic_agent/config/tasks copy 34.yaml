@@ -1,0 +1,97 @@
+research_task:
+  description: >
+    Conduct a structured, data-driven research study to identify, verify, and document
+    authoritative Astro-Numerology resources, courses, and educational content available
+    across public digital platforms. The objective is to build a clear, verifiable dataset
+    of credible Astro-Numerology learning materials that can be used for curriculum design,
+    educational benchmarking, and long-term ecosystem analysis.
+
+    The research must clearly distinguish integrated Astro-Numerology education from
+    astrology-only, numerology-only, tarot-only, or loosely related spiritual material,
+    without making promotional or qualitative endorsements of individual educators or
+    institutions.
+
+    The research must include:
+      - Systematic searches across public platforms
+        (e.g., YouTube, course platforms, educator websites, learning portals)
+      - Use of verified Astro-Numerology keywords
+        (e.g., astro numerology, planetary numerology, numerology and astrology integration,
+         birth chart numerology, vedic astro numerology)
+      - Exclusion of single-discipline or entertainment-focused content
+      - Manual verification that each resource meaningfully integrates both
+        astrology and numerology
+      - Cross-checking to avoid duplicate, rebranded, or mirrored resources
+
+    For each verified Astro-Numerology resource or course, document:
+      - Resource or course title
+      - Educator, institution, or channel name
+      - Direct access URL
+      - Platform type
+        (course platform, YouTube, website, workshop, downloadable material)
+      - Year of publication or last update (if available)
+      - Primary Astro-Numerology focus
+        (e.g., planetary numbers, chart integration, timing cycles,
+         karmic analysis, remedies)
+      - Content format
+        (structured course, lecture series, explainer content, workshops)
+      - Intended learning level
+        (beginner, intermediate, advanced, professional)
+      - Language of instruction (if identifiable)
+
+    The finalized dataset must be categorized into:
+      1) Foundational Astro-Numerology Education
+      2) Planetary Numbers & Birth Chart Integration
+      3) Predictive, Timing, and Cycle-Based Astro-Numerology
+      4) Name, Destiny, and Identity-Based Astro-Numerology
+      5) Professional, Certification, and Advanced Training Programs
+
+    Prioritization methodology must follow:
+      - Depth and structural clarity of Astro-Numerology integration
+      - Educational rigor and methodological transparency
+      - Completeness and coherence of the learning framework
+
+  expected_output: >
+    Astro-Numerology Resources Research Summary:
+      - Curated list of verified Astro-Numerology resources and courses with direct links
+      - Summary table including platform, level, focus area, format, and language
+      - Category-wise distribution of resources by Astro-Numerology theme
+      - Theme frequency analysis highlighting dominant teaching models
+      - Observations on curriculum structure, content depth, and pedagogical patterns
+      - Identification of educational gaps and underserved Astro-Numerology areas
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Produce a clear, structured analytical report based on the research findings that helps
+    Astro-Numerology educators, curriculum designers, and advanced learners understand
+    the current educational landscape, including dominant teaching approaches, strengths,
+    limitations, and emerging opportunities.
+
+    The report must remain neutral, non-promotional, and insight-driven, avoiding
+    endorsements while emphasizing observable patterns, methodologies, and structural
+    trends across Astro-Numerology education.
+
+    The report should include:
+      - Executive summary of key findings
+      - Overview of dominant Astro-Numerology teaching frameworks
+      - Comparative analysis of course depth and structural rigor
+      - Breakdown of beginner vs advanced educational offerings
+      - Platform and format trends across Astro-Numerology education
+      - Common curriculum patterns and recurring conceptual models
+      - Identified opportunities for responsible curriculum expansion
+
+  expected_output: >
+    A structured markdown research report containing:
+      - Categorized resource and course listings with direct links
+      - Comparative tables of platform, level, and focus area
+      - Theme-based and framework-based analysis
+      - Educational ecosystem insights and trend observations
+      - Strategic takeaways for Astro-Numerology education design
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/astro_numerology_resources_and_courses_research.md

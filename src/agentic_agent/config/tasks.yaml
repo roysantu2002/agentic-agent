@@ -1,94 +1,110 @@
 research_task:
   description: >
-    Conduct a comprehensive, medically responsible research study on Peyronie’s disease.
-    The objective is to document the condition end-to-end—from definition and causes to
-    diagnosis, progression, and complete treatment guidance—so the material can be used
-    for patient education and integrative health reference.
-    The research must clearly distinguish between evidence-based medical treatments,
-    supportive lifestyle measures, natural/home approaches, and Ayurvedic perspectives,
-    without making prescriptive medical claims.
+    Conduct a structured, data-driven research study to identify, analyze, and
+    document curriculum-ready frameworks for Spiritual Growth & Consciousness
+    Development. The objective is to build a clear, verifiable knowledge base
+    that directly supports the design of detailed course outlines, lesson
+    structures, experiential practices, and integration pathways for
+    long-form, video-based spiritual education.
+
+    The research aims to distinguish structured consciousness-development
+    education from inspirational content, belief-only teachings, or loosely
+    defined awakening narratives, without promoting specific traditions,
+    teachers, or ideologies.
+
     The research must include:
-      - Medical definition and overview of Peyronie’s disease
-      - Epidemiology and prevalence patterns
-      - Etiology and risk factors (microtrauma, genetics, comorbidities)
-      - Pathophysiology (fibrosis, plaque formation, curvature mechanics)
-      - Disease stages (acute/inflammatory vs chronic/stable)
-      - Common symptoms and red-flag symptoms
-      - Diagnostic process (history, examination, imaging, scoring tools)
-      - Natural history and prognosis
-      - Psychological, sexual, and relationship impact
-    Treatment research must be structured under the following categories:
-      1) Evidence-Based / Conventional Treatments
-         - Observation and watchful waiting
-         - Oral therapies (with evidence limitations)
-         - Intralesional injection therapies
-         - Mechanical therapies (traction, vacuum devices)
-         - Surgical interventions (indications, techniques, risks, outcomes)
-      2) Lifestyle & Supportive Care
-         - Sexual activity guidance
-         - Pain management strategies
-         - Mental health and counseling considerations
-      3) Natural & Home-Based Approaches
-         - Diet and anti-inflammatory practices
-         - Supplements commonly discussed (with evidence grading)
-         - Home-based supportive measures and safety boundaries
-      4) Ayurvedic Perspective
-         - Ayurvedic interpretation (dosha and dhatu involvement)
-         - Commonly referenced herbs, formulations, and therapies
-         - Traditional rationale vs modern scientific evidence
-         - Contraindications, interactions, and safety cautions
-      5) Practices to Avoid
-         - Unsafe self-treatment methods
-         - Misinformation and exaggerated cure claims
-    Each treatment category must explicitly state:
-      - Strength of scientific evidence
-      - Expected benefits and limitations
-      - Risks and side effects
-      - Clear guidance on when urologist consultation is mandatory
-    Ethical framing must emphasize:
-      - Peyronie’s disease as a medical condition, not a personal failing
-      - The importance of professional diagnosis and supervision
-      - Integrative approaches as complementary, not substitutes
+      - Systematic analysis of established and contemporary
+        consciousness-development models
+        (e.g., awareness training, observer consciousness, self-inquiry,
+         ego maturation, non-dual foundations, integration-based spirituality)
+      - Review of successful long-form spiritual education programs and
+        consciousness training formats
+      - Use of verified learning constructs and instructional language
+        (e.g., stages of consciousness, presence stabilization, identity
+         deconstruction, embodiment, integration)
+      - Exclusion of dogmatic, fear-based, predictive, or guru-dependent systems
+      - Manual verification that frameworks translate into structured lessons,
+        practices, reflections, and learner integration safeguards
+      - Cross-checking to avoid rebranded concepts or non-instructional
+        spiritual abstractions
+
+    For each verified framework or learning domain, document:
+      - Core consciousness skill or awareness capacity being developed
+      - Learning objectives and internal shifts at each stage
+      - Learner readiness level
+        (foundational, intermediate, advanced, integration)
+      - Lesson sequencing and pacing recommendations
+      - Experiential components
+        (guided practices, inquiry exercises, reflection, journaling)
+      - Daily-life integration requirements
+      - Ethical boundaries and psychological grounding considerations
+
+    The finalized dataset must be categorized into:
+      1) Foundations of Awareness & Presence
+      2) Identity, Ego Structures & Observer Consciousness
+      3) Stages of Spiritual Development & Maturity
+      4) Integration of Awakening into Daily Life
+      5) Long-Term Conscious Living & Inner Stability
+
+    Prioritization methodology must follow:
+      - Teachability and clarity of the framework
+      - Depth and stability of learner transformation
+      - Safety, grounding, and ethical responsibility
+      - Cultural neutrality and belief independence
+      - Capacity to support multi-level course architecture
+        (foundation → advanced → mastery)
+
+
   expected_output: >
-    Peyronie’s Disease Research Summary:
-      - Structured medical overview and disease progression map
-      - Evidence-graded treatment comparison tables
-      - Stage-wise treatment pathway summaries
-      - Natural, home, and Ayurvedic approaches with safety notes
-      - Risk, contraindication, and red-flag checklist
-      - Decision-support framework for patients and caregivers
+    Spiritual Growth & Consciousness Development Curriculum Research Summary:
+      - End-to-end course architecture and learning progression models
+      - Detailed module and lesson outline frameworks
+      - Tables mapping learning objectives to practices and integration goals
+      - Identification of beginner, advanced, and mastery-level content
+      - Analysis of learner challenges, resistance points, and stabilization needs
+      - Ethical and psychological safety guidelines for course creators
+
+
   agent: researcher
+
 
 
 reporting_task:
   description: >
-    Create a clear, compassionate, patient-friendly educational guide titled:
-    "Peyronie’s Disease: Understanding Causes, Progression, and Treatment Options".
-    Transform the research into an easy-to-understand manual that helps patients and
-    caregivers comprehend the condition, evaluate treatment options rationally, and
-    approach care decisions safely and ethically.
-    The guide must avoid fear-based language and false guarantees, while empowering
-    readers with clarity and realistic expectations.
-    The guide should include:
-      - Plain-language explanation of Peyronie’s disease
-      - Visual-style step-by-step explanation of disease progression
-      - Diagnosis and staging explained simply
-      - Treatment options organized by disease stage
-      - Clear separation of medical treatments vs supportive approaches
-      - Natural and Ayurvedic perspectives with evidence disclaimers
-      - When to seek immediate or specialist care
-      - Emotional, sexual health, and relationship guidance
-      - Common myths, mistakes, and unsafe practices to avoid
+    Produce a clear, curriculum-focused analytical report that enables course
+    creators and institutions to design, structure, and deliver comprehensive
+    video courses in Spiritual Growth & Consciousness Development.
+
+    The report must emphasize progression, embodiment, and integration—ensuring
+    learners not only understand consciousness conceptually, but stabilize
+    awareness and apply insight in everyday life.
+
+    The report must remain neutral, non-dogmatic, and non-promotional, prioritizing
+    experiential learning, learner self-agency, and responsible facilitation.
+
+    The report should include:
+      - Executive summary of core consciousness education insights
+      - Recommended end-to-end course blueprint
+        (foundation → expansion → integration)
+      - Detailed module and lesson templates
+      - Guidance on balancing theory, practice, and reflection
+      - Integration models for work, relationships, and daily living
+      - Ethical teaching boundaries and learner readiness indicators
+      - Opportunities for mastery tracks and long-term mentorship pathways
+
+
   expected_output: >
-    A structured markdown medical education guide containing:
-      - Condition overview and symptom checklist
-      - Diagnostic and staging explanation
-      - Evidence-based treatment pathways
-      - Natural, home, and Ayurvedic sections with safety framing
-      - Treatment comparison tables
-      - Red-flag symptoms and consultation checklist
-      - Patient decision-support and next-steps guide
+    A structured markdown curriculum design and content strategy report containing:
+      - Full course blueprint for Spiritual Growth & Consciousness Development
+      - Modular lesson outlines with objectives and practices
+      - Sample pacing models and weekly learning flows
+      - Integration frameworks for sustained awareness embodiment
+      - Risk-aware guidance for advanced spiritual instruction
+      - Strategic insights for scalable, mastery-based
+        consciousness education programs
+
+
   agent: reporting_analyst
   context:
     - research_task
-  output_file: output/peyronies_disease_complete_research_and_treatment_guide.md
+  output_file: output/spiritual_growth_consciousness_development_course_blueprint_and_content_guide.md

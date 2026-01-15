@@ -1,0 +1,114 @@
+research_task:
+  description: >
+    Conduct a structured, data-driven research study to identify, analyze, and
+    document proven models, practices, and implementation patterns for establishing
+    an enterprise-grade AI & Agentic AI Center of Excellence (AI COE). The objective
+    is to build a clear, verifiable knowledge base to guide the setup of a Unified AI
+    Services capability that can be leveraged across technology towers, enabling
+    AI-driven service and operations automation while improving MTTR, strengthening
+    SLO/SLI discipline, and accelerating speed-to-market for AI-enabled use cases.
+
+    The research must clearly distinguish production-grade, operational AI COE
+    implementations from experimental-only, proof-of-concept, academic, or
+    vendor-promotional initiatives, without making qualitative or promotional
+    endorsements of specific tools, platforms, or organizations.
+
+    The research must include:
+      - Systematic searches across publicly accessible and verifiable sources
+        (e.g., enterprise architecture publications, industry case studies,
+         cloud and platform reference architectures, AI governance frameworks,
+         SRE and AIOps documentation)
+      - Use of verified enterprise AI and Agentic AI keywords
+        (e.g., AI Center of Excellence, Agentic AI architecture, enterprise AI platform,
+         unified AI services, AIOps, multi-agent systems, MTTR reduction through AI)
+      - Exclusion of AI initiatives that are experimental-only, research-focused,
+        or lack demonstrable operational adoption
+      - Manual verification that identified AI COE practices are aligned with
+        enterprise governance, security, and compliance requirements
+      - Cross-checking to avoid duplicated case studies, rebranded initiatives,
+        or outdated AI operating models
+
+    For each verified AI COE model, framework, or enterprise practice, document:
+      - Organization or industry context
+      - AI COE scope and mandate
+      - Unified AI services owned and delivered
+      - AI and Agentic AI capabilities implemented
+      - Type of operating model
+        (centralized, federated, hybrid)
+      - Integration points with service and operations
+        (ITSM, SRE, DevOps, SecOps, NOC/SOC)
+      - Governance, risk, and control mechanisms
+        (model governance, agent oversight, auditability, compliance)
+      - Talent roles and skill requirements
+      - Key operational metrics tracked
+        (MTTR, SLO, SLI, automation coverage, release velocity)
+      - Implementation timelines and maturity stages
+
+    The finalized dataset must be categorized into:
+      1) Centralized AI & Agentic AI COE Models
+      2) Federated and Hybrid AI COE Operating Structures
+      3) Unified AI Service Platforms and Reusable AI Capabilities
+      4) Agentic AI Adoption Patterns
+         (assistive, semi-autonomous, governed autonomous)
+      5) AI Governance, Risk, and Compliance Frameworks
+
+    Prioritization methodology must follow:
+      - Demonstrated impact on MTTR reduction and operational efficiency
+      - Effectiveness in enforcing SLO and SLI discipline
+      - Ability to deliver reusable AI services across technology towers
+      - Speed-to-market for AI-enabled service and operations use cases
+      - Scalability, cost efficiency, and governance maturity
+
+
+  expected_output: >
+    Enterprise AI & Agentic AI COE Research Summary:
+      - Curated reference set of proven AI & Agentic AI COE models and practices
+      - Summary tables covering COE type, scope, AI services, operating model,
+        governance approach, and key metrics
+      - Category-wise distribution of AI COE patterns and Agentic AI maturity levels
+      - Comparative analysis of centralized vs federated vs hybrid COE approaches
+      - Observations on AI platform structures, governance models, and cost dynamics
+      - Identification of common challenges, risks, and execution gaps in AI COE
+        implementations
+
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Produce a clear, structured analytical report based on the research findings that
+    helps enterprise leaders, architects, service owners, and operations teams
+    understand how to design, govern, and scale an AI & Agentic AI Center of
+    Excellence that delivers unified AI services and measurable improvements in
+    MTTR, SLO/SLI compliance, and speed-to-market.
+
+    The report must remain neutral, non-promotional, and insight-driven, avoiding
+    endorsements while emphasizing verifiable patterns, operating models, governance
+    frameworks, and structural characteristics of successful enterprise AI COEs.
+
+    The report should include:
+      - Executive summary of key findings
+      - Overview of AI & Agentic AI COE operating models
+      - Comparative analysis of centralized, federated, and hybrid approaches
+      - Breakdown of Unified AI Service offerings and consumption models
+      - Agentic AI maturity trends and governance considerations
+      - Common operational metrics and performance measurement frameworks
+      - Identified opportunities for improved AI adoption, reuse, and execution
+        discipline across service and operations domains
+
+
+  expected_output: >
+    A structured markdown research report containing:
+      - Categorized AI COE models and enterprise practices with source references
+      - Comparative tables of operating model, scope, governance, and metrics
+      - Analysis of AI service delivery and Agentic AI adoption patterns
+      - Trend observations across enterprise AI & Agentic AI implementations
+      - Strategic insights for responsible, scalable, and outcome-driven AI COE setup
+
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/enterprise_ai_agentic_ai_coe_research_and_setup_guide.md

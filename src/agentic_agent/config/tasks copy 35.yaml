@@ -1,0 +1,117 @@
+research_task:
+  description: >
+    Conduct a structured, data-driven research study to identify, verify, and document
+    accredited Bachelor’s degree technology programs in Germany that are accessible to
+    Indian students after completion of 10+2 (Class XII). The objective is to build a
+    clear, verifiable dataset of German undergraduate technology education pathways
+    suitable for curriculum planning, student advisory frameworks, and long-term
+    international education ecosystem analysis, with specific focus on the 2026
+    admission cycle.
+
+    The research must clearly distinguish officially recognized degree programs from
+    non-degree, vocational-only, pathway-only, or promotional education offerings,
+    without making qualitative or promotional endorsements of individual universities
+    or institutions.
+
+    The research must include:
+      - Systematic searches across publicly accessible sources
+        (e.g., official university websites, DAAD resources, uni-assist listings,
+         German higher education portals)
+      - Use of verified keywords
+        (e.g., Bachelor of Engineering Germany, Bachelor of Technology Germany,
+         Computer Science undergraduate Germany, Engineering after 12th Germany,
+         Studienkolleg Germany)
+      - Exclusion of diploma-only, short-term certification, or unaccredited programs
+      - Manual verification that each program is officially recognized under German
+        higher education regulations
+      - Cross-checking to avoid duplicate listings, rebranded programs, or outdated
+        academic offerings
+
+    For each verified Bachelor’s degree technology program or university, document:
+      - University name
+      - Degree and program title
+      - Technology discipline
+        (e.g., Computer Science, Mechanical Engineering, Electrical Engineering,
+         Information Technology, Artificial Intelligence, Mechatronics, Data Science)
+      - Type of institution
+        (public university, technical university, university of applied sciences)
+      - Medium of instruction
+        (German, English, bilingual)
+      - Eligibility criteria for Indian students after 10+2
+        (including subject requirements and minimum academic thresholds)
+      - Admission pathway
+        (direct admission or Studienkolleg requirement)
+      - Application route
+        (uni-assist, direct university application, centralized portal)
+      - Indicative tuition fees
+        (public vs private institutions)
+      - Estimated living expenses
+      - Application timelines relevant to the 2026 intake
+
+    The finalized dataset must be categorized into:
+      1) Computer Science, IT, and Data-Focused Bachelor’s Programs
+      2) Core Engineering Disciplines
+         (Mechanical, Electrical, Civil, Chemical)
+      3) Emerging and Applied Technology Programs
+         (AI, Robotics, Mechatronics, Embedded Systems)
+      4) English-Taught Undergraduate Technology Pathways
+      5) Public vs Private University Degree Structures
+
+    Prioritization methodology must follow:
+      - Frequency of Indian student enrollment
+      - Academic and technological rigor of the program
+      - Transparency of admission requirements and pathways
+      - Accessibility for Indian 10+2 qualification holders
+      - Cost-efficiency and public funding structure
+
+
+  expected_output: >
+    German Undergraduate Technology Education Research Summary:
+      - Curated list of accredited German universities offering Bachelor’s technology
+        degrees suitable for Indian students after 10+2
+      - Summary tables including institution type, discipline, language, fees,
+        and admission route
+      - Category-wise distribution of programs by technology discipline
+      - Analysis of direct admission vs Studienkolleg-based pathways
+      - Observations on academic structure, cost models, and institutional patterns
+      - Identification of common challenges and preparation gaps faced by Indian applicants
+
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Produce a clear, structured analytical report based on the research findings that helps
+    Indian students, academic advisors, educators, and international education planners
+    understand the German undergraduate technology education landscape, including
+    eligibility realities, admission pathways, cost structures, and institutional trends.
+
+    The report must remain neutral, non-promotional, and insight-driven, avoiding
+    endorsements while emphasizing verifiable patterns, regulatory frameworks,
+    and structural characteristics of German higher education.
+
+    The report should include:
+      - Executive summary of key findings
+      - Overview of German Bachelor’s degree structures in technology and engineering
+      - Comparative analysis of public vs private universities
+      - Breakdown of direct admission and Studienkolleg pathways
+      - Language-of-instruction trends across undergraduate technology programs
+      - Common eligibility requirements and recurring admission constraints
+      - Identified opportunities for improved academic preparation and guidance
+
+
+  expected_output: >
+    A structured markdown research report containing:
+      - Categorized university and program listings with official links
+      - Comparative tables of institution type, discipline, language, and fees
+      - Admission pathway and eligibility analysis
+      - Trend observations across German undergraduate technology education
+      - Strategic insights for ethical, accurate student guidance and planning
+
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/germany_bachelor_technology_programs_for_indian_students_2026.md
