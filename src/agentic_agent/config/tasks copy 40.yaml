@@ -1,0 +1,127 @@
+research_task:
+  description: >
+    Conduct a structured, data-driven research study to identify, analyze, and
+    document curriculum-ready frameworks for Crystal Healing as a component of
+    Spiritual Growth & Consciousness Development.
+
+    The objective is to build a clear, verifiable knowledge base that directly
+    supports the design of detailed crystal healing course outlines, lesson
+    structures, experiential practices, and long-term integration pathways
+    suitable for long-form, video-based education.
+
+    The research must clearly distinguish structured, awareness-based crystal
+    healing education from inspirational content, belief-only teachings,
+    commercialized crystal narratives, or loosely defined energetic claims—
+    without promoting specific traditions, healers, belief systems, or ideologies.
+
+    The research must include:
+      - Systematic analysis of crystal healing frameworks that can be taught as
+        consciousness-support and self-awareness practices
+        (e.g., subtle energy awareness, presence-based crystal use, grounding
+         practices, emotional regulation support, embodied perception)
+      - Review of successful long-form spiritual and energy-awareness education
+        programs where crystals are used as integrative tools rather than
+        belief-driven objects
+      - Use of verified instructional and consciousness-learning constructs
+        (e.g., awareness stabilization, energetic sensitivity, nervous system
+         grounding, observer presence, embodiment, integration)
+      - Exclusion of dogmatic, fear-based, predictive, medical-claim, or
+        guru-dependent crystal healing systems
+      - Manual verification that each framework can be translated into
+        structured lessons, guided practices, reflections, and learner-safe
+        integration protocols
+      - Cross-checking to avoid rebranded superstition, symbolic-only teaching,
+        or non-instructional energetic abstractions
+
+    For each verified crystal healing framework or learning domain, document:
+      - Core awareness skill or subtle-energy capacity being developed
+      - Learning objectives and internal shifts at each stage of practice
+      - Learner readiness level
+        (foundational, intermediate, practitioner, integration)
+      - Lesson sequencing and pacing recommendations
+      - Experiential components
+        (guided crystal-based awareness practices, somatic grounding,
+         inquiry exercises, journaling, reflective observation)
+      - Daily-life integration requirements
+        (self-regulation, emotional balance, presence in relationships and work)
+      - Ethical boundaries, safety principles, and psychological grounding
+        considerations for crystal-based education
+
+    The finalized dataset must be categorized into:
+      1) Foundations of Conscious Crystal Healing & Grounding
+      2) Subtle Energy Awareness & Observer Presence
+      3) Emotional Regulation & Embodied Crystal Practice
+      4) Applied Crystal Healing & Facilitation Ethics
+      5) Long-Term Integration, Maturity & Conscious Living
+
+    Prioritization methodology must follow:
+      - Teachability and experiential clarity of the framework
+      - Depth, stability, and sustainability of learner transformation
+      - Safety, grounding, and ethical responsibility
+      - Cultural neutrality and belief independence
+      - Capacity to support multi-level course architecture
+        (foundation → practitioner → mastery → integration)
+
+
+  expected_output: >
+    Crystal Healing & Consciousness Development Curriculum Research Summary:
+      - End-to-end crystal healing course architecture and learning progression models
+      - Detailed module and lesson outline frameworks
+      - Tables mapping awareness objectives to crystal-based practices and
+        integration goals
+      - Identification of beginner, practitioner, and mastery-level content
+      - Analysis of learner challenges, energetic sensitivity thresholds,
+        and stabilization needs
+      - Ethical, psychological, and nervous-system safety guidelines for
+        crystal healing course creators
+
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Produce a clear, curriculum-focused analytical report that enables course
+    creators and institutions to design, structure, and deliver comprehensive
+    video-based Crystal Healing courses within the broader domain of Spiritual
+    Growth & Consciousness Development.
+
+    The report must emphasize progression, embodiment, and integration—ensuring
+    learners not only understand crystal healing conceptually, but stabilize
+    awareness, regulate inner states, and apply crystal-supported insight in
+    everyday life.
+
+    The report must remain neutral, non-dogmatic, and non-promotional, prioritizing
+    experiential learning, learner self-agency, ethical facilitation, and
+    responsible use of crystals as awareness-support tools.
+
+    The report should include:
+      - Executive summary of core crystal healing education insights
+      - Recommended end-to-end course blueprint
+        (foundation → applied practice → integration)
+      - Detailed module and lesson templates
+      - Guidance on balancing theory, guided practice, and reflection
+      - Integration models for work, relationships, emotional balance,
+        and daily living
+      - Ethical teaching boundaries, contraindications, and learner
+        readiness indicators
+      - Opportunities for practitioner certification, mastery tracks,
+        and long-term mentorship pathways
+
+
+  expected_output: >
+    A structured markdown curriculum design and content strategy report containing:
+      - Full Crystal Healing course blueprint aligned with consciousness development
+      - Modular lesson outlines with objectives, practices, and safety notes
+      - Sample pacing models and weekly learning flows
+      - Integration frameworks for sustained embodiment and inner stability
+      - Risk-aware guidance for advanced crystal healing instruction
+      - Strategic insights for scalable, mastery-based crystal healing
+        education programs
+
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/crystal_healing_consciousness_development_course_blueprint_and_content_guide.md

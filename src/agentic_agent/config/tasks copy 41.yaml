@@ -1,0 +1,124 @@
+research_task:
+  description: >
+    Conduct a structured, evidence-based biographical and consciousness research
+    study to identify, analyze, and document the complete life journey of Indian
+    film actor Vinod Khanna — from cinematic superstardom to radical spiritual
+    renunciation and eventual reintegration into public life.
+
+    The objective is to build a clear, verifiable knowledge base that directly
+    supports the creation of curriculum-ready educational material examining
+    spiritual seeking, ego dissolution, identity collapse, surrender, consequence,
+    and conscious reintegration, suitable for long-form, video-based learning.
+
+    The research must clearly distinguish lived spiritual transformation from
+    inspirational storytelling, belief-based spirituality, mythologized guru
+    narratives, or sensationalized celebrity discourse — without promoting or
+    condemning any spiritual ideology, teacher, or movement.
+
+    The research must include:
+      - Systematic analysis of Vinod Khanna’s life phases as a consciousness
+        development case study
+        (e.g., identity formation through fame, existential dissatisfaction,
+         voluntary renunciation, ego stripping through loss, psychological
+         disorientation, reintegration and maturity)
+      - Review of primary and secondary biographical sources including interviews,
+        public statements, historical records, and cultural commentary
+      - Use of verified psychological and consciousness-learning constructs
+        (e.g., ego identity, surrender dynamics, meaning crisis, observer awareness,
+         disillusionment, embodiment, integration)
+      - Clear differentiation between spiritual discipline and spiritual bypass
+      - Exclusion of devotional framing, political bias, metaphysical claims,
+        gossip narratives, or guru-centric glorification
+      - Manual verification that each life phase can be translated into structured
+        lessons, reflective inquiry, discussion prompts, and learner-safe
+        consciousness education modules
+      - Cross-checking to avoid romanticized renunciation, symbolic-only spirituality,
+        or ungrounded enlightenment narratives
+
+    For each verified life phase and transformation domain, document:
+      - Core consciousness shift or identity change involved
+      - Psychological and emotional challenges encountered
+      - Internal learning themes and awareness development
+      - Readiness level of the subject at that stage
+        (identity-bound, questioning, surrendering, disoriented, reintegrating)
+      - Sequential progression and pacing of transformation
+      - Experiential learning parallels
+        (reflection, inquiry, observation, self-awareness exercises)
+      - Real-world consequences and responsibility implications
+      - Ethical boundaries and cautionary insights for spiritual seekers
+
+    The finalized dataset must be categorized into:
+      1) Formation of Identity Through Success and Fame
+      2) Existential Crisis and Search for Meaning
+      3) Radical Renunciation and Ego Dissolution
+      4) Cost, Disillusionment, and Psychological Consequences
+      5) Reintegration, Responsibility, and Mature Conscious Living
+
+    Prioritization methodology must follow:
+      - Historical accuracy and verifiability
+      - Depth and realism of inner transformation
+      - Psychological and emotional safety in interpretation
+      - Non-idealized, non-romanticized spirituality
+      - Applicability to modern consciousness education
+        (reflection → awareness → integration)
+
+
+  expected_output: >
+    Vinod Khanna: Consciousness & Life Transformation Research Summary:
+      - End-to-end life-phase transformation framework
+      - Structured mapping of fame, renunciation, and reintegration
+      - Tables linking life events to consciousness and identity shifts
+      - Identification of critical learning thresholds and breakdown points
+      - Analysis of spiritual risk, surrender dynamics, and recovery needs
+      - Ethical and psychological guidelines for teaching celebrity
+        spiritual journeys responsibly
+
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Produce a clear, curriculum-focused analytical report that enables educators,
+    documentary creators, and consciousness studies facilitators to design,
+    structure, and deliver long-form educational content based on Vinod Khanna’s
+    complete life journey.
+
+    The report must emphasize realism, consequence, and integration — ensuring
+    learners understand spirituality not as escape from life, but as a demanding
+    process involving loss, uncertainty, and responsibility.
+
+    The report must remain neutral, non-devotional, and non-promotional,
+    prioritizing psychological clarity, self-agency, ethical interpretation,
+    and grounded understanding of spiritual seeking within real-world contexts.
+
+    The report should include:
+      - Executive summary of Vinod Khanna’s life as a consciousness case study
+      - Recommended end-to-end learning blueprint
+        (identity → crisis → surrender → consequence → reintegration)
+      - Detailed module and lesson templates
+      - Guidance on balancing biography, reflection, and awareness inquiry
+      - Integration models applicable to career, relationships, purpose,
+        and daily responsibility
+      - Ethical teaching boundaries and learner readiness indicators
+      - Cautionary notes on romanticizing renunciation or spiritual authority
+      - Opportunities for advanced study, facilitation tracks,
+        and long-form educational series
+
+
+  expected_output: >
+    A structured markdown curriculum and content strategy report containing:
+      - Complete Vinod Khanna life-journey education blueprint
+      - Modular lesson outlines with learning objectives and reflection prompts
+      - Sequencing and pacing models for long-form video education
+      - Integration frameworks for mature, embodied understanding
+      - Risk-aware guidance for teaching spiritual biographies
+      - Strategic insights for scalable consciousness education
+        using real-life transformation narratives
+
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/vinod_khanna_consciousness_life_journey_curriculum_and_content_guide.md

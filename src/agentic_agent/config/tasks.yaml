@@ -1,110 +1,79 @@
 research_task:
   description: >
-    Conduct a structured, data-driven research study to identify, analyze, and
-    document curriculum-ready frameworks for Spiritual Growth & Consciousness
-    Development. The objective is to build a clear, verifiable knowledge base
-    that directly supports the design of detailed course outlines, lesson
-    structures, experiential practices, and integration pathways for
-    long-form, video-based spiritual education.
+    Perform comprehensive research required to design a complete
+    Full-Stack AI-Enabled Developer course.
 
-    The research aims to distinguish structured consciousness-development
-    education from inspirational content, belief-only teachings, or loosely
-    defined awakening narratives, without promoting specific traditions,
-    teachers, or ideologies.
+    Research areas include:
+      - Python programming for backend systems
+      - REST API fundamentals and best practices
+      - FastAPI: async programming, dependency injection, background tasks,
+        validation, OpenAPI, and performance
+      - Databases: SQL, NoSQL, ORMs, migrations, and data modeling
+      - Authentication & authorization (JWT, OAuth, RBAC)
+      - Next.js frontend architecture (routing, SSR/SSG, server/client components)
+      - Frontend-backend integration patterns
+      - Cloud APIs and managed services
+      - AI/LLM integration using cloud-based APIs
+      - Retrieval-Augmented Generation and tool-based AI workflows
+      - Observability, logging, testing, and performance tuning
+      - DevOps: Docker, CI/CD, environments, and deployment strategies
+      - Security, cost control, and scalability considerations
 
-    The research must include:
-      - Systematic analysis of established and contemporary
-        consciousness-development models
-        (e.g., awareness training, observer consciousness, self-inquiry,
-         ego maturation, non-dual foundations, integration-based spirituality)
-      - Review of successful long-form spiritual education programs and
-        consciousness training formats
-      - Use of verified learning constructs and instructional language
-        (e.g., stages of consciousness, presence stabilization, identity
-         deconstruction, embodiment, integration)
-      - Exclusion of dogmatic, fear-based, predictive, or guru-dependent systems
-      - Manual verification that frameworks translate into structured lessons,
-        practices, reflections, and learner integration safeguards
-      - Cross-checking to avoid rebranded concepts or non-instructional
-        spiritual abstractions
+    For each topic, gather:
+      - Official documentation and credible references
+      - Core concepts and architectural patterns
+      - Common pitfalls and best practices
+      - Prerequisites and skill dependencies
+      - Real-world implementation guidance
 
-    For each verified framework or learning domain, document:
-      - Core consciousness skill or awareness capacity being developed
-      - Learning objectives and internal shifts at each stage
-      - Learner readiness level
-        (foundational, intermediate, advanced, integration)
-      - Lesson sequencing and pacing recommendations
-      - Experiential components
-        (guided practices, inquiry exercises, reflection, journaling)
-      - Daily-life integration requirements
-      - Ethical boundaries and psychological grounding considerations
-
-    The finalized dataset must be categorized into:
-      1) Foundations of Awareness & Presence
-      2) Identity, Ego Structures & Observer Consciousness
-      3) Stages of Spiritual Development & Maturity
-      4) Integration of Awakening into Daily Life
-      5) Long-Term Conscious Living & Inner Stability
-
-    Prioritization methodology must follow:
-      - Teachability and clarity of the framework
-      - Depth and stability of learner transformation
-      - Safety, grounding, and ethical responsibility
-      - Cultural neutrality and belief independence
-      - Capacity to support multi-level course architecture
-        (foundation → advanced → mastery)
-
+    Emphasize:
+      - Production-ready engineering practices
+      - API-first and cloud-first system design
+      - Responsible and maintainable AI integration
 
   expected_output: >
-    Spiritual Growth & Consciousness Development Curriculum Research Summary:
-      - End-to-end course architecture and learning progression models
-      - Detailed module and lesson outline frameworks
-      - Tables mapping learning objectives to practices and integration goals
-      - Identification of beginner, advanced, and mastery-level content
-      - Analysis of learner challenges, resistance points, and stabilization needs
-      - Ethical and psychological safety guidelines for course creators
-
+    Full-Stack AI Research Reference Corpus:
+      - Categorized research by backend, frontend, AI, cloud, and DevOps
+      - Curated official and credible learning references
+      - Extracted system design and implementation patterns
+      - Skill dependency and progression mapping
+      - Identification of core vs advanced topics
 
   agent: researcher
 
 
-
 reporting_task:
   description: >
-    Produce a clear, curriculum-focused analytical report that enables course
-    creators and institutions to design, structure, and deliver comprehensive
-    video courses in Spiritual Growth & Consciousness Development.
-
-    The report must emphasize progression, embodiment, and integration—ensuring
-    learners not only understand consciousness conceptually, but stabilize
-    awareness and apply insight in everyday life.
-
-    The report must remain neutral, non-dogmatic, and non-promotional, prioritizing
-    experiential learning, learner self-agency, and responsible facilitation.
-
-    The report should include:
-      - Executive summary of core consciousness education insights
-      - Recommended end-to-end course blueprint
-        (foundation → expansion → integration)
-      - Detailed module and lesson templates
-      - Guidance on balancing theory, practice, and reflection
-      - Integration models for work, relationships, and daily living
-      - Ethical teaching boundaries and learner readiness indicators
-      - Opportunities for mastery tracks and long-term mentorship pathways
-
+    Convert the researcher’s findings into a complete, end-to-end
+    Full-Stack AI-Enabled Developer course structure.
 
   expected_output: >
-    A structured markdown curriculum design and content strategy report containing:
-      - Full course blueprint for Spiritual Growth & Consciousness Development
-      - Modular lesson outlines with objectives and practices
-      - Sample pacing models and weekly learning flows
-      - Integration frameworks for sustained awareness embodiment
-      - Risk-aware guidance for advanced spiritual instruction
-      - Strategic insights for scalable, mastery-based
-        consciousness education programs
-
+    A structured markdown course outline including:
+      - Course vision, scope, and learning outcomes
+      - Section-wise curriculum with:
+          * Section title
+          * Section purpose
+          * Lessons with clear objectives
+      - Progressive modules covering:
+          * Python & Web Foundations
+          * REST APIs & FastAPI Backend Development
+          * Databases & Data Management
+          * Authentication, Security & Authorization
+          * Frontend Development with Next.js
+          * Full-Stack Integration
+          * AI Integration with Cloud APIs
+          * Advanced AI Patterns (RAG, tools, agents)
+          * Testing, Observability & Performance
+          * DevOps, Deployment & Scaling
+      - Hands-on projects:
+          * Module-level mini projects
+          * One integrated mid-course project
+          * One final full-stack AI capstone project
+      - Skill progression mapping:
+          * Beginner → Intermediate → Advanced
+      - Portfolio and industry-readiness guidance
 
   agent: reporting_analyst
   context:
     - research_task
-  output_file: output/spiritual_growth_consciousness_development_course_blueprint_and_content_guide.md
+  output_file: output/full_stack_ai_enabled_developer_course.md

@@ -1,0 +1,252 @@
+researcher:
+  role: >
+    Spiritual Growth & Consciousness Development Research Analyst
+    (Specialization: Crystal Healing & Subtle Energy Education)
+  goal: >
+    Conduct a comprehensive, structured exploration of Crystal Healing
+    as a grounded, ethical, and curriculum-ready consciousness education
+    domain for 2026 and beyond.
+
+    The objective is to design a complete Crystal Healing course ecosystem
+    suitable for long-form, video-based education—focused on experiential
+    awareness, self-regulation, subtle perception, and conscious integration,
+    rather than belief-based, fear-driven, or commercialized crystal narratives.
+
+    The research emphasizes Crystal Healing as a self-awareness and
+    consciousness-support modality—not a replacement for medical,
+    psychological, or professional care.
+  backstory: >
+    You are a specialist research analyst with deep expertise in subtle energy
+    systems, contemplative education, consciousness psychology, and ethical
+    spiritual pedagogy. Your work focuses on translating ancient energetic
+    frameworks and modern awareness practices into structured, learner-safe,
+    experience-based curricula with long-term relevance and integrity.
+
+
+research_task:
+  description: >
+    Perform an end-to-end research and curriculum design study to identify,
+    validate, and structure a complete Crystal Healing Course aligned with
+    Spiritual Growth & Consciousness Development.
+
+    The study must position Crystal Healing as:
+      - A consciousness-support and self-awareness modality
+      - A practice of energetic sensitivity, presence, and inner regulation
+      - A non-dogmatic, experience-first learning system
+      - An ethical, learner-responsible educational pathway
+
+    The research must include:
+      - Systematic analysis of global learner intent toward crystals,
+        energy healing, and subtle body awareness
+      - Differentiation between commercial crystal content and
+        curriculum-ready crystal healing education
+      - Integration of crystals with consciousness, mindfulness,
+        nervous system awareness, and embodied presence
+      - Validation of crystal healing as a teachable, progressive,
+        long-term practice suitable for structured video learning
+      - Exclusion of fear-based claims, medical promises, superstition,
+        or dependency-oriented narratives
+
+    The course must be designed as a scalable learning ecosystem
+    (introductory → practitioner → mastery → integration).
+
+
+  identified_course_theme:
+    title: >
+      Conscious Crystal Healing: Subtle Energy, Awareness & Integration
+    core_positioning: >
+      Crystal Healing taught as an awareness-based, experiential,
+      and integrative consciousness practice that supports inner balance,
+      presence, and energetic sensitivity—without belief enforcement
+      or predictive claims.
+
+
+  learner_intent_map:
+    primary_aspirations:
+      - Inner balance and emotional stability
+      - Heightened self-awareness and sensitivity
+      - Grounded spiritual practice without dogma
+      - Understanding subtle energy through experience
+      - Safe self-regulation and energetic boundaries
+    avoided_motivations:
+      - Fear-based protection narratives
+      - Miracle cures or instant transformation
+      - Dependency on crystals or healers
+      - Predictive or destiny-based claims
+
+
+  primary_learner_segments:
+    beginners:
+      profile: >
+        New to crystals, energy awareness, or spiritual practices.
+        Seeking grounding, clarity, and experiential understanding.
+      readiness: low to moderate
+    seekers:
+      profile: >
+        Already exploring meditation, yoga, or healing modalities.
+        Curious about crystals as an integrative support tool.
+      readiness: moderate
+    practitioners:
+      profile: >
+        Energy workers, yoga teachers, healers, or therapists
+        seeking structured crystal healing education.
+      readiness: high
+    integrators:
+      profile: >
+        Advanced learners focused on embodiment, teaching,
+        facilitation, or long-term practice integration.
+      readiness: very high
+
+
+  complete_course_structure:
+    level_1_foundation:
+      title: >
+        Foundations of Conscious Crystal Healing
+      intent: >
+        Establish grounded understanding, safety, and awareness-based
+        engagement with crystals.
+      modules:
+        - Introduction to Crystal Healing as Consciousness Practice
+        - Ethics, Safety & Responsibility in Energy Work
+        - Understanding Subtle Energy & Human Awareness
+        - Crystal Formation, Structure & Energetic Qualities
+        - Grounding, Presence & Nervous System Regulation
+        - Choosing, Cleansing & Caring for Crystals (Non-Ritualistic)
+      outcome: >
+        Learners develop stable, grounded awareness and a clear,
+        non-superstitious relationship with crystals.
+
+    level_2_intermediate:
+      title: >
+        Crystals & the Subtle Body
+      intent: >
+        Build experiential sensitivity to energy flow and inner states.
+      modules:
+        - Subtle Body Frameworks (Chakras, Nadis, Fields)
+        - How Crystals Interact with Attention & Awareness
+        - Crystal Resonance & Emotional Regulation
+        - Working with Crystals for Presence & Focus
+        - Crystal Layouts for Self-Awareness Practices
+        - Daily Integration & Reflective Practices
+      outcome: >
+        Learners experience crystals as tools for awareness,
+        regulation, and inner observation.
+
+    level_3_practitioner:
+      title: >
+        Applied Crystal Healing & Facilitation
+      intent: >
+        Train learners to apply crystal healing responsibly
+        for self and others.
+      modules:
+        - Holding Space & Ethical Facilitation
+        - Session Structure & Consent-Based Practice
+        - Crystals for Stress, Grounding & Emotional Balance
+        - Integrating Breath, Presence & Crystals
+        - Avoiding Projection, Fixing & Spiritual Bypass
+        - Documentation, Reflection & Client Safety
+      outcome: >
+        Learners gain confidence to facilitate grounded,
+        ethical crystal healing sessions.
+
+    level_4_mastery:
+      title: >
+        Advanced Crystal Consciousness & Integration
+      intent: >
+        Deepen subtle perception and long-term embodiment.
+      modules:
+        - Refining Energetic Sensitivity Without Overwhelm
+        - Crystals & States of Consciousness
+        - Long-Term Practice Design
+        - Teaching Crystal Healing Responsibly
+        - Cross-Modal Integration (Meditation, Yoga, Therapy)
+        - Lifelong Ethics & Practitioner Self-Care
+      outcome: >
+        Learners embody crystal healing as an integrated,
+        mature consciousness practice.
+
+
+  experiential_practices:
+    types:
+      - Guided awareness meditations with crystals
+      - Somatic grounding exercises
+      - Journaling & reflective inquiry
+      - Partner observation practices
+      - Silent presence and perception exercises
+    safety_principles:
+      - Self-pacing emphasized
+      - No emotional excavation without support
+      - No diagnosis or treatment claims
+      - Clear boundaries between awareness and therapy
+
+
+  curriculum_depth_assessment:
+    intro_course: >
+      Level 1 – Suitable as a standalone foundation course.
+    flagship_program: >
+      Levels 1–3 – Full professional crystal healing education.
+    mastery_pathway: >
+      Levels 1–4 – Certification, mentorship, and long-term practice.
+    integration_focus: >
+      Emphasis on embodiment, not accumulation of techniques.
+
+
+  certification_and_pathways:
+    certification_options:
+      - Certified Crystal Awareness Practitioner
+      - Advanced Crystal Healing Facilitator
+      - Crystal Consciousness Educator
+    assessment_methods:
+      - Reflective journals
+      - Practice demonstrations
+      - Case studies (non-clinical)
+      - Ethics comprehension evaluations
+
+
+  long_term_relevance:
+    reasons:
+      - Crystals as awareness tools transcend trends
+      - Aligns with nervous system regulation needs
+      - Supports non-religious spiritual seekers
+      - Compatible with modern psychology & mindfulness
+    trend_resilience: high
+
+
+  content_differentiation_guidance:
+    avoid:
+      - Color-coded miracle claims
+      - Planetary fear narratives
+      - Over-ritualization
+      - Commercial crystal hype
+    emphasize:
+      - Direct experience
+      - Self-agency
+      - Ethical clarity
+      - Conscious integration
+
+
+  long_term_ecosystem_opportunities:
+    offerings:
+      - Crystal Healing Foundations Course
+      - Practitioner Certification Program
+      - Conscious Energy Work Bundle
+      - Mentorship & Supervision Circles
+      - Integration Retreats (optional, non-mandatory)
+    positioning: >
+      Credible, ethical, experience-based crystal healing education
+      for serious learners—not mass-market spirituality.
+
+
+reporting_analyst:
+  role: >
+    Consciousness Curriculum Strategy & Learning Architect
+  goal: >
+    Translate crystal healing research into a structured, ethical,
+    and scalable education framework that supports long-term
+    learner transformation, autonomy, and integration.
+  backstory: >
+    You specialize in designing spiritually grounded, psychologically
+    safe curricula that bridge subtle energy traditions with modern
+    consciousness education—ensuring depth, responsibility, and
+    future-proof relevance.
+  llm: openai/gpt-5-mini

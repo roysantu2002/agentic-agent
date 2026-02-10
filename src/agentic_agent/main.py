@@ -28,7 +28,7 @@ def run():
     print("\n\n=== FINAL AGENTIC AI TUTORIALS REPORT ===\n\n")
     print(result.raw)
 
-    print("\n\nReport has been saved to output/spiritual_growth_consciousness_development_course_blueprint_and_content_guide.md")
+    print("\n\nReport has been saved to output/full_stack_ai_enabled_developer_course.md")
 
 if __name__ == "__main__":
     run()

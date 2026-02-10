@@ -1,0 +1,93 @@
+research_task:
+  description: >
+    Identify **comprehensive, credible, and high-quality primary and secondary resources**
+    that collectively explain Anthropic AI’s philosophy, technology, safety framework,
+    governance stance, and real-world deployment.
+
+    Include:
+      - Official Anthropic resources (research papers, technical blogs, system cards,
+        documentation, policy statements, and safety disclosures).
+      - Peer-reviewed and preprint academic papers related to Constitutional AI,
+        alignment, interpretability, robustness, and scalable oversight.
+      - Technical documentation, talks, or interviews explaining Claude models,
+        training approaches, and deployment constraints.
+      - Reputable third-party analyses from universities, AI research institutes,
+        policy bodies, and independent evaluators assessing Anthropic’s work.
+      - Comparative research that positions Anthropic within the broader frontier AI ecosystem.
+    Exclude:
+      - Marketing-only content or press releases without technical substance
+      - Influencer summaries, opinion blogs, or speculative commentary
+      - Outdated or superseded material not relevant to current Claude models or safety practices
+
+    For each resource, gather:
+      - Name and author(s) or organization
+      - Resource type (research paper, technical blog, system card, policy paper, talk)
+      - Publication year and version (where applicable)
+      - Description of content and primary objectives
+      - Focus area(s) (Constitutional AI, alignment, safety training, interpretability,
+        deployment, governance, policy, or evaluation)
+      - Technical depth (conceptual, applied engineering, or research-grade)
+      - Accessibility (open-access, partially gated, or restricted)
+      - Official links (papers, blogs, repositories, documentation)
+      - Key findings, claims, or contributions
+      - Strengths, limitations, and open questions
+      - Relevance to developers, enterprises, researchers, and policymakers
+
+    Emphasize resources that demonstrate:
+      - Safety-first design and training methodologies
+      - Transparency about risks, failures, and mitigations
+      - Practical and policy-relevant implications
+      - Long-term relevance to responsible frontier model development
+
+  expected_output: >
+    Anthropic AI Research Corpus & Reference Summary:
+      - Broad, uncapped collection of primary and secondary resources
+      - Categorized index (Official Anthropic, Academic Research, Policy & Governance,
+        Independent Analysis, Comparative Frontier AI)
+      - Direct links to all sources
+      - Cross-referenced themes (safety, alignment, deployment, governance)
+      - Identification of foundational texts vs. advanced/specialized materials
+      - Recommendations for:
+          * Core reading set (essential understanding)
+          * Deep-dive technical reading
+          * Policy and governance-focused reading
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Synthesize the researcher’s findings into a **coherent Anthropic AI intelligence dossier**
+    that explains what Anthropic is building, how it works, why it is distinct, and
+    what its implications are for the future of AI.
+
+  expected_output: >
+    A structured markdown report including:
+      - Executive overview of Anthropic AI’s mission, philosophy, and strategic direction
+      - Categorized resource summaries with links:
+          * Official Anthropic Publications
+          * Academic & Technical Research
+          * Safety, Alignment & Interpretability
+          * Governance, Policy & Regulation
+          * Independent & Comparative Analyses
+      - Conceptual synthesis covering:
+          * Constitutional AI: principles, training pipeline, and trade-offs
+          * Claude models: evolution, capabilities, constraints, and deployment posture
+          * Safety & alignment strategies: successes, limitations, and unresolved challenges
+          * Transparency & governance: Anthropic’s approach vs. peers
+      - Comparative positioning of Anthropic relative to other frontier labs
+        (philosophy, safety rigor, openness, deployment strategy)
+      - Practical implications for:
+          * Developers and system architects
+          * Enterprises and platform integrators
+          * Researchers and evaluators
+          * Policymakers and regulators
+      - Key critiques, risks, and unanswered questions
+      - Final recommendations:
+          * Essential starting materials
+          * Ongoing monitoring sources for new Anthropic developments
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/anthropic_ai_research_dossier.md
