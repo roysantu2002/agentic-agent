@@ -1,0 +1,143 @@
+research_task:
+  description: >
+    Immediately perform a comprehensive, data-driven equity research
+    analysis to identify the top 20 Indian listed companies
+    that have realistic potential to generate approximately
+    25% upside over the next 12 months.
+
+    The task must execute fully without requesting confirmations,
+    approvals, or phased delivery.
+
+    Use the most recently available public financial data,
+    latest quarterly results, current market prices,
+    and reputable public research sources.
+
+    Apply automatic screening constraints:
+
+      Quality Filters:
+        - ROE consistently above 15%
+        - Positive 3–5 year revenue CAGR
+        - Positive 3–5 year earnings CAGR
+        - Sustainable operating margins
+        - Healthy balance sheet (manageable debt-to-equity)
+        - Positive free cash flow trend
+        - No material governance red flags
+
+      Exclusions:
+        - Highly speculative microcaps
+        - Structurally overleveraged balance sheets
+        - Opaque related-party transactions
+        - Severe unresolved regulatory risk
+
+    Research Dimensions:
+
+      1. Valuation & Discount Analysis:
+          - Intrinsic value estimation (DCF or justified multiple model)
+          - Relative valuation vs sector peers
+          - Historical valuation band comparison
+          - Margin of safety calculation
+          - PEG ratio and forward growth alignment
+
+      2. Financial Strength:
+          - Revenue CAGR (3–5 years)
+          - EPS growth consistency
+          - ROE and ROCE trend
+          - Net debt / EBITDA
+          - Interest coverage
+          - Free cash flow conversion
+
+      3. Competitive Advantage & Brand Strength:
+          - Market leadership position
+          - Brand recognition and pricing power
+          - Entry barriers and moat durability
+          - Promoter holding stability
+          - Institutional ownership trend (FII/DII)
+
+      4. Sector & Macro Tailwinds:
+          - Government policy alignment
+          - Capex cycle exposure
+          - Domestic demand strength
+          - Export/global leverage
+          - Inflation and interest rate sensitivity
+
+      5. 12-Month Catalyst Identification:
+          - Earnings acceleration triggers
+          - Capacity expansion
+          - Sector re-rating potential
+          - Regulatory or macro shifts
+          - Order book growth (if applicable)
+
+      6. Risk & Downside Modeling:
+          - Bear-case valuation
+          - Earnings volatility risk
+          - Sector cyclicality
+          - Liquidity risk
+          - Governance watchpoints
+
+    For each of the 20 shortlisted stocks provide:
+
+      - Company name and sector
+      - Investment thesis summary
+      - Entry price band (accumulation zone)
+      - 12-month target price
+      - Expected upside percentage
+      - Key financial metrics (P/E, EV/EBITDA, ROE, ROCE, Debt/Equity)
+      - Risk classification (Low / Moderate / High)
+      - Bull / Base / Bear scenario projections
+      - Key catalysts (next 12 months)
+      - Exit and profit-booking guidance
+      - Governance note
+
+  expected_output: >
+    A complete institutional-grade 20-stock Indian equity research dossier including:
+
+      - 12-month macro outlook summary
+      - Screening methodology explanation
+      - Sector allocation logic
+      - Ranked top 20 stock list
+      - Individual deep-dive stock sheets
+      - Comparative ranking matrix
+      - Portfolio construction strategy
+      - Risk management framework
+      - Monitoring checklist (quarterly triggers)
+      - Rebalancing rules
+      - Capital allocation examples (₹10L / ₹25L / ₹50L models)
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the research findings into a structured,
+    decision-ready 12-month Indian equity investment blueprint.
+
+    The report must be delivered as one consolidated
+    executable markdown document.
+
+    The output must be:
+
+      - Numerically grounded
+      - Risk-adjusted
+      - Ranked by conviction
+      - Sector-diversified
+      - Clear and actionable
+
+  expected_output: >
+    A fully structured investment blueprint containing:
+
+      - Executive market outlook
+      - Valuation framework explanation
+      - Sector diversification model
+      - Ranked 20-stock summary table
+      - Detailed stock analysis sheets
+      - Portfolio allocation model (₹10L / ₹25L / ₹50L)
+      - Risk matrix
+      - Bull / Base / Bear scenario modeling
+      - Entry and exit strategy framework
+      - Monitoring and quarterly review checklist
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/indian_top20_12_month_25_percent_strategy.md

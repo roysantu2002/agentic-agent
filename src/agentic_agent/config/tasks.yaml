@@ -1,79 +1,97 @@
 research_task:
   description: >
-    Perform comprehensive research required to design a complete
-    Full-Stack AI-Enabled Developer course.
+    Conduct structured research to identify and organize
+    the astrological, numerological, and spiritual causes
+    behind women’s menstrual disorders, especially prolonged
+    or excessive bleeding, along with holistic remedies.
 
-    Research areas include:
-      - Python programming for backend systems
-      - REST API fundamentals and best practices
-      - FastAPI: async programming, dependency injection, background tasks,
-        validation, OpenAPI, and performance
-      - Databases: SQL, NoSQL, ORMs, migrations, and data modeling
-      - Authentication & authorization (JWT, OAuth, RBAC)
-      - Next.js frontend architecture (routing, SSR/SSG, server/client components)
-      - Frontend-backend integration patterns
-      - Cloud APIs and managed services
-      - AI/LLM integration using cloud-based APIs
-      - Retrieval-Augmented Generation and tool-based AI workflows
-      - Observability, logging, testing, and performance tuning
-      - DevOps: Docker, CI/CD, environments, and deployment strategies
-      - Security, cost control, and scalability considerations
+    The research must include:
 
-    For each topic, gather:
-      - Official documentation and credible references
-      - Core concepts and architectural patterns
-      - Common pitfalls and best practices
-      - Prerequisites and skill dependencies
-      - Real-world implementation guidance
+      - Astrological causes of menstrual imbalance
+      - Moon-related hormonal disturbances
+      - Mars-related blood and bleeding disorders
+      - Venus influence on reproductive health
+      - Rahu/Ketu karmic health influences
+      - Birth number and life path analysis
+      - Numerology patterns linked to female health
+      - Chakra imbalance assessment
+      - Sacral chakra energy disturbances
+      - Element imbalance (water/fire)
+      - Emotional and karmic contributors
+      - Gemstone recommendations
+      - Planetary mantra healing methods
+      - Yantra-based remedies
+      - Fasting and ritual practices
+      - Spiritual cleansing techniques
+      - Lifestyle corrections through astrology
+      - Integration with Ayurveda and holistic wellness
 
-    Emphasize:
-      - Production-ready engineering practices
-      - API-first and cloud-first system design
-      - Responsible and maintainable AI integration
+    Apply structural constraints:
+
+      - Clear Beginner / Intermediate / Advanced segmentation
+      - Logical progression from causes to remedies
+      - No misleading or unsafe recommendations
+      - Practical and easy-to-follow guidance
+      - Authentic Vedic alignment
+      - Structured cause and remedy categorization
+
+    For each finding include:
+
+      - Cause or remedy name
+      - Level classification (Beginner / Intermediate / Advanced)
+      - Planet or number association
+      - Short practical explanation
+      - Example real-world application
 
   expected_output: >
-    Full-Stack AI Research Reference Corpus:
-      - Categorized research by backend, frontend, AI, cloud, and DevOps
-      - Curated official and credible learning references
-      - Extracted system design and implementation patterns
-      - Skill dependency and progression mapping
-      - Identification of core vs advanced topics
+    A structured astrology and numerology healing blueprint containing:
+
+      - Executive overview
+      - Level-wise understanding summary
+      - Planet-wise categorization
+      - Number-wise categorization
+      - Complete structured cause list
+      - Complete structured remedy list
+      - Healing progression roadmap
+      - Gemstone and mantra mapping
+      - Preventive wellness framework
+      - Final holistic balance summary
 
   agent: researcher
 
 
+
 reporting_task:
   description: >
-    Convert the researcher’s findings into a complete, end-to-end
-    Full-Stack AI-Enabled Developer course structure.
+    Transform the validated research into a clean,
+    consolidated astrology and numerology healing
+    framework document ensuring clarity, authenticity,
+    and holistic relevance.
+
+    Ensure the document is:
+
+      - Clearly structured and logically progressive
+      - Balanced across astrology and numerology
+      - Free from unsafe or misleading content
+      - Strongly aligned with Vedic principles
+      - Practical and implementation-ready
+      - Suitable for guidance and wellness planning
 
   expected_output: >
-    A structured markdown course outline including:
-      - Course vision, scope, and learning outcomes
-      - Section-wise curriculum with:
-          * Section title
-          * Section purpose
-          * Lessons with clear objectives
-      - Progressive modules covering:
-          * Python & Web Foundations
-          * REST APIs & FastAPI Backend Development
-          * Databases & Data Management
-          * Authentication, Security & Authorization
-          * Frontend Development with Next.js
-          * Full-Stack Integration
-          * AI Integration with Cloud APIs
-          * Advanced AI Patterns (RAG, tools, agents)
-          * Testing, Observability & Performance
-          * DevOps, Deployment & Scaling
-      - Hands-on projects:
-          * Module-level mini projects
-          * One integrated mid-course project
-          * One final full-stack AI capstone project
-      - Skill progression mapping:
-          * Beginner → Intermediate → Advanced
-      - Portfolio and industry-readiness guidance
+    A finalized markdown document containing:
+
+      - Executive overview
+      - Level distribution summary
+      - Planet distribution summary
+      - Numerology distribution summary
+      - Structured complete cause list
+      - Structured complete remedy list
+      - Healing roadmap summary
+      - Gemstone and mantra validation
+      - Practical wellness application summary
+      - Final holistic validation statement
 
   agent: reporting_analyst
   context:
     - research_task
-  output_file: output/full_stack_ai_enabled_developer_course.md
+  output_file: output/womens_menstrual_healing_astrology_numerology_framework_01.md

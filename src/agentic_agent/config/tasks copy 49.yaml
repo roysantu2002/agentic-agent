@@ -1,0 +1,81 @@
+research_task:
+  description: >
+    Explore reliable academic sources, previous CBSE Class 12
+    Physics board papers (last 10 years), official sample papers,
+    marking schemes, NCERT emphasis trends, and academic discussion
+    forums to identify the 15 most likely questions
+    (with 90% or higher probability) for the February 2026
+    CBSE Class 12 Physics examination.
+
+    The task must execute fully without requesting confirmations
+    or phased approvals.
+
+    Apply strict inclusion criteria:
+
+      - Minimum 3+ historical recurrences in past papers
+      - High-weightage chapter consistency
+      - Frequently repeated derivations
+      - Standard numericals with recurring format
+      - Stable assertion–reason patterns
+      - Diagram-based question recurrence
+      - Strong NCERT alignment
+
+    Exclude:
+
+      - One-time anomaly questions
+      - Recently introduced unstable formats
+      - Speculative guesses without pattern support
+      - Low-weightage peripheral topics
+
+    For each of the 15 shortlisted questions include:
+
+      - Board-style question framing
+      - Chapter name
+      - Marks category (2 / 3 / 5)
+      - Question type (Derivation / Numerical / Conceptual / Case-based / Assertion-Reason)
+      - Assigned probability score (minimum 90%)
+      - Brief justification based on recurrence evidence
+
+  expected_output: >
+    A structured prediction dossier containing:
+
+      - Executive summary of exam pattern stability
+      - Chapter-wise probability distribution table
+      - Final validated 15 questions (90%+ only)
+      - Marks distribution summary
+      - Question-type distribution breakdown
+      - Evidence-backed probability justification
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the validated research findings into a clean,
+    consolidated board-style prediction document listing
+    only the 15 high-probability (90%+) questions
+    for CBSE Class 12 Physics – February 2026.
+
+    Ensure the report is:
+
+      - Clearly formatted
+      - Chapter-balanced
+      - Marks-distributed
+      - Strictly high-confidence (90%+ only)
+      - Evidence-backed without speculation
+
+  expected_output: >
+    A finalized markdown document containing:
+
+      - Executive probability overview
+      - Chapter distribution table
+      - 15 high-probability questions
+      - Probability score for each
+      - Marks allocation summary
+      - Question-type distribution summary
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/cbse_class12_physics_2026_90_percent_prediction.md

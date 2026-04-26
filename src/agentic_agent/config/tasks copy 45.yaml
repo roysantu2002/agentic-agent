@@ -1,0 +1,126 @@
+research_task:
+  description: >
+    Perform comprehensive research to identify, evaluate, and compare
+    the top AI Code Assistance platforms used in modern software engineering.
+
+    Research scope includes at least 10 leading tools such as:
+      - V0 (Vercel)
+      - Devin
+      - MiniMax
+      - GitHub Copilot
+      - Claude Code
+      - Cursor
+      - Codeium
+      - Amazon CodeWhisperer
+      - Gemini Code Assist
+      - Replit Ghostwriter
+      - and other enterprise-grade AI coding tools
+
+    Research areas include:
+
+      - Product positioning and architecture:
+          * Autocomplete-based assistants
+          * Context-aware copilots
+          * Autonomous AI coding agents
+          * Cloud-based vs local execution models
+
+      - Subscription and pricing models:
+          * Free tiers
+          * Individual plans
+          * Team plans
+          * Enterprise licensing
+          * Usage-based vs flat pricing
+
+      - Setup and onboarding:
+          * Installation complexity
+          * IDE integrations (VS Code, JetBrains, Web IDE, etc.)
+          * Repo-level access and permissions
+          * Time to first productivity
+
+      - Engineering capabilities:
+          * Code generation quality
+          * Refactoring support
+          * Debugging and test generation
+          * Multi-file reasoning
+          * Documentation generation
+          * Code review assistance
+
+      - DevOps and ecosystem integration:
+          * GitHub / GitLab / Bitbucket compatibility
+          * CI/CD workflow awareness
+          * API extensibility
+          * Plugin ecosystems
+
+      - Security and compliance:
+          * Data privacy policies
+          * Model training data transparency
+          * SOC2 / ISO compliance (if applicable)
+          * Enterprise governance controls
+          * On-prem or private model support
+
+      - Collaboration and team features:
+          * Shared context
+          * Organization-wide policies
+          * Audit logs and access controls
+
+      - Real-world adoption:
+          * Enterprise case studies
+          * Developer feedback trends
+          * Known limitations and failure patterns
+
+    For each tool, gather:
+      - Official documentation and pricing references
+      - Feature matrices and architecture details
+      - Strengths and limitations by use case
+      - Risk considerations (hallucination, IP leakage, compliance gaps)
+      - Ideal user profile (Solo Dev, Startup, Enterprise)
+
+    Emphasize:
+      - Objective, side-by-side comparison
+      - Enterprise readiness and governance maturity
+      - Long-term scalability and maintainability
+      - Clear differentiation between assistant vs autonomous agent
+
+  expected_output: >
+    AI Code Assistance Research Corpus:
+      - Categorized research across architecture, pricing, setup, security, and governance
+      - Structured comparison matrix across at least 10 tools
+      - Identified strengths, weaknesses, and ideal use cases
+      - Risk assessment summary
+      - Clear inputs for engineering tooling selection and adoption strategy
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a structured,
+    executive-ready AI Code Assistance evaluation and
+    adoption blueprint for engineering organizations.
+
+  expected_output: >
+    A structured markdown evaluation document including:
+
+      - Executive summary and market landscape overview
+      - Categorization of tools:
+          * Code completion assistants
+          * Context-aware copilots
+          * Autonomous AI engineering agents
+      - Side-by-side comparison table (features, pricing, setup, governance)
+      - Scoring model (Productivity, Security, Enterprise Readiness, Cost)
+      - Recommended tools by organization size:
+          * Individual developer
+          * Startup team (5–50 engineers)
+          * Mid-market engineering org
+          * Enterprise platform team
+      - Cost vs productivity trade-off analysis
+      - Risk and compliance assessment
+      - Phased AI adoption roadmap
+      - Governance and policy recommendations
+      - Measurement framework (velocity, code quality, review time, MTTR)
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/ai_code_assistance_comparative_evaluation.md

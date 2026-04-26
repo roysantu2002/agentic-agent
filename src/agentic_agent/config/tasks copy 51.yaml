@@ -1,0 +1,95 @@
+research_task:
+  description: >
+    Conduct comprehensive end-to-end research and structured exploration
+    of Claude Code to design a complete mastery-level course
+    covering Beginner, Intermediate, and Advanced progression.
+
+    The research must explore and document:
+
+      - Installation methods and environment requirements
+      - CLI setup and configuration workflows
+      - Authentication and account configuration
+      - Project initialization patterns
+      - Core command system and execution flow
+      - Context handling and session behavior
+      - Model options and capability differences
+      - Prompt structuring strategies
+      - File awareness and repository interaction
+      - Code generation and modification workflows
+      - Debugging and iterative refinement processes
+      - Multi-file reasoning capabilities
+      - Tool usage and function calling behavior
+      - Agentic and autonomous workflow patterns
+      - Performance characteristics and system limits
+      - Safety and guardrail mechanisms
+      - IDE and terminal integration patterns
+      - Real-world developer use cases
+      - Comparison with similar AI coding tools
+      - Best practices for structured teaching delivery
+
+    Apply structural constraints:
+
+      - Clear Beginner / Intermediate / Advanced segmentation
+      - Logical progression from setup to advanced orchestration
+      - No omission of configuration or operational steps
+      - Practical, implementation-focused orientation
+      - Structured learning pathway design
+      - Course-ready documentation planning
+
+    For each identified learning unit include:
+
+      - Unit number
+      - Unit title
+      - Level classification (Beginner / Intermediate / Advanced)
+      - Short practical objective
+      - Suggested demonstration or hands-on exercise
+
+  expected_output: >
+    A structured Claude Code course research blueprint containing:
+
+      - Executive overview
+      - Level-wise distribution summary
+      - Structured learning pathway
+      - Complete unit breakdown
+      - Setup and configuration documentation outline
+      - Command system documentation outline
+      - Model and context explanation summary
+      - Practical project roadmap
+      - Capstone concept recommendation
+      - Teaching sequence guidance
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the validated Claude Code research into a clean,
+    consolidated, course-ready blueprint document ensuring
+    structural clarity, completeness, and instructional readiness.
+
+    Ensure the document is:
+
+      - Clearly structured and logically progressive
+      - Complete from setup to advanced usage
+      - Technically accurate and comprehensive
+      - Balanced across all skill levels
+      - Practical and demonstration-ready
+      - Suitable for professional course publishing
+
+  expected_output: >
+    A finalized markdown document containing:
+
+      - Executive overview
+      - Level distribution summary
+      - Structured complete unit list
+      - Setup workflow validation
+      - Command documentation validation
+      - Model and context explanation validation
+      - Practical roadmap summary
+      - Final course validation statement
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/claude_code_mastery_course_blueprint_01.md

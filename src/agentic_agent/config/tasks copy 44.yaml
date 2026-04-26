@@ -1,0 +1,92 @@
+research_task:
+  description: >
+    Perform comprehensive research to identify the best-practice,
+    industry-standard approach for migrating from Azure DevOps to
+    GitHub Actions.
+
+    Research areas include:
+      - Azure DevOps components and dependencies:
+          * Repos
+          * Pipelines (YAML & classic)
+          * Boards
+          * Artifacts
+          * Variable groups and service connections
+      - GitHub equivalents:
+          * GitHub Repositories
+          * GitHub Actions workflows
+          * GitHub Projects
+          * GitHub Packages
+          * Environments, secrets, and permissions
+      - CI/CD pipeline translation:
+          * Azure Pipelines YAML → GitHub Actions YAML
+          * Build, test, artifact, and release workflows
+          * Matrix builds and environment promotions
+      - Identity & access management:
+          * Azure AD vs GitHub identity models
+          * RBAC, teams, and permissions
+      - Secrets, credentials, and compliance:
+          * Key Vault, secrets rotation, audit logging
+      - Tooling and automation:
+          * Migration tools
+          * Scripts and APIs
+          * Validation and testing strategies
+      - Operational considerations:
+          * Downtime avoidance
+          * Parallel run strategies
+          * Rollback and contingency planning
+      - Organizational readiness:
+          * Team onboarding
+          * Training and documentation
+          * Change management
+
+    For each area, gather:
+      - Official documentation and authoritative references
+      - Recommended migration patterns
+      - Common risks and failure points
+      - Security and compliance implications
+      - Real-world lessons learned
+
+    Emphasize:
+      - Phased, low-risk migration strategies
+      - Security-first and compliance-aligned practices
+      - Enterprise-scale repeatability and governance
+
+  expected_output: >
+    Azure DevOps to GitHub Actions Migration Research Corpus:
+      - Categorized research across tooling, security, pipelines, and governance
+      - Curated official and enterprise-grade references
+      - Identified migration patterns and anti-patterns
+      - Risk and dependency mapping
+      - Clear inputs for migration planning and design
+
+  agent: researcher
+
+
+reporting_task:
+  description: >
+    Convert the researcher’s findings into a complete, structured,
+    and executable migration plan for transitioning from Azure DevOps
+    to GitHub Actions.
+
+  expected_output: >
+    A structured markdown migration blueprint including:
+      - Migration objectives and success criteria
+      - Current-state assessment framework
+      - Target-state DevOps architecture with GitHub Actions
+      - Phased migration strategy:
+          * Discovery and inventory
+          * Design and standardization
+          * Pilot migration
+          * Scaled execution
+          * Validation and decommissioning
+      - CI/CD workflow design standards and templates
+      - Security, identity, and secrets management model
+      - Risk management and rollback strategy
+      - Developer enablement and change management plan
+      - Metrics and KPIs to measure migration success
+      - Post-migration optimization and governance guidance
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/azure_devops_to_github_actions_migration_plan.md

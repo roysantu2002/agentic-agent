@@ -46,7 +46,7 @@ class AgenticAgent:
     def reporting_task(self) -> Task:
         return Task(
             config=self.tasks_config['reporting_task'],
-            output_file='output/full_stack_ai_enabled_developer_course.md'  # Match your YAML
+            output_file='output/womens_menstrual_healing_astrology_numerology_framework_01.md'  # Match your YAML
         )
 
     @crew

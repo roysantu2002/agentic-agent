@@ -1,0 +1,113 @@
+research_task:
+  description: >
+    Design a comprehensive Python 501 Certification curriculum
+    covering Beginner, Intermediate, and Advanced levels
+    structured into 19 defined modules.
+
+    The curriculum must include:
+
+      - 01 Core Python (60 Topics)
+      - 02 Object-Oriented Programming (30 Topics)
+      - 03 Data Structures & Algorithms (40 Topics)
+      - 04 Functional Programming (15 Topics)
+      - 05 File Handling & Databases (25 Topics)
+      - 06 Testing & Debugging (20 Topics)
+      - 07 Concurrency & Multiprocessing (25 Topics)
+      - 08 Performance Optimization (20 Topics)
+      - 09 Packaging & Deployment Basics (20 Topics)
+      - 10 Data Science Foundations (45 Topics)
+      - 11 Machine Learning Fundamentals (50 Topics)
+      - 12 Artificial Intelligence (Applied + GenAI + Agentic AI) (25 Topics)
+      - 13 Imaging & Computer Vision (25 Topics)
+      - 14 Web Frameworks – Flask / Django / FastAPI / Pydantic (40 Topics)
+      - 15 API Development & Microservices (20 Topics)
+      - 16 Authentication & Security (16 Topics)
+      - 17 Production Deployment & DevOps (15 Topics)
+      - 18 Design Techniques & Architectural Patterns (Integrated)
+      - 19 Capstone & System Design (10 Topics)
+
+    AI module must explicitly include:
+
+      - Generative AI fundamentals
+      - LLM architecture overview
+      - Prompt engineering principles
+      - Retrieval-augmented generation (RAG)
+      - Vector databases
+      - Agentic AI architecture
+      - Multi-agent orchestration
+      - Tool calling frameworks
+      - AI safety & governance
+      - Autonomous workflow design
+
+    Web module must explicitly include:
+
+      - Pydantic modeling
+      - Data validation patterns
+      - Schema enforcement
+      - Async API architecture
+      - WebSocket pipelines
+
+    Apply strict structural constraints:
+
+      - Exactly 501 topics (mandatory)
+      - Topic numbering 1–501
+      - Logical difficulty progression
+      - Clear Beginner / Intermediate / Advanced separation
+      - Module alignment as defined
+      - No filler or redundant topics
+      - Practical orientation over theoretical excess
+
+    For each of the 501 topics include:
+
+      - Topic number
+      - Topic title
+      - Level classification (Beginner / Intermediate / Advanced)
+      - Module classification (01–19)
+      - Short competency objective
+
+  expected_output: >
+    A structured certification blueprint containing:
+
+      - Executive curriculum overview
+      - Level-wise distribution table
+      - Module-wise distribution table
+      - Complete 1–501 topic breakdown
+      - Project milestone roadmap
+      - Certification exam blueprint
+      - Capstone integration architecture outline
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the validated curriculum research into a clean,
+    consolidated certification blueprint document listing
+    all 501 structured topics for Python 501 Certification.
+
+    Ensure the document is:
+
+      - Clearly formatted
+      - Logically progressive
+      - Module-balanced
+      - AI/GenAI/Agentic AI integrated
+      - Strictly 501 topics (no deviation)
+      - Industry-aligned and implementation-oriented
+      - Certification-grade and production-ready
+
+  expected_output: >
+    A finalized markdown document containing:
+
+      - Executive overview
+      - Level distribution summary
+      - Module distribution summary
+      - Full 1–501 structured topic list
+      - Certification weightage allocation
+      - Competency mapping summary
+      - Validation confirmation statement
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/python_501_certification_comprehensive_blueprint_01.md

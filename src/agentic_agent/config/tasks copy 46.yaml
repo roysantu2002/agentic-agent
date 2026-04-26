@@ -1,0 +1,125 @@
+research_task:
+  description: >
+    Perform comprehensive research to identify best-practice,
+    industry-standard approaches for implementing a GitHub
+    parent–child repository architecture for AWS infrastructure
+    automation using Terraform and GitHub Actions.
+
+    The architecture must support:
+
+      - A central parent repository responsible for:
+          * Workflow orchestration
+          * Cross-repository coordination
+          * Environment promotion logic
+          * Policy enforcement
+
+      - Multiple child repositories responsible for modular AWS components:
+          * VPC
+          * IAM
+          * Load Balancer
+          * EC2 / ECS / EKS
+          * RDS
+          * S3
+          * Security Groups
+
+    Research areas include:
+
+      1. Repository Architecture:
+          - Parent vs child repo boundaries
+          - Monorepo vs multi-repo trade-offs
+          - Reusable workflows
+          - workflow_call patterns
+          - Cross-repo triggers
+
+      2. GitHub Actions Workflow Design:
+          - Plan → Approval → Apply pattern
+          - Matrix strategy for environments
+          - Environment protection rules
+          - Job dependency sequencing
+          - Artifact sharing between workflows
+
+      3. Terraform Standards:
+          - Module structure and versioning
+          - Remote state (S3 + DynamoDB locking)
+          - Environment separation strategy
+          - Backend configuration management
+          - Validation and linting
+          - Drift detection
+
+      4. AWS Security & Identity:
+          - GitHub OIDC federation to AWS
+          - IAM role assumption best practices
+          - Least-privilege design
+          - Multi-account landing zone model
+          - Secrets handling without long-lived credentials
+
+      5. Governance & Compliance:
+          - Branch protection and required reviews
+          - Code owners
+          - Policy-as-Code
+          - Audit logging and traceability
+          - Approval workflows
+
+      6. CI/CD & Operational Strategy:
+          - Parallel vs sequential provisioning
+          - Failure isolation between modules
+          - Rollback and state recovery
+          - Version promotion model
+          - Dependency mapping across child repos
+
+      7. Platform Engineering Model:
+          - Self-service infrastructure design
+          - Platform team vs product team ownership
+          - Documentation and onboarding standards
+
+    For each area, gather:
+      - Official GitHub, AWS, and Terraform documentation
+      - Enterprise architecture references
+      - Common risks and anti-patterns
+      - Security and compliance implications
+
+    Emphasize:
+      - Security-first architecture
+      - Enterprise scalability
+      - Clear orchestration vs infrastructure separation
+      - Repeatable, modular, and governed design
+
+  expected_output: >
+    GitHub Parent–Child Terraform Automation Research Corpus:
+      - Categorized research across architecture, workflows, security, governance
+      - Identified orchestration patterns
+      - Risk and anti-pattern documentation
+      - Enterprise-grade architectural references
+      - Clear decision inputs for platform implementation
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Convert the research findings into a structured,
+    executable platform blueprint for implementing
+    a GitHub parent–child repository architecture
+    automating AWS infrastructure using Terraform.
+
+  expected_output: >
+    A structured markdown architecture blueprint including:
+
+      - Executive summary
+      - Target-state reference architecture
+      - Parent repository orchestration design
+      - Child repository standards
+      - GitHub Actions reusable workflow templates
+      - OIDC-based AWS authentication model
+      - Remote state architecture
+      - Governance and compliance framework
+      - CI/CD sequencing strategy
+      - Rollback and disaster recovery model
+      - Platform scalability approach
+      - KPIs and platform maturity metrics
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/github_parent_child_terraform_aws_platform_blueprint.md

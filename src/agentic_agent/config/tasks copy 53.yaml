@@ -1,0 +1,95 @@
+research_task:
+  description: >
+    Conduct structured international research to identify patterns
+    of domestic conflict, relationship breakdown, divorce trends,
+    partnership disputes, and collaboration failures across India,
+    the United States, and the United Kingdom.
+
+    The research must include:
+
+      - Country-level statistics of domestic violence and relationship conflicts
+      - Divorce rates and relationship breakdown data
+      - Key causes behind marital separation and domestic disputes
+      - Business partnership breakdown statistics
+      - Corporate collaboration conflict trends
+      - Psychological and behavioral compatibility factors
+      - Personality mismatch patterns in relationships
+      - Emotional and communication compatibility indicators
+      - Financial and lifestyle incompatibility influences
+      - Cultural and societal expectations impacting relationships
+      - Conflict escalation patterns in marriages and partnerships
+      - Workplace compatibility challenges
+      - Co-founder and partnership disputes in business environments
+      - Cross-country comparison of relationship conflict patterns
+
+    Apply structural constraints:
+
+      - Clear country-wise categorization
+      - Evidence-based research insights
+      - Responsible presentation of domestic conflict statistics
+      - Identification of compatibility-related root causes
+      - Balanced analysis across marriages, partnerships, and workplaces
+      - Research framing that builds context for compatibility assessment
+
+    For each country include:
+
+      - Country name
+      - Key domestic conflict statistics
+      - Divorce and relationship breakdown trends
+      - Common causes of relationship failure
+      - Business partnership dispute insights
+      - Workplace collaboration challenges
+      - Observed compatibility mismatch patterns
+      - Key research insights
+
+  expected_output: >
+    A structured international compatibility research blueprint containing:
+
+      - Executive overview
+      - Country-wise analysis
+      - Comparative analysis across India, US, and UK
+      - Key causes of domestic and partnership conflicts
+      - Compatibility mismatch insights
+      - Relationship vs business conflict comparison
+      - Behavioral and emotional compatibility factors
+      - Research insights supporting the importance of compatibility analysis
+      - Context foundation for compatibility assessment methods
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the validated international conflict research into
+    a structured insight document explaining how compatibility
+    mismatches contribute to relationship failures, partnership
+    disputes, and workplace conflicts.
+
+    Ensure the document is:
+
+      - Clearly structured
+      - Country-balanced
+      - Evidence-based
+      - Responsible in presenting domestic conflict insights
+      - Free from exaggerated claims
+      - Focused on explaining compatibility challenges
+      - Logically structured to introduce compatibility analysis
+      - Suitable as a foundation for explaining numerology compatibility methods
+
+  expected_output: >
+    A finalized markdown document containing:
+
+      - Executive summary
+      - Country comparison table
+      - Verified conflict statistics overview
+      - Key causes of relationship and partnership breakdown
+      - Compatibility mismatch insights
+      - Workplace and business collaboration conflict analysis
+      - Explanation of why compatibility assessment matters
+      - Structured transition toward numerology compatibility understanding
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/relationship_compatibility_conflict_research_01.md

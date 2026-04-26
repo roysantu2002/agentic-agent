@@ -1,0 +1,92 @@
+research_task:
+  description: >
+    Conduct structured research to identify and organize
+    the top Python skills every AI specialist must learn
+    to build modern AI systems from development to deployment.
+
+    The research must include:
+
+      - Core Python programming skills for AI
+      - Data manipulation and numerical computing
+      - Data structures and algorithmic thinking
+      - Machine Learning implementation skills
+      - Deep Learning framework usage
+      - Generative AI and LLM integration skills
+      - Prompt engineering techniques
+      - Vector database and embedding workflows
+      - Retrieval-Augmented Generation (RAG) pipelines
+      - Agentic AI and multi-agent orchestration
+      - API development for AI services
+      - Async programming and concurrency usage
+      - Performance optimization techniques
+      - Model deployment and serving strategies
+      - Experiment tracking and reproducibility
+      - Testing and debugging AI systems
+      - MLOps and pipeline automation fundamentals
+      - Real-world project implementation patterns
+
+    Apply structural constraints:
+
+      - Clear Beginner / Intermediate / Advanced segmentation
+      - Logical skill progression from fundamentals to advanced systems
+      - No redundancy or outdated technologies
+      - Practical, implementation-focused orientation
+      - Industry-aligned tooling and frameworks
+      - Structured skill grouping and categorization
+
+    For each skill include:
+
+      - Skill name
+      - Level classification (Beginner / Intermediate / Advanced)
+      - Domain/category classification
+      - Short practical objective
+      - Example real-world application
+
+  expected_output: >
+    A structured Python AI skills blueprint containing:
+
+      - Executive overview
+      - Level-wise distribution summary
+      - Domain-wise categorization
+      - Complete structured skill list
+      - Learning progression roadmap
+      - Tool and framework mapping
+      - Project-based application roadmap
+      - Skill dependency overview
+      - Final competency framework summary
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the validated research into a clean,
+    consolidated AI skills framework document ensuring
+    clarity, completeness, and industry relevance.
+
+    Ensure the document is:
+
+      - Clearly structured and logically progressive
+      - Balanced across all AI domains
+      - Free from redundancy and outdated content
+      - Strongly aligned with real-world AI workflows
+      - Practical and implementation-ready
+      - Suitable for learning and career roadmap planning
+
+  expected_output: >
+    A finalized markdown document containing:
+
+      - Executive overview
+      - Level distribution summary
+      - Domain distribution summary
+      - Structured complete skill list
+      - Learning roadmap summary
+      - Tool and framework validation
+      - Practical application summary
+      - Final competency validation statement
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/python_ai_specialist_skills_framework_01.md

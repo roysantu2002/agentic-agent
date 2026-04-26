@@ -1,0 +1,89 @@
+research_task:
+  description: >
+    Conduct structured research to identify the most authentic
+    and traditional Ayurvedic treatment destinations in Kerala
+    suitable for secure, holistic healing.
+
+    The research must include:
+
+      - District-level reputation analysis
+      - Identification of traditional Ayurvedic hubs
+      - Government-recognized institutions
+      - Certified Ayurvedic hospitals and treatment centers
+      - Panchakarma-specialized facilities
+      - Residential holistic retreat programs
+      - Institutional accreditation verification
+      - Practitioner qualification validation
+      - Safety and hygiene standards review
+      - Treatment program structures
+      - Duration and seasonal suitability analysis
+      - Budget and accommodation overview
+      - Travel accessibility evaluation
+      - Comparative evaluation of hospital vs retreat models
+
+    Apply structural constraints:
+
+      - Clear district-wise categorization
+      - Authenticity validation criteria explanation
+      - Safety-focused filtering
+      - Avoidance of purely tourism-driven centers
+      - Practical travel-planning orientation
+
+    For each recommended district include:
+
+      - District name
+      - Why it is known for Ayurveda
+      - Type of institutes available
+      - Authenticity indicators
+      - Travel accessibility
+      - Ideal treatment duration
+      - Best time to visit
+
+  expected_output: >
+    A structured Kerala Ayurvedic destination blueprint containing:
+
+      - Executive overview
+      - District-wise analysis
+      - Top recommended districts summary
+      - Institute category breakdown
+      - Authenticity and accreditation guide
+      - Safety and hygiene overview
+      - Seasonal planning guide
+      - Budget and travel considerations
+      - Final recommendation summary
+
+  agent: researcher
+
+
+
+reporting_task:
+  description: >
+    Transform the validated research into a consolidated,
+    travel-ready holistic treatment planning document ensuring
+    credibility, safety, and authentic Ayurvedic integrity.
+
+    Ensure the document is:
+
+      - Clearly structured
+      - District-balanced
+      - Authenticity-verified
+      - Safety-conscious
+      - Free from commercial bias
+      - Practical for real travel planning
+      - Suitable for long-duration healing programs
+
+  expected_output: >
+    A finalized markdown document containing:
+
+      - Executive summary
+      - District comparison table
+      - Verified authentic institute guidance
+      - Safety and compliance confirmation
+      - Travel planning summary
+      - Seasonal treatment guidance
+      - Final holistic healing recommendation statement
+
+  agent: reporting_analyst
+  context:
+    - research_task
+  output_file: output/kerala_ayurvedic_holistic_treatment_research_01.md
